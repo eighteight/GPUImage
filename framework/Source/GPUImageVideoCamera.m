@@ -1,7 +1,7 @@
 #import "GPUImageVideoCamera.h"
 #import "GPUImageMovieWriter.h"
 #import "GPUImageFilter.h"
-
+#import <ImageIO/CGImageProperties.h>
 // Color Conversion Constants (YUV to RGB) including adjustment from 16-235/16-240 (video range)
 
 // BT.601, which is the standard for SDTV.
@@ -679,6 +679,7 @@ NSString *const kGPUImageYUVVideoRangeConversionForLAFragmentShaderString = SHAD
     {
         return;
     }
+    exif = (__bridge NSDictionary *)CMGetAttachment(sampleBuffer,kCGImagePropertyExifDictionary, NULL);
     
     CFAbsoluteTime startTime = CFAbsoluteTimeGetCurrent();
     CVImageBufferRef cameraFrame = CMSampleBufferGetImageBuffer(sampleBuffer);

@@ -42,6 +42,8 @@ extern NSString *const kGPUImageYUVVideoRangeConversionForLAFragmentShaderString
     GLuint luminanceTexture, chrominanceTexture;
 
     __unsafe_unretained id<GPUImageVideoCameraDelegate> _delegate;
+    
+    @public NSDictionary* exif;
 }
 
 /// The AVCaptureSession used to capture from the camera
