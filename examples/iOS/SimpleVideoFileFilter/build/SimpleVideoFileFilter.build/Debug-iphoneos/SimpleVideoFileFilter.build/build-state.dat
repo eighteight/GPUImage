@@ -1,0 +1,893 @@
+TSimpleVideoFileFilter
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Info.plist /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilter-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Debug-iphoneos/SimpleVideoFileFilter.app/ResourceRules.plist
+cProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SimpleVideoFileFilter-Prefix-fvyzmkmopuaeaobzidrnkyclldcu/SimpleVideoFileFilter-Prefix.pch.pch SimpleVideoFileFilter/SimpleVideoFileFilter-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/main.o /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilterAppDelegate.o /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilterViewController.o /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/SimpleVideoFileFilter normal armv7
+cGenerateDSYMFile /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app.dSYM /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/SimpleVideoFileFilter
+cCopyStringsFile /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/en.lproj/InfoPlist.strings SimpleVideoFileFilter/en.lproj/InfoPlist.strings
+cCompileXIB /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterViewController.xib
+cCpResource SimpleVideoFileFilter/sample_iPod.m4v build/Debug-iphoneos/SimpleVideoFileFilter.app/sample_iPod.m4v
+cCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Default-568h@2x.png Default-568h@2x.png
+cCpResource SimpleVideoFileFilter/WID-small.jpg build/Debug-iphoneos/SimpleVideoFileFilter.app/WID-small.jpg
+cCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon-72.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png
+cCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon-72@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png
+cCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png
+cCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png
+cCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/iTunesArtwork.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png
+cProcessProductPackaging /Users/eight/Library/MobileDevice/Provisioning\ Profiles/89A29269-CCD9-4915-9A90-6B180FEA00A5.mobileprovision /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/embedded.mobileprovision
+cTouch /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter.xcent
+cCodeSign /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c00000000535078670000000000000132
+t1397782631
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c00000000531E7D7D0000000000000094
+t1394507133
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c00000000531E7D7D0000000000000096
+t1394507133
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c00000000531E7D7D000000000000036B
+t1394507133
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531E7D7D000000000000019E
+t1394507133
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000531E7D7E0000000000632990
+t1394507134
+s6498704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005347240000000000004D7BC0
+t1397171200
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000531E7D7E00000000002CB700
+t1394507134
+s2930432
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000531E7D7E000000000006DCD0
+t1394507134
+s449744
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000531E7D7F0000000000A90C10
+t1394507135
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000531E7D7F00000000000417E0
+t1394507135
+s268256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000531E7D800000000000649DB0
+t1394507136
+s6593968
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000531E7D830000000002759920
+t1394507139
+s41261344
+
+N/Users/eight/Library/MobileDevice/Provisioning Profiles/89A29269-CCD9-4915-9A90-6B180FEA00A5.mobileprovision
+c000000005396661D0000000000001DFB
+t1402365469
+s7675
+
+N/Users/eight/repos/GPUImage-eight/build/Debug-iphoneos/libGPUImage.a
+c00000000539A5D3900000000003CD1E8
+t1402625337
+s3985896
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png
+c00000000539A3F1500000000000013B6
+t1402617621
+s5046
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png
+c00000000539A3F1500000000000027F5
+t1402617621
+s10229
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png
+c00000000539A3F150000000000000F23
+t1402617621
+s3875
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png
+c00000000539A3F150000000000001D72
+t1402617621
+s7538
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png
+c00000000539A3F15000000000000B31F
+t1402617621
+s45855
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/Default-568h@2x.png
+c00000000539A3F1500000000000048A2
+t1402617621
+s18594
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilter-Info.plist
+c00000000539A3F150000000000000636
+t1402617621
+s1590
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilter-Prefix.pch
+c00000000539A3F150000000000000159
+t1402617621
+s345
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterAppDelegate.m
+c00000000539A3F150000000000000A11
+t1402617621
+s2577
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterViewController.m
+c00000000539A3F150000000000000C85
+t1402617621
+s3205
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterViewController.xib
+c00000000539A3F150000000000000F3F
+t1402617621
+s3903
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/WID-small.jpg
+c00000000539A3F15000000000011A0B4
+t1402617621
+s1155252
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/en.lproj/InfoPlist.strings
+c00000000539A3F15000000000000002D
+t1402617621
+s45
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/main.m
+c00000000539A3F1500000000000000F9
+t1402617621
+s249
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/sample_iPod.m4v
+c00000000539A3F150000000000222040
+t1402617621
+s2236480
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app
+t1402719047
+s578
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app.dSYM
+t2
+s0
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Default-568h@2x.png
+t1402719045
+s7014
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon-72.png
+t1402719045
+s6950
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon-72@2x.png
+t1402719045
+s14872
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon.png
+t1402719045
+s5004
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon@2x.png
+t1402719045
+s10436
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Info.plist
+t1402719044
+s1420
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/PkgInfo
+t1402719044
+s8
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/ResourceRules.plist
+t1402719044
+s150
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/SimpleVideoFileFilter
+t1402719044
+s1205504
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/SimpleVideoFileFilterViewController.nib
+t1402719047
+s136
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/WID-small.jpg
+t1402719045
+s1155252
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/embedded.mobileprovision
+t1402719047
+s7675
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/en.lproj/InfoPlist.strings
+t1402719045
+s42
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/iTunesArtwork.png
+t1402719045
+s69706
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/sample_iPod.m4v
+t1402719045
+s2236480
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilter.LinkFileList
+c00000000539BCB440000000000000245
+t1402719044
+s581
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilterAppDelegate.o
+t1402719044
+s73784
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilterViewController.o
+t1402719044
+s64520
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/main.o
+t1402719044
+s3700
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter.xcent
+t1402719047
+s539
+
+N/var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SimpleVideoFileFilter-Prefix-fvyzmkmopuaeaobzidrnkyclldcu/SimpleVideoFileFilter-Prefix.pch.pch
+t1402719044
+s5299984
+
+CBuild AST from /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterAppDelegate.m
+r0
+
+CBuild AST from /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterViewController.m
+r0
+
+CBuild AST from /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesffe609c4024cb941^61890bc4024cb941^---0#1#1#--18"Check dependencies36"1497E10D-4CE3-4370-A926-8C1EDA6BDE87-
+
+CCodeSign /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app
+s424411847.215014
+e424411847.423278
+r1
+xCodeSign
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"CodeSign build/Debug-iphoneos/SimpleVideoFileFilter.app55"CodeSign build/Debug-iphoneos/SimpleVideoFileFilter.appc91c37c7024cb941^ab5c6cc7024cb941^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/0000000000000000^1169"CodeSign build/Debug-iphoneos/SimpleVideoFileFilter.app    cd /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Vladimir Gusev (5B3DNZYZSG)" and provisioning profile "iOS Team Provisioning Profile: *" (89A29269-CCD9-4915-9A90-6B180FEA00A5)    /usr/bin/codesign --force --sign E7B1BCE684DF1B510A66C4C18D30BAEEF1ACE5B4 --resource-rules=/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/ResourceRules.plist --entitlements /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter.xcent /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app36"C081709C-C592-4CA0-9BD8-FF6C9AB4C00F-
+bD0BDD713-9EAB-4E6F-B0BD-6ADAF992FFFD
+
+CCompileC build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilterAppDelegate.o /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424411844.479161
+e424411844.660690
+r1
+xCompileC
+xbuild/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilterAppDelegate.o
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterAppDelegate.m
+d/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterAppDelegate.h
+d/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterViewController.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GLProgram.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImageContext.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFramebuffer.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFramebufferCache.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOutput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImageView.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVideoCamera.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageStillCamera.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMovie.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImagePicture.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRawDataInput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRawDataOutput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImageMovieWriter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilterPipeline.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTextureOutput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilterGroup.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTextureInput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageUIElement.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBuffer.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoInputFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePixellateFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePixellatePositionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSepiaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorMatrixFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorInvertFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSaturationFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageContrastFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageExposureFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBrightnessFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLevelsFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSharpenFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGammaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSobelEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoPassFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSketchFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageToonFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage3x3TextureSamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSmoothToonFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMultiplyBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDissolveBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageKuwaharaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageKuwaharaRadius3Filter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVignetteFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoPassTextureSamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianBlurPositionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianSelectiveBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOverlayBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDarkenBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLightenBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSwirlFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSourceOverBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorBurnBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorDodgeBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageScreenBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageExclusionBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDifferenceBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSubtractBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHardLightBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSoftLightBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHueBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSaturationBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminosityBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCropFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGrayscaleFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTransformFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageChromaKeyBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHazeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminanceThresholdFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePosterizeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBoxBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAdaptiveThresholdFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageUnsharpMaskFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBulgeDistortionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePinchDistortionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCrosshatchFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCGAColorspaceFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePolarPixellateFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageStretchDistortionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePerlinNoiseFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageJFAVoronoiFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVoronoiConsumerFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMosaicFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTiltShiftFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage3x3ConvolutionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageEmbossFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCannyEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMaskFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePrewittEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageXYDerivativeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHarrisCornerDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAlphaBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNormalBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNonMaximumSuppressionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMedianFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBilateralFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCrosshairGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageToneCurveFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNobleCornerDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageShiTomasiFeatureDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageErosionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBErosionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDilationFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBDilationFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOpeningFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBOpeningFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageClosingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBClosingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorPackingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSphereRefractionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMonochromeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOpacityFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHighlightShadowFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFalseColorFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHSBFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHueFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGlassSphereFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLookupFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAmatorkaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMissEtikateFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSoftEleganceFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAddBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDivideBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePolkaDotFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLocalBinaryPatternFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLanczosResamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAverageColor.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSolidColorGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminosity.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAverageLuminanceThresholdFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageWhiteBalanceFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageChromaKeyFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLowPassFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHighPassFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMotionDetector.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHalftoneFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdedNonMaximumSuppressionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHoughTransformLineDetector.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageParallelCoordinateLineTransformFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdSketchFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLineGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLinearBurnBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoInputCrossTextureSamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePoissonBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMotionBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageZoomBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLaplacianFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageiOSBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminanceRangeFilter.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterAppDelegate.m267"CompileC build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilterAppDelegate.o SimpleVideoFileFilter/SimpleVideoFileFilterAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler8cbe7ac4024cb941^0325a9c4024cb941^---0#0#1#-19%DVTDocumentLocation2@132"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterAppDelegate.m0000000000000000^4200"CompileC build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilterAppDelegate.o SimpleVideoFileFilter/SimpleVideoFileFilterAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/include -I../../../framework -I../../../framework/GPUImageTests -I../../../framework/Resources -I../../../framework/Source -I../../../framework/Source/iOS -I../../../framework/Source/Mac -I../../../framework/Source/iOS/Framework -I/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/DerivedSources/armv7 -I/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos -include /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SimpleVideoFileFilter-Prefix-fvyzmkmopuaeaobzidrnkyclldcu/SimpleVideoFileFilter-Prefix.pch -MMD -MT dependencies -MF /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilterAppDelegate.d --serialize-diagnostics /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilterAppDelegate.dia -c /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterAppDelegate.m -o /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilterAppDelegate.o36"8D76E78F-58CE-4A6D-A6E6-8E7D4B9B3012-
+bD0BDD713-9EAB-4E6F-B0BD-6ADAF992FFFD
+
+CCompileC build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilterViewController.o /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424411844.479379
+e424411844.660948
+r1
+xCompileC
+xbuild/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilterViewController.o
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterViewController.m
+d/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterViewController.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GLProgram.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImageContext.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFramebuffer.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFramebufferCache.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOutput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImageView.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVideoCamera.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageStillCamera.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMovie.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImagePicture.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRawDataInput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRawDataOutput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImageMovieWriter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilterPipeline.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTextureOutput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilterGroup.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTextureInput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageUIElement.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBuffer.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoInputFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePixellateFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePixellatePositionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSepiaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorMatrixFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorInvertFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSaturationFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageContrastFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageExposureFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBrightnessFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLevelsFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSharpenFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGammaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSobelEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoPassFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSketchFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageToonFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage3x3TextureSamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSmoothToonFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMultiplyBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDissolveBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageKuwaharaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageKuwaharaRadius3Filter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVignetteFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoPassTextureSamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianBlurPositionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianSelectiveBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOverlayBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDarkenBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLightenBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSwirlFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSourceOverBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorBurnBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorDodgeBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageScreenBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageExclusionBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDifferenceBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSubtractBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHardLightBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSoftLightBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHueBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSaturationBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminosityBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCropFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGrayscaleFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTransformFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageChromaKeyBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHazeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminanceThresholdFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePosterizeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBoxBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAdaptiveThresholdFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageUnsharpMaskFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBulgeDistortionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePinchDistortionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCrosshatchFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCGAColorspaceFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePolarPixellateFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageStretchDistortionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePerlinNoiseFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageJFAVoronoiFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVoronoiConsumerFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMosaicFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTiltShiftFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage3x3ConvolutionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageEmbossFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCannyEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMaskFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePrewittEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageXYDerivativeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHarrisCornerDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAlphaBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNormalBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNonMaximumSuppressionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMedianFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBilateralFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCrosshairGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageToneCurveFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNobleCornerDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageShiTomasiFeatureDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageErosionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBErosionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDilationFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBDilationFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOpeningFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBOpeningFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageClosingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBClosingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorPackingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSphereRefractionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMonochromeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOpacityFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHighlightShadowFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFalseColorFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHSBFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHueFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGlassSphereFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLookupFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAmatorkaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMissEtikateFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSoftEleganceFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAddBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDivideBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePolkaDotFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLocalBinaryPatternFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLanczosResamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAverageColor.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSolidColorGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminosity.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAverageLuminanceThresholdFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageWhiteBalanceFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageChromaKeyFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLowPassFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHighPassFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMotionDetector.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHalftoneFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdedNonMaximumSuppressionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHoughTransformLineDetector.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageParallelCoordinateLineTransformFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdSketchFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLineGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLinearBurnBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoInputCrossTextureSamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePoissonBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMotionBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageZoomBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLaplacianFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageiOSBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminanceRangeFilter.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterViewController.m273"CompileC build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilterViewController.o SimpleVideoFileFilter/SimpleVideoFileFilterViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerdacb7ac4024cb941^8735a9c4024cb941^---0#0#1#-19%DVTDocumentLocation2@135"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterViewController.m0000000000000000^4218"CompileC build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilterViewController.o SimpleVideoFileFilter/SimpleVideoFileFilterViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/include -I../../../framework -I../../../framework/GPUImageTests -I../../../framework/Resources -I../../../framework/Source -I../../../framework/Source/iOS -I../../../framework/Source/Mac -I../../../framework/Source/iOS/Framework -I/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/DerivedSources/armv7 -I/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos -include /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SimpleVideoFileFilter-Prefix-fvyzmkmopuaeaobzidrnkyclldcu/SimpleVideoFileFilter-Prefix.pch -MMD -MT dependencies -MF /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilterViewController.d --serialize-diagnostics /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilterViewController.dia -c /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterViewController.m -o /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilterViewController.o36"6184774D-1B5B-4D4C-B650-D2F1C24CC4C3-
+bD0BDD713-9EAB-4E6F-B0BD-6ADAF992FFFD
+
+CCompileC build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/main.o /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424411844.478893
+e424411844.590154
+r1
+xCompileC
+xbuild/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/main.o
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/main.m
+d/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/main.m211"CompileC build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/main.o SimpleVideoFileFilter/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler24b77ac4024cb941^941597c4024cb941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/main.m0000000000000000^4032"CompileC build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/main.o SimpleVideoFileFilter/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/include -I../../../framework -I../../../framework/GPUImageTests -I../../../framework/Resources -I../../../framework/Source -I../../../framework/Source/iOS -I../../../framework/Source/Mac -I../../../framework/Source/iOS/Framework -I/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/DerivedSources/armv7 -I/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos -include /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SimpleVideoFileFilter-Prefix-fvyzmkmopuaeaobzidrnkyclldcu/SimpleVideoFileFilter-Prefix.pch -MMD -MT dependencies -MF /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/main.dia -c /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/main.m -o /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/main.o36"CBA3767B-CED9-4BA5-88B5-D32EE7FEB7C6-
+bD0BDD713-9EAB-4E6F-B0BD-6ADAF992FFFD
+
+CCompileXIB /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterViewController.xib
+s424411845.019811
+e424411847.210862
+r1
+xCompileXIB
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterViewController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Compiling /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterViewController.xib72"CompileXIB SimpleVideoFileFilter/SimpleVideoFileFilterViewController.xibb02005c5024cb941^1afc35c7024cb941^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterViewController.xib0000000000000000^884"CompileXIB SimpleVideoFileFilter/SimpleVideoFileFilterViewController.xib    cd /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 4.0 --output-format human-readable-text --compile /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/SimpleVideoFileFilterViewController.nib /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilterViewController.xib36"5F216A4B-C04F-4197-B0B3-F53D6A4F03FA-
+bD0BDD713-9EAB-4E6F-B0BD-6ADAF992FFFD
+
+CCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Default-568h@2x.png Default-568h@2x.png
+s424411845.020236
+e424411845.125850
+r1
+xCopyPNGFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Default-568h@2x.png
+xDefault-568h@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile build/Debug-iphoneos/SimpleVideoFileFilter.app/Default-568h@2x.png Default-568h@2x.png98"CopyPNGFile build/Debug-iphoneos/SimpleVideoFileFilter.app/Default-568h@2x.png Default-568h@2x.pngaa4405c5024cb941^d23820c5024cb941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/Default-568h@2x.png0000000000000000^699"CopyPNGFile build/Debug-iphoneos/SimpleVideoFileFilter.app/Default-568h@2x.png Default-568h@2x.png    cd /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/Default-568h@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Default-568h@2x.png36"1751496A-4095-484D-B998-054F78E1E053-
+bD0BDD713-9EAB-4E6F-B0BD-6ADAF992FFFD
+
+CCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon-72.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png
+s424411845.020636
+e424411845.068554
+r1
+xCopyPNGFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon-72.png
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"CopyPNGFile build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon-72.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png141"CopyPNGFile build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon-72.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.pngee5b05c5024cb941^8b8d11c5024cb941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png0000000000000000^716"CopyPNGFile build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon-72.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png    cd /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon-72.png36"86213F60-DEB9-400E-8078-C31C0D0E727B-
+bD0BDD713-9EAB-4E6F-B0BD-6ADAF992FFFD
+
+CCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon-72@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png
+s424411845.020921
+e424411845.072655
+r1
+xCopyPNGFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon-72@2x.png
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"CopyPNGFile build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon-72@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png147"CopyPNGFile build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon-72@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png097105c5024cb941^709a12c5024cb941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png0000000000000000^728"CopyPNGFile build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon-72@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png    cd /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon-72@2x.png36"9B77314A-0B90-4D92-8C1D-F9DB9694511E-
+bD0BDD713-9EAB-4E6F-B0BD-6ADAF992FFFD
+
+CCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png
+s424411845.021467
+e424411845.067821
+r1
+xCopyPNGFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon.png
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"CopyPNGFile build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png135"CopyPNGFile build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.pngd19005c5024cb941^815d11c5024cb941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png0000000000000000^704"CopyPNGFile build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png    cd /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon.png36"C103762A-8DEE-427B-96FB-D8ABCCCF4FB3-
+bD0BDD713-9EAB-4E6F-B0BD-6ADAF992FFFD
+
+CCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png
+s424411845.022624
+e424411845.070636
+r1
+xCopyPNGFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon@2x.png
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"CopyPNGFile build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png141"CopyPNGFile build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png27da05c5024cb941^0e1612c5024cb941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png0000000000000000^716"CopyPNGFile build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png    cd /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Icon@2x.png36"FCB3C837-CF4D-4ACA-A2E4-2E16A8ABA892-
+bD0BDD713-9EAB-4E6F-B0BD-6ADAF992FFFD
+
+CCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/iTunesArtwork.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png
+s424411845.033197
+e424411845.126757
+r1
+xCopyPNGFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/iTunesArtwork.png
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection153"CopyPNGFile build/Debug-iphoneos/SimpleVideoFileFilter.app/iTunesArtwork.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png153"CopyPNGFile build/Debug-iphoneos/SimpleVideoFileFilter.app/iTunesArtwork.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.pngc99308c5024cb941^ac7320c5024cb941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png0000000000000000^740"CopyPNGFile build/Debug-iphoneos/SimpleVideoFileFilter.app/iTunesArtwork.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png    cd /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/iTunesArtwork.png36"0D84379D-6CB4-41D5-83CA-42B48B9D6FFF-
+bD0BDD713-9EAB-4E6F-B0BD-6ADAF992FFFD
+
+CCopyStringsFile /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/en.lproj/InfoPlist.strings SimpleVideoFileFilter/en.lproj/InfoPlist.strings
+s424411845.019666
+e424411845.022241
+r1
+xCopyStringsFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/en.lproj/InfoPlist.strings
+xSimpleVideoFileFilter/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy SimpleVideoFileFilter/en.lproj/InfoPlist.strings138"CopyStringsFile build/Debug-iphoneos/SimpleVideoFileFilter.app/en.lproj/InfoPlist.strings SimpleVideoFileFilter/en.lproj/InfoPlist.strings7e1805c5024cb941^2db205c5024cb941^---0#0#1#-19%DVTDocumentLocation2@124"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/en.lproj/InfoPlist.strings0000000000000000^670"CopyStringsFile build/Debug-iphoneos/SimpleVideoFileFilter.app/en.lproj/InfoPlist.strings SimpleVideoFileFilter/en.lproj/InfoPlist.strings    cd /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/en.lproj -- SimpleVideoFileFilter/en.lproj/InfoPlist.strings36"A796E584-E19C-4BD7-96EF-AE6993A3FEB7-
+bD0BDD713-9EAB-4E6F-B0BD-6ADAF992FFFD
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Debug-iphoneos/SimpleVideoFileFilter.app/ResourceRules.plist
+s424411844.049160
+e424411844.050092
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/SimpleVideoFileFilter.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy build/Debug-iphoneos/SimpleVideoFileFilter.app/ResourceRules.plist199"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Debug-iphoneos/SimpleVideoFileFilter.app/ResourceRules.plist51a30cc4024cb941^39d30cc4024cb941^---0#0#1#-19%DVTDocumentLocation2@142"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/ResourceRules.plist00343834ddffdf42^814"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Debug-iphoneos/SimpleVideoFileFilter.app/ResourceRules.plist    cd /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app36"B4991E0F-E39B-4B50-92EC-27BDCD4C203A-
+bD0BDD713-9EAB-4E6F-B0BD-6ADAF992FFFD
+
+CCpResource SimpleVideoFileFilter/WID-small.jpg build/Debug-iphoneos/SimpleVideoFileFilter.app/WID-small.jpg
+s424411845.020423
+e424411845.032131
+r1
+xCpResource
+xSimpleVideoFileFilter/WID-small.jpg
+xbuild/Debug-iphoneos/SimpleVideoFileFilter.app/WID-small.jpg
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphoneos/SimpleVideoFileFilter.app/WID-small.jpg107"CpResource SimpleVideoFileFilter/WID-small.jpg build/Debug-iphoneos/SimpleVideoFileFilter.app/WID-small.jpg6a4f05c5024cb941^123208c5024cb941^---0#0#1#-19%DVTDocumentLocation2@136"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/WID-small.jpg00343834ddffdf42^705"CpResource SimpleVideoFileFilter/WID-small.jpg build/Debug-iphoneos/SimpleVideoFileFilter.app/WID-small.jpg    cd /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/WID-small.jpg /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app36"ADB4DAF3-AD22-4F5E-B8AC-59886918E8E4-
+bD0BDD713-9EAB-4E6F-B0BD-6ADAF992FFFD
+
+CCpResource SimpleVideoFileFilter/sample_iPod.m4v build/Debug-iphoneos/SimpleVideoFileFilter.app/sample_iPod.m4v
+s424411845.019940
+e424411845.041487
+r1
+xCpResource
+xSimpleVideoFileFilter/sample_iPod.m4v
+xbuild/Debug-iphoneos/SimpleVideoFileFilter.app/sample_iPod.m4v
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphoneos/SimpleVideoFileFilter.app/sample_iPod.m4v111"CpResource SimpleVideoFileFilter/sample_iPod.m4v build/Debug-iphoneos/SimpleVideoFileFilter.app/sample_iPod.m4v572505c5024cb941^23a00ac5024cb941^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/sample_iPod.m4v00343834ddffdf42^711"CpResource SimpleVideoFileFilter/sample_iPod.m4v build/Debug-iphoneos/SimpleVideoFileFilter.app/sample_iPod.m4v    cd /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/sample_iPod.m4v /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app36"30CE47FB-FBFA-41F9-8978-34089CF71B57-
+bD0BDD713-9EAB-4E6F-B0BD-6ADAF992FFFD
+
+CGenerateDSYMFile /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app.dSYM /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/SimpleVideoFileFilter
+s424411844.923660
+e424411845.019224
+r1
+xGenerateDSYMFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app.dSYM
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/SimpleVideoFileFilter
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Generate /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app.dSYM137"GenerateDSYMFile build/Debug-iphoneos/SimpleVideoFileFilter.app.dSYM build/Debug-iphoneos/SimpleVideoFileFilter.app/SimpleVideoFileFilter0682ecc4024cb941^c8ec04c5024cb941^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app.dSYM00343834ddffdf42^764"GenerateDSYMFile build/Debug-iphoneos/SimpleVideoFileFilter.app.dSYM build/Debug-iphoneos/SimpleVideoFileFilter.app/SimpleVideoFileFilter    cd /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/SimpleVideoFileFilter -o /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app.dSYM36"9041AA4B-0F9E-4ABB-81FA-E3D681FBC537-
+bD0BDD713-9EAB-4E6F-B0BD-6ADAF992FFFD
+
+CLd /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/SimpleVideoFileFilter normal armv7
+s424411844.662209
+e424411844.922752
+r1
+xLd
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/SimpleVideoFileFilter
+xnormal
+xarmv7
+d/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilter.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/crt1.3.1.o
+d/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/main.o
+d/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilterAppDelegate.o
+d/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilterViewController.o
+d/Users/eight/repos/GPUImage-eight/build/Debug-iphoneos/libGPUImage.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libgcc_s.1.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Link /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/SimpleVideoFileFilter84"Ld build/Debug-iphoneos/SimpleVideoFileFilter.app/SimpleVideoFileFilter normal armv7ee95a9c4024cb941^4b3cecc4024cb941^---0#0#1#--1714"Ld build/Debug-iphoneos/SimpleVideoFileFilter.app/SimpleVideoFileFilter normal armv7    cd /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter    export IPHONEOS_DEPLOYMENT_TARGET=4.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos -F/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos -filelist /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilter.LinkFileList -dead_strip -ObjC -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=4.0 /Users/eight/repos/GPUImage-eight/build/Debug-iphoneos/libGPUImage.a -framework OpenGLES -framework QuartzCore -framework CoreMedia -weak_framework CoreVideo -framework AVFoundation -framework UIKit -framework Foundation -framework CoreGraphics -Xlinker -dependency_info -Xlinker /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/Objects-normal/armv7/SimpleVideoFileFilter_dependency_info.dat -o /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/SimpleVideoFileFilter36"738F9B94-CB59-410C-94ED-358589014198-
+bD0BDD713-9EAB-4E6F-B0BD-6ADAF992FFFD
+
+CProcessInfoPlistFile /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Info.plist /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilter-Info.plist
+s424411844.046145
+e424411844.048531
+r1
+xProcessInfoPlistFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Info.plist
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilter-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Process /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilter-Info.plist133"ProcessInfoPlistFile build/Debug-iphoneos/SimpleVideoFileFilter.app/Info.plist SimpleVideoFileFilter/SimpleVideoFileFilter-Info.plist75e90bc4024cb941^2f6d0cc4024cb941^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilter-Info.plist0000000000000000^1027"ProcessInfoPlistFile build/Debug-iphoneos/SimpleVideoFileFilter.app/Info.plist SimpleVideoFileFilter/SimpleVideoFileFilter-Info.plist    cd /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilter-Info.plist -genpkginfo /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/ResourceRules.plist -o /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/Info.plist36"F232AA2C-EA70-40A7-B809-C64CA1EA6329-
+bD0BDD713-9EAB-4E6F-B0BD-6ADAF992FFFD
+
+CProcessPCH /Users/eight/Library/Developer/Xcode/DerivedData/SimpleVideoFileFilter-havhynuzeobaugdinejjjjapnvpp/Index/PrecompiledHeaders/SimpleVideoFileFilter-Prefix-elfvfwdbbijjtkghfheyatglauja_ast/SimpleVideoFileFilter-Prefix.pch.pch SimpleVideoFileFilter/SimpleVideoFileFilter-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SimpleVideoFileFilter-Prefix-fvyzmkmopuaeaobzidrnkyclldcu/SimpleVideoFileFilter-Prefix.pch.pch SimpleVideoFileFilter/SimpleVideoFileFilter-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424411844.050668
+e424411844.478191
+r1
+xProcessPCH
+x/var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SimpleVideoFileFilter-Prefix-fvyzmkmopuaeaobzidrnkyclldcu/SimpleVideoFileFilter-Prefix.pch.pch
+xSimpleVideoFileFilter/SimpleVideoFileFilter-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilter-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Precompile SimpleVideoFileFilter/SimpleVideoFileFilter-Prefix.pch347"ProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SimpleVideoFileFilter-Prefix-fvyzmkmopuaeaobzidrnkyclldcu/SimpleVideoFileFilter-Prefix.pch.pch SimpleVideoFileFilter/SimpleVideoFileFilter-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compileree0a0dc4024cb941^2f6b7ac4024cb941^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilter-Prefix.pch0000000000000000^4096"ProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SimpleVideoFileFilter-Prefix-fvyzmkmopuaeaobzidrnkyclldcu/SimpleVideoFileFilter-Prefix.pch.pch SimpleVideoFileFilter/SimpleVideoFileFilter-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/include -I../../../framework -I../../../framework/GPUImageTests -I../../../framework/Resources -I../../../framework/Source -I../../../framework/Source/iOS -I../../../framework/Source/Mac -I../../../framework/Source/iOS/Framework -I/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/DerivedSources/armv7 -I/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos --serialize-diagnostics /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SimpleVideoFileFilter-Prefix-fvyzmkmopuaeaobzidrnkyclldcu/SimpleVideoFileFilter-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SimpleVideoFileFilter-Prefix-fvyzmkmopuaeaobzidrnkyclldcu/SimpleVideoFileFilter-Prefix.pch.d -c /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/SimpleVideoFileFilter/SimpleVideoFileFilter-Prefix.pch -o /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SimpleVideoFileFilter-Prefix-fvyzmkmopuaeaobzidrnkyclldcu/SimpleVideoFileFilter-Prefix.pch.pch36"50FEB3A5-3501-4C85-BD79-4554826A2742-
+bD0BDD713-9EAB-4E6F-B0BD-6ADAF992FFFD
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter.xcent
+s424411847.213662
+e424411847.214751
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection249"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter.xcent249"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter.xcent16be36c7024cb941^f8fa36c7024cb941^---0#0#1#-19%DVTDocumentLocation2@180"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter.xcent00343834ddffdf42^874"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter.xcent    cd /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/SimpleVideoFileFilter.build/Debug-iphoneos/SimpleVideoFileFilter.build/SimpleVideoFileFilter.xcent36"0FF38CE2-BEA9-4717-AF7C-AC26F1FB1C18-
+bD0BDD713-9EAB-4E6F-B0BD-6ADAF992FFFD
+
+CProcessProductPackaging /Users/eight/Library/MobileDevice/Provisioning\ Profiles/89A29269-CCD9-4915-9A90-6B180FEA00A5.mobileprovision /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/embedded.mobileprovision
+s424411847.211340
+e424411847.212727
+r1
+xProcessProductPackaging
+x/Users/eight/Library/MobileDevice/Provisioning Profiles/89A29269-CCD9-4915-9A90-6B180FEA00A5.mobileprovision
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection205"ProcessProductPackaging /Users/eight/Library/MobileDevice/Provisioning\ Profiles/89A29269-CCD9-4915-9A90-6B180FEA00A5.mobileprovision build/Debug-iphoneos/SimpleVideoFileFilter.app/embedded.mobileprovision205"ProcessProductPackaging /Users/eight/Library/MobileDevice/Provisioning\ Profiles/89A29269-CCD9-4915-9A90-6B180FEA00A5.mobileprovision build/Debug-iphoneos/SimpleVideoFileFilter.app/embedded.mobileprovisiond02736c7024cb941^ef7536c7024cb941^---0#0#1#-19%DVTDocumentLocation2@147"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/embedded.mobileprovision00343834ddffdf42^760"ProcessProductPackaging /Users/eight/Library/MobileDevice/Provisioning\ Profiles/89A29269-CCD9-4915-9A90-6B180FEA00A5.mobileprovision build/Debug-iphoneos/SimpleVideoFileFilter.app/embedded.mobileprovision    cd /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/eight/Library/MobileDevice/Provisioning\ Profiles/89A29269-CCD9-4915-9A90-6B180FEA00A5.mobileprovision -o /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app/embedded.mobileprovision36"1063F945-B560-4149-97FF-3A99DAD5C30E-
+bD0BDD713-9EAB-4E6F-B0BD-6ADAF992FFFD
+
+CTouch /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleVideoFileFilter/build/Debug-iphoneos/SimpleVideoFileFilter.app
+r0
+
