@@ -1,1130 +1,0 @@
-TFilterShowcase
-v6
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Info.plist /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/FilterShowcase-Info.plist
-cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/FilterShowcase.app/ResourceRules.plist
-cProcessPCH /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/PrecompiledHeaders/FilterShowcase-Prefix-cfiyrizsdfmdnsczxeekbrlfxdiv/FilterShowcase-Prefix.pch.pch FilterShowcase/FilterShowcase-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/main.o /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseAppDelegate.o /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseFilterListController.o /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterListController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseFilterViewController.o /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/FilterShowcase normal armv7
-cGenerateDSYMFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app.dSYM /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/FilterShowcase
-cCpResource FilterShowcase/CustomFilter.fsh Build/Products/Debug-iphoneos/FilterShowcase.app/CustomFilter.fsh
-cCopyStringsFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/en.lproj/InfoPlist.strings FilterShowcase/en.lproj/InfoPlist.strings
-cCompileXIB /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterViewController.xib
-cCopyPlistFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/SampleConfiguration.plist FilterShowcase/SampleConfiguration.plist
-cCpResource /Users/vgusev/repos/GPUImage-eight/examples/iOS/SimpleImageFilter/SimpleImageFilter/WID-small.jpg Build/Products/Debug-iphoneos/FilterShowcase.app/WID-small.jpg
-cCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/mask.png FilterShowcase/mask.png
-cCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/voroni_points2.png FilterShowcase/voroni_points2.png
-cCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/dotletterstiles.png FilterShowcase/dotletterstiles.png
-cCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/curvies.png FilterShowcase/curvies.png
-cCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/squares.png FilterShowcase/squares.png
-cCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_amatorka.png /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_amatorka.png
-cCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_miss_etikate.png /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_miss_etikate.png
-cCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_soft_elegance_1.png /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_soft_elegance_1.png
-cCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Default-568h@2x.png Default-568h@2x.png
-cCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_soft_elegance_2.png /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_soft_elegance_2.png
-cCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Icon-72.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png
-cCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Icon-72@2x.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png
-cCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Icon.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png
-cCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Icon@2x.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png
-cCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/iTunesArtwork.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png
-cProcessProductPackaging /Users/vgusev/Library/MobileDevice/Provisioning\ Profiles/8202D712-2F68-43C9-881F-A919BFD9427F.mobileprovision /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/embedded.mobileprovision
-cTouch /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase.xcent
-cCodeSign /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
-c00000000534D50A40000000000000132
-t1397575844
-s306
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
-c00000000533B9F800000000000000094
-t1396416384
-s148
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
-c00000000533B9F800000000000000096
-t1396416384
-s150
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
-c00000000534D50A40000000000000638
-t1397575844
-s1592
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000533B9F82000000000000019E
-t1396416386
-s414
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-c00000000533B9F820000000000632990
-t1396416386
-s6498704
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c00000000533B9F8300000000004D7BC0
-t1396416387
-s5077952
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-c00000000533B9F830000000000433410
-t1396416387
-s4404240
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
-c00000000533B9F8300000000002CB700
-t1396416387
-s2930432
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-c00000000533B9F84000000000006DCD0
-t1396416388
-s449744
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000533B9F840000000000A90C10
-t1396416388
-s11078672
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-c00000000533B9F8500000000000417E0
-t1396416389
-s268256
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c00000000533B9F860000000000649DB0
-t1396416390
-s6593968
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c00000000533B9F880000000002759920
-t1396416392
-s41261344
-
-N/Users/vgusev/Library/MobileDevice/Provisioning Profiles/8202D712-2F68-43C9-881F-A919BFD9427F.mobileprovision
-c00000000539F457B0000000000001DFB
-t1402946939
-s7675
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase.xcent
-t1402946946
-s525
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/FilterShowcase.LinkFileList
-c00000000539F457C00000000000002DF
-t1402946940
-s735
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseAppDelegate.o
-t1402946941
-s66260
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseFilterListController.o
-t1402946941
-s109572
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseFilterViewController.o
-t1402946941
-s320176
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/main.o
-t1402946941
-s3748
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/PrecompiledHeaders/FilterShowcase-Prefix-cfiyrizsdfmdnsczxeekbrlfxdiv/FilterShowcase-Prefix.pch.pch
-t1402946941
-s5309632
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app
-t1402946946
-s918
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app.dSYM
-t2
-s0
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/CustomFilter.fsh
-t1402946941
-s548
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Default-568h@2x.png
-t1402946942
-s7014
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/FilterShowcase
-t1402946941
-s1350672
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Icon-72.png
-t1402946942
-s6950
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Icon-72@2x.png
-t1402946942
-s14872
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Icon.png
-t1402946942
-s5004
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Icon@2x.png
-t1402946942
-s10436
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Info.plist
-t1402946940
-s1338
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/PkgInfo
-t1402946940
-s8
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/ResourceRules.plist
-t1402946940
-s150
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/SampleConfiguration.plist
-t1402946941
-s245
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/ShowcaseFilterViewController.nib
-t1402946941
-s3879
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/WID-small.jpg
-t1402946941
-s1155252
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/curvies.png
-t1402946942
-s55334
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/dotletterstiles.png
-t1402946942
-s31365
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/embedded.mobileprovision
-t1402946946
-s7675
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/en.lproj/InfoPlist.strings
-t1402946941
-s42
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/iTunesArtwork.png
-t1402946942
-s69706
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_amatorka.png
-t1402946942
-s612800
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_miss_etikate.png
-t1402946942
-s743379
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_soft_elegance_1.png
-t1402946942
-s673516
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_soft_elegance_2.png
-t1402946942
-s673579
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/mask.png
-t1402946945
-s936002
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/squares.png
-t1402946942
-s8467
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/voroni_points2.png
-t1402946941
-s59707
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/libGPUImage.a
-c00000000539F456B00000000003CD3E0
-t1402946923
-s3986400
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Default-568h@2x.png
-c00000000539B07A800000000000048A2
-t1402668968
-s18594
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/CustomFilter.fsh
-c00000000539B07A80000000000000224
-t1402668968
-s548
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/FilterShowcase-Info.plist
-c00000000539B07A800000000000005E4
-t1402668968
-s1508
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch
-c00000000539B07A8000000000000014B
-t1402668968
-s331
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/SampleConfiguration.plist
-c00000000539B07A8000000000000025D
-t1402668968
-s605
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseAppDelegate.m
-c00000000539B07A80000000000000356
-t1402668968
-s854
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterListController.m
-c00000000539B07A8000000000000309D
-t1402668968
-s12445
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterViewController.m
-c00000000539B07A8000000000001339F
-t1402668968
-s78751
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterViewController.xib
-c00000000539B07A80000000000002998
-t1402668968
-s10648
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/curvies.png
-c00000000539B07A80000000000011121
-t1402668968
-s69921
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/dotletterstiles.png
-c00000000539B07A80000000000009548
-t1402668968
-s38216
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/en.lproj/InfoPlist.strings
-c00000000539B07A8000000000000002D
-t1402668968
-s45
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/main.m
-c00000000539B07A800000000000000DF
-t1402668968
-s223
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/mask.png
-c00000000539B07A800000000000ECAAB
-t1402668968
-s969387
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/squares.png
-c00000000539B07A80000000000001639
-t1402668968
-s5689
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/voroni_points2.png
-c00000000539B07A8000000000000E93B
-t1402668968
-s59707
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png
-c00000000539B07A800000000000013B6
-t1402668968
-s5046
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png
-c00000000539B07A800000000000027F5
-t1402668968
-s10229
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png
-c00000000539B07A80000000000000F23
-t1402668968
-s3875
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png
-c00000000539B07A80000000000001D72
-t1402668968
-s7538
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png
-c00000000539B07A8000000000000B31F
-t1402668968
-s45855
-
-N/Users/vgusev/repos/GPUImage-eight/examples/iOS/SimpleImageFilter/SimpleImageFilter/WID-small.jpg
-c00000000539B07A8000000000011A0B4
-t1402668968
-s1155252
-
-N/Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_amatorka.png
-c00000000539B07A80000000000008E26
-t1402668968
-s36390
-
-N/Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_miss_etikate.png
-c00000000539B07A80000000000031764
-t1402668968
-s202596
-
-N/Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_soft_elegance_1.png
-c00000000539B07A8000000000001F8B8
-t1402668968
-s129208
-
-N/Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_soft_elegance_2.png
-c00000000539B07A80000000000000897
-t1402668968
-s2199
-
-CBuild AST from /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseAppDelegate.m
-r0
-
-CBuild AST from /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterListController.m
-r0
-
-CBuild AST from /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterViewController.m
-r0
-
-CBuild AST from /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies0663d8fc7c4fb941^06d7d8fc7c4fb941^---0#1#1#--18"Check dependencies36"0A76177E-29CD-45A8-AADD-960DBE398F83-
-
-CCodeSign /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app
-s424639746.022124
-e424639746.425595
-r1
-xCodeSign
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"CodeSign Build/Products/Debug-iphoneos/FilterShowcase.app57"CodeSign Build/Products/Debug-iphoneos/FilterShowcase.app2fc105027d4fb941^b6f46c027d4fb941^---0#0#1#-19%DVTDocumentLocation2@128"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/0000000000000000^1144"CodeSign Build/Products/Debug-iphoneos/FilterShowcase.app    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Vladimir Gusev (5B3DNZYZSG)" and provisioning profile "iOS Team Provisioning Profile: *" (8202D712-2F68-43C9-881F-A919BFD9427F)    /usr/bin/codesign --force --sign E7B1BCE684DF1B510A66C4C18D30BAEEF1ACE5B4 --resource-rules=/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/ResourceRules.plist --entitlements /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase.xcent /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app36"3D49C372-40FD-4104-BA15-76DE5FB4E3F8-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCompileC Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseAppDelegate.o /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424639741.205940
-e424639741.275608
-r1
-xCompileC
-xBuild/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseAppDelegate.o
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseAppDelegate.m
-d/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseAppDelegate.h
-d/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterListController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseAppDelegate.m234"CompileC Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseAppDelegate.o FilterShowcase/ShowcaseAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compileraed734fd7c4fb941^c58e46fd7c4fb941^---0#0#1#-19%DVTDocumentLocation2@115"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseAppDelegate.m0000000000000000^3843"CompileC Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseAppDelegate.o FilterShowcase/ShowcaseAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase-generated-files.hmap -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase-own-target-headers.hmap -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase-all-target-headers.hmap -iquote /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase-project-headers.hmap -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/include -I../../../framework/Source -I../../../framework/Source/iOS -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/DerivedSources/armv7 -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/DerivedSources -F/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos -include /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/PrecompiledHeaders/FilterShowcase-Prefix-cfiyrizsdfmdnsczxeekbrlfxdiv/FilterShowcase-Prefix.pch -MMD -MT dependencies -MF /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseAppDelegate.d --serialize-diagnostics /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseAppDelegate.dia -c /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseAppDelegate.m -o /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseAppDelegate.o36"99C7475F-C7EE-40EA-B2EE-DAD8FA8C8DA7-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCompileC Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseFilterListController.o /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterListController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424639741.205953
-e424639741.381097
-r1
-xCompileC
-xBuild/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseFilterListController.o
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterListController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterListController.m
-d/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterListController.h
-d/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterViewController.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImage.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GLProgram.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/iOS/GPUImageContext.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageFramebuffer.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageFramebufferCache.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageOutput.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/iOS/GPUImageView.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageVideoCamera.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageStillCamera.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageMovie.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/iOS/GPUImagePicture.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageRawDataInput.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageRawDataOutput.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/iOS/GPUImageMovieWriter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageFilterPipeline.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageTextureOutput.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageFilterGroup.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageTextureInput.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageUIElement.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageBuffer.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageTwoInputFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImagePixellateFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImagePixellatePositionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSepiaFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageColorMatrixFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageColorInvertFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSaturationFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageContrastFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageExposureFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageBrightnessFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLevelsFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSharpenFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageGammaFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSobelEdgeDetectionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageTwoPassFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSketchFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageToonFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImage3x3TextureSamplingFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSmoothToonFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageMultiplyBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageDissolveBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageKuwaharaFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageKuwaharaRadius3Filter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageVignetteFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageGaussianBlurFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageTwoPassTextureSamplingFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageGaussianBlurPositionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageGaussianSelectiveBlurFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageOverlayBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageDarkenBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLightenBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSwirlFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSourceOverBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageColorBurnBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageColorDodgeBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageScreenBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageExclusionBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageDifferenceBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSubtractBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHardLightBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSoftLightBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageColorBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHueBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSaturationBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLuminosityBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageCropFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageGrayscaleFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageTransformFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageChromaKeyBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHazeFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLuminanceThresholdFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImagePosterizeFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageBoxBlurFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageAdaptiveThresholdFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageUnsharpMaskFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageBulgeDistortionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImagePinchDistortionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageCrosshatchFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageCGAColorspaceFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImagePolarPixellateFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageStretchDistortionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImagePerlinNoiseFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageJFAVoronoiFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageVoronoiConsumerFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageMosaicFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageTiltShiftFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImage3x3ConvolutionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageEmbossFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageCannyEdgeDetectionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageThresholdEdgeDetectionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageMaskFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHistogramFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHistogramGenerator.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImagePrewittEdgeDetectionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageXYDerivativeFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHarrisCornerDetectionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageAlphaBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageNormalBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageNonMaximumSuppressionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageRGBFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageMedianFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageBilateralFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageCrosshairGenerator.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageToneCurveFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageNobleCornerDetectionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageShiTomasiFeatureDetectionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageErosionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageRGBErosionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageDilationFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageRGBDilationFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageOpeningFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageRGBOpeningFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageClosingFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageRGBClosingFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageColorPackingFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSphereRefractionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageMonochromeFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageOpacityFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHighlightShadowFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageFalseColorFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHSBFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHueFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageGlassSphereFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLookupFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageAmatorkaFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageMissEtikateFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSoftEleganceFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageAddBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageDivideBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImagePolkaDotFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLocalBinaryPatternFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLanczosResamplingFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageAverageColor.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSolidColorGenerator.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLuminosity.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageAverageLuminanceThresholdFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageWhiteBalanceFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageChromaKeyFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLowPassFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHighPassFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageMotionDetector.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHalftoneFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageThresholdedNonMaximumSuppressionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHoughTransformLineDetector.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageParallelCoordinateLineTransformFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageThresholdSketchFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLineGenerator.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLinearBurnBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageTwoInputCrossTextureSamplingFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImagePoissonBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageMotionBlurFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageZoomBlurFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLaplacianFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageiOSBlurFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLuminanceRangeFilter.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterListController.m252"CompileC Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseFilterListController.o FilterShowcase/ShowcaseFilterListController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler45d434fd7c4fb941^199061fd7c4fb941^---0#0#1#-19%DVTDocumentLocation2@124"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterListController.m0000000000000000^3897"CompileC Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseFilterListController.o FilterShowcase/ShowcaseFilterListController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase-generated-files.hmap -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase-own-target-headers.hmap -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase-all-target-headers.hmap -iquote /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase-project-headers.hmap -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/include -I../../../framework/Source -I../../../framework/Source/iOS -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/DerivedSources/armv7 -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/DerivedSources -F/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos -include /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/PrecompiledHeaders/FilterShowcase-Prefix-cfiyrizsdfmdnsczxeekbrlfxdiv/FilterShowcase-Prefix.pch -MMD -MT dependencies -MF /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseFilterListController.d --serialize-diagnostics /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseFilterListController.dia -c /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterListController.m -o /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseFilterListController.o36"B590D7C2-02F5-4F76-955B-69924730F534-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCompileC Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseFilterViewController.o /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424639741.205956
-e424639741.552766
-r1
-xCompileC
-xBuild/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseFilterViewController.o
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterViewController.m
-d/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterViewController.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImage.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GLProgram.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/iOS/GPUImageContext.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageFramebuffer.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageFramebufferCache.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageOutput.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/iOS/GPUImageView.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageVideoCamera.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageStillCamera.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageMovie.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/iOS/GPUImagePicture.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageRawDataInput.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageRawDataOutput.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/iOS/GPUImageMovieWriter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageFilterPipeline.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageTextureOutput.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageFilterGroup.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageTextureInput.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageUIElement.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageBuffer.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageTwoInputFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImagePixellateFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImagePixellatePositionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSepiaFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageColorMatrixFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageColorInvertFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSaturationFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageContrastFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageExposureFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageBrightnessFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLevelsFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSharpenFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageGammaFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSobelEdgeDetectionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageTwoPassFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSketchFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageToonFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImage3x3TextureSamplingFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSmoothToonFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageMultiplyBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageDissolveBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageKuwaharaFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageKuwaharaRadius3Filter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageVignetteFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageGaussianBlurFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageTwoPassTextureSamplingFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageGaussianBlurPositionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageGaussianSelectiveBlurFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageOverlayBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageDarkenBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLightenBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSwirlFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSourceOverBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageColorBurnBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageColorDodgeBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageScreenBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageExclusionBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageDifferenceBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSubtractBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHardLightBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSoftLightBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageColorBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHueBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSaturationBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLuminosityBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageCropFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageGrayscaleFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageTransformFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageChromaKeyBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHazeFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLuminanceThresholdFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImagePosterizeFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageBoxBlurFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageAdaptiveThresholdFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageUnsharpMaskFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageBulgeDistortionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImagePinchDistortionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageCrosshatchFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageCGAColorspaceFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImagePolarPixellateFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageStretchDistortionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImagePerlinNoiseFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageJFAVoronoiFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageVoronoiConsumerFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageMosaicFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageTiltShiftFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImage3x3ConvolutionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageEmbossFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageCannyEdgeDetectionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageThresholdEdgeDetectionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageMaskFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHistogramFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHistogramGenerator.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImagePrewittEdgeDetectionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageXYDerivativeFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHarrisCornerDetectionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageAlphaBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageNormalBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageNonMaximumSuppressionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageRGBFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageMedianFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageBilateralFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageCrosshairGenerator.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageToneCurveFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageNobleCornerDetectionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageShiTomasiFeatureDetectionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageErosionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageRGBErosionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageDilationFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageRGBDilationFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageOpeningFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageRGBOpeningFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageClosingFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageRGBClosingFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageColorPackingFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSphereRefractionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageMonochromeFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageOpacityFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHighlightShadowFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageFalseColorFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHSBFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHueFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageGlassSphereFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLookupFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageAmatorkaFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageMissEtikateFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSoftEleganceFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageAddBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageDivideBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImagePolkaDotFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLocalBinaryPatternFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLanczosResamplingFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageAverageColor.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSolidColorGenerator.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLuminosity.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageAverageLuminanceThresholdFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageWhiteBalanceFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageChromaKeyFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLowPassFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHighPassFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageMotionDetector.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHalftoneFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageThresholdedNonMaximumSuppressionFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageHoughTransformLineDetector.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageParallelCoordinateLineTransformFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageThresholdSketchFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLineGenerator.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLinearBurnBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageTwoInputCrossTextureSamplingFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImagePoissonBlendFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageMotionBlurFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageZoomBlurFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLaplacianFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageiOSBlurFilter.h
-d/Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageLuminanceRangeFilter.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterViewController.m252"CompileC Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseFilterViewController.o FilterShowcase/ShowcaseFilterViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler0fd534fd7c4fb941^4d848dfd7c4fb941^---0#0#1#-19%DVTDocumentLocation2@124"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterViewController.m0000000000000000^3897"CompileC Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseFilterViewController.o FilterShowcase/ShowcaseFilterViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase-generated-files.hmap -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase-own-target-headers.hmap -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase-all-target-headers.hmap -iquote /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase-project-headers.hmap -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/include -I../../../framework/Source -I../../../framework/Source/iOS -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/DerivedSources/armv7 -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/DerivedSources -F/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos -include /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/PrecompiledHeaders/FilterShowcase-Prefix-cfiyrizsdfmdnsczxeekbrlfxdiv/FilterShowcase-Prefix.pch -MMD -MT dependencies -MF /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseFilterViewController.d --serialize-diagnostics /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseFilterViewController.dia -c /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterViewController.m -o /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseFilterViewController.o36"BE3E6607-F19E-47E4-BA76-9B3CA032F51A-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCompileC Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/main.o /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424639741.205933
-e424639741.231338
-r1
-xCompileC
-xBuild/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/main.o
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/main.m
-d/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseAppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/main.m204"CompileC Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/main.o FilterShowcase/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilera1d634fd7c4fb941^583a3bfd7c4fb941^---0#0#1#-19%DVTDocumentLocation2@100"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/main.m0000000000000000^3753"CompileC Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/main.o FilterShowcase/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase-generated-files.hmap -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase-own-target-headers.hmap -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase-all-target-headers.hmap -iquote /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase-project-headers.hmap -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/include -I../../../framework/Source -I../../../framework/Source/iOS -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/DerivedSources/armv7 -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/DerivedSources -F/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos -include /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/PrecompiledHeaders/FilterShowcase-Prefix-cfiyrizsdfmdnsczxeekbrlfxdiv/FilterShowcase-Prefix.pch -MMD -MT dependencies -MF /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/main.dia -c /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/main.m -o /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/main.o36"3BCA7B54-9660-44C0-BCBB-693EBE3799C4-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCompileXIB /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterViewController.xib
-s424639741.866096
-e424639741.992318
-r1
-xCompileXIB
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterViewController.xib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compiling /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterViewController.xib58"CompileXIB FilterShowcase/ShowcaseFilterViewController.xib79cbddfd7c4fb941^c008fefd7c4fb941^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterViewController.xib0000000000000000^833"CompileXIB FilterShowcase/ShowcaseFilterViewController.xib    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 4.0 --output-format human-readable-text --compile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/ShowcaseFilterViewController.nib /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/ShowcaseFilterViewController.xib36"ABC8819F-DFC1-4CB0-BA2A-80B2C4F0C0BD-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Default-568h@2x.png Default-568h@2x.png
-s424639741.993663
-e424639742.105940
-r1
-xCopyPNGFile
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Default-568h@2x.png
-xDefault-568h@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/Default-568h@2x.png Default-568h@2x.png100"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/Default-568h@2x.png Default-568h@2x.png6875fefd7c4fb941^7f311bfe7c4fb941^---0#0#1#-19%DVTDocumentLocation2@98"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Default-568h@2x.png0000000000000000^685"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/Default-568h@2x.png Default-568h@2x.png    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Default-568h@2x.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Default-568h@2x.png36"7C1A1616-34B8-43C1-B310-5F656262B3D3-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Icon-72.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png
-s424639742.063578
-e424639742.104642
-r1
-xCopyPNGFile
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Icon-72.png
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/Icon-72.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png144"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/Icon-72.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.pngda5910fe7c4fb941^36ca1afe7c4fb941^---0#0#1#-19%DVTDocumentLocation2@87"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png0000000000000000^710"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/Icon-72.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Icon-72.png36"95F8209A-7D4D-4F50-95F0-F2B01A2838CE-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Icon-72@2x.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png
-s424639742.084357
-e424639742.126499
-r1
-xCopyPNGFile
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Icon-72@2x.png
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/Icon-72@2x.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png150"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/Icon-72@2x.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png36ac15fe7c4fb941^047320fe7c4fb941^---0#0#1#-19%DVTDocumentLocation2@90"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png0000000000000000^722"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/Icon-72@2x.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Icon-72@2x.png36"BBFA79D7-E055-4A8E-920D-93BCBD918AE9-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Icon.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png
-s424639742.087626
-e424639742.123706
-r1
-xCopyPNGFile
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Icon.png
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/Icon.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png138"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/Icon.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.pngc38316fe7c4fb941^0cac1ffe7c4fb941^---0#0#1#-19%DVTDocumentLocation2@84"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png0000000000000000^698"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/Icon.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Icon.png36"89F9709D-31FC-4CAA-A249-F61EB0956C38-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Icon@2x.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png
-s424639742.106571
-e424639742.149186
-r1
-xCopyPNGFile
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Icon@2x.png
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/Icon@2x.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png144"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/Icon@2x.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png185c1bfe7c4fb941^b63126fe7c4fb941^---0#0#1#-19%DVTDocumentLocation2@87"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png0000000000000000^710"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/Icon@2x.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Icon@2x.png36"791ABC1B-1724-496C-BC76-92026F5987DE-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/curvies.png FilterShowcase/curvies.png
-s424639741.869846
-e424639742.086392
-r1
-xCopyPNGFile
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/curvies.png
-xFilterShowcase/curvies.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/curvies.png FilterShowcase/curvies.png99"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/curvies.png FilterShowcase/curvies.pngdcbbdefd7c4fb941^711e16fe7c4fb941^---0#0#1#-19%DVTDocumentLocation2@105"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/curvies.png0000000000000000^683"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/curvies.png FilterShowcase/curvies.png    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/curvies.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/curvies.png36"92657D67-DE19-4EE7-8AE2-FC9457DA5AF4-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/dotletterstiles.png FilterShowcase/dotletterstiles.png
-s424639741.866552
-e424639742.062256
-r1
-xCopyPNGFile
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/dotletterstiles.png
-xFilterShowcase/dotletterstiles.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/dotletterstiles.png FilterShowcase/dotletterstiles.png115"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/dotletterstiles.png FilterShowcase/dotletterstiles.pngc6e0ddfd7c4fb941^78f00ffe7c4fb941^---0#0#1#-19%DVTDocumentLocation2@113"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/dotletterstiles.png0000000000000000^715"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/dotletterstiles.png FilterShowcase/dotletterstiles.png    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/dotletterstiles.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/dotletterstiles.png36"AFDD07C1-FA94-4835-AE7F-FF5F09C7985A-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/iTunesArtwork.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png
-s424639742.106575
-e424639742.201427
-r1
-xCopyPNGFile
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/iTunesArtwork.png
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection156"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/iTunesArtwork.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png156"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/iTunesArtwork.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.pngd55b1bfe7c4fb941^4f9133fe7c4fb941^---0#0#1#-19%DVTDocumentLocation2@93"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png0000000000000000^734"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/iTunesArtwork.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/vgusev/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/iTunesArtwork.png36"39D667AF-51FF-4DAC-AA02-FE405E566757-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_amatorka.png /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_amatorka.png
-s424639741.887345
-e424639742.083003
-r1
-xCopyPNGFile
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_amatorka.png
-x/Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_amatorka.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection155"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_amatorka.png /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_amatorka.png155"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_amatorka.png /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_amatorka.pngcd3ae3fd7c4fb941^104115fe7c4fb941^---0#0#1#-19%DVTDocumentLocation2@90"file://localhost/Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_amatorka.png0000000000000000^732"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_amatorka.png /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_amatorka.png    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_amatorka.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_amatorka.png36"D24CE19C-2BA7-4492-92E8-FDE5F8A1AD77-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_miss_etikate.png /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_miss_etikate.png
-s424639741.898287
-e424639742.182231
-r1
-xCopyPNGFile
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_miss_etikate.png
-x/Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_miss_etikate.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection163"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_miss_etikate.png /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_miss_etikate.png163"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_miss_etikate.png /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_miss_etikate.png630ee6fd7c4fb941^26a72efe7c4fb941^---0#0#1#-19%DVTDocumentLocation2@94"file://localhost/Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_miss_etikate.png0000000000000000^748"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_miss_etikate.png /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_miss_etikate.png    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_miss_etikate.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_miss_etikate.png36"DC119FB7-C670-4D1E-8012-9527786BA3C9-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_soft_elegance_1.png /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_soft_elegance_1.png
-s424639741.924899
-e424639742.141236
-r1
-xCopyPNGFile
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_soft_elegance_1.png
-x/Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_soft_elegance_1.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection169"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_soft_elegance_1.png /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_soft_elegance_1.png169"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_soft_elegance_1.png /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_soft_elegance_1.png40d9ecfd7c4fb941^c32824fe7c4fb941^---0#0#1#-19%DVTDocumentLocation2@97"file://localhost/Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_soft_elegance_1.png0000000000000000^760"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_soft_elegance_1.png /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_soft_elegance_1.png    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_soft_elegance_1.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_soft_elegance_1.png36"0CDE6166-06B1-480E-A358-9BCCA3A2002C-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_soft_elegance_2.png /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_soft_elegance_2.png
-s424639742.009937
-e424639742.246169
-r1
-xCopyPNGFile
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_soft_elegance_2.png
-x/Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_soft_elegance_2.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection169"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_soft_elegance_2.png /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_soft_elegance_2.png169"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_soft_elegance_2.png /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_soft_elegance_2.pngdca002fe7c4fb941^1c063ffe7c4fb941^---0#0#1#-19%DVTDocumentLocation2@97"file://localhost/Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_soft_elegance_2.png0000000000000000^760"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_soft_elegance_2.png /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_soft_elegance_2.png    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/vgusev/repos/GPUImage-eight/framework/Resources/lookup_soft_elegance_2.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/lookup_soft_elegance_2.png36"AF10EC4F-D81A-493E-AB2E-D515E52E2C70-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/mask.png FilterShowcase/mask.png
-s424639741.866151
-e424639745.990193
-r1
-xCopyPNGFile
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/mask.png
-xFilterShowcase/mask.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/mask.png FilterShowcase/mask.png93"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/mask.png FilterShowcase/mask.pngc0ceddfd7c4fb941^357efd017d4fb941^---0#0#1#-19%DVTDocumentLocation2@102"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/mask.png0000000000000000^671"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/mask.png FilterShowcase/mask.png    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/mask.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/mask.png36"5AC59A36-16EE-42A9-BA25-A201FEDB5E85-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/squares.png FilterShowcase/squares.png
-s424639741.871798
-e424639742.008607
-r1
-xCopyPNGFile
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/squares.png
-xFilterShowcase/squares.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/squares.png FilterShowcase/squares.png99"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/squares.png FilterShowcase/squares.pngaf41dffd7c4fb941^873402fe7c4fb941^---0#0#1#-19%DVTDocumentLocation2@105"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/squares.png0000000000000000^683"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/squares.png FilterShowcase/squares.png    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/squares.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/squares.png36"CC4BED69-A97E-4E33-BC08-B9B75CA1C98E-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCopyPNGFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/voroni_points2.png FilterShowcase/voroni_points2.png
-s424639741.866356
-e424639741.923492
-r1
-xCopyPNGFile
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/voroni_points2.png
-xFilterShowcase/voroni_points2.png
-olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/voroni_points2.png FilterShowcase/voroni_points2.png113"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/voroni_points2.png FilterShowcase/voroni_points2.png0ad9ddfd7c4fb941^3c6aecfd7c4fb941^-143"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.-0#0#1#-19%DVTDocumentLocation2@112"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/voroni_points2.png0000000000000000^711"CopyPNGFile Build/Products/Debug-iphoneos/FilterShowcase.app/voroni_points2.png FilterShowcase/voroni_points2.png    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/voroni_points2.png /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/voroni_points2.png36"1A789C17-A844-4E7B-944F-F1741F332B3A-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCopyPlistFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/SampleConfiguration.plist FilterShowcase/SampleConfiguration.plist
-s424639741.866129
-e424639741.868600
-r1
-xCopyPlistFile
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/SampleConfiguration.plist
-xFilterShowcase/SampleConfiguration.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy FilterShowcase/SampleConfiguration.plist129"CopyPlistFile Build/Products/Debug-iphoneos/FilterShowcase.app/SampleConfiguration.plist FilterShowcase/SampleConfiguration.plist5ccaddfd7c4fb941^5b5ddefd7c4fb941^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/SampleConfiguration.plist0000000000000000^593"CopyPlistFile Build/Products/Debug-iphoneos/FilterShowcase.app/SampleConfiguration.plist FilterShowcase/SampleConfiguration.plist    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app -- FilterShowcase/SampleConfiguration.plist36"6E051701-15BC-4A66-9BC3-B67EDC61DC5C-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCopyStringsFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/en.lproj/InfoPlist.strings FilterShowcase/en.lproj/InfoPlist.strings
-s424639741.866038
-e424639741.886127
-r1
-xCopyStringsFile
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/en.lproj/InfoPlist.strings
-xFilterShowcase/en.lproj/InfoPlist.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy FilterShowcase/en.lproj/InfoPlist.strings133"CopyStringsFile Build/Products/Debug-iphoneos/FilterShowcase.app/en.lproj/InfoPlist.strings FilterShowcase/en.lproj/InfoPlist.strings57cfddfd7c4fb941^9dd9e2fd7c4fb941^---0#0#1#-19%DVTDocumentLocation2@120"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/en.lproj/InfoPlist.strings0000000000000000^648"CopyStringsFile Build/Products/Debug-iphoneos/FilterShowcase.app/en.lproj/InfoPlist.strings FilterShowcase/en.lproj/InfoPlist.strings    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/en.lproj -- FilterShowcase/en.lproj/InfoPlist.strings36"6315FDDE-93DB-4D4A-9E86-51077C3218B7-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/FilterShowcase.app/ResourceRules.plist
-s424639740.859841
-e424639740.861907
-r1
-xCpResource
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
-xBuild/Products/Debug-iphoneos/FilterShowcase.app/ResourceRules.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy Build/Products/Debug-iphoneos/FilterShowcase.app/ResourceRules.plist201"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/FilterShowcase.app/ResourceRules.pliste92bdcfc7c4fb941^76a6dcfc7c4fb941^---0#0#1#-19%DVTDocumentLocation2@147"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/ResourceRules.plist00386086ddffdf42^806"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/FilterShowcase.app/ResourceRules.plist    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app36"81A0B8E5-78BB-438D-AA7B-E21B4B905179-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCpResource /Users/vgusev/repos/GPUImage-eight/examples/iOS/SimpleImageFilter/SimpleImageFilter/WID-small.jpg Build/Products/Debug-iphoneos/FilterShowcase.app/WID-small.jpg
-s424639741.866140
-e424639741.896980
-r1
-xCpResource
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/SimpleImageFilter/SimpleImageFilter/WID-small.jpg
-xBuild/Products/Debug-iphoneos/FilterShowcase.app/WID-small.jpg
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy Build/Products/Debug-iphoneos/FilterShowcase.app/WID-small.jpg171"CpResource /Users/vgusev/repos/GPUImage-eight/examples/iOS/SimpleImageFilter/SimpleImageFilter/WID-small.jpg Build/Products/Debug-iphoneos/FilterShowcase.app/WID-small.jpg5fd1ddfd7c4fb941^dfa4e5fd7c4fb941^---0#0#1#-19%DVTDocumentLocation2@141"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/WID-small.jpg00386086ddffdf42^752"CpResource /Users/vgusev/repos/GPUImage-eight/examples/iOS/SimpleImageFilter/SimpleImageFilter/WID-small.jpg Build/Products/Debug-iphoneos/FilterShowcase.app/WID-small.jpg    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/vgusev/repos/GPUImage-eight/examples/iOS/SimpleImageFilter/SimpleImageFilter/WID-small.jpg /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app36"E3D34EA0-FA70-40AD-9850-02334E89D670-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CCpResource FilterShowcase/CustomFilter.fsh Build/Products/Debug-iphoneos/FilterShowcase.app/CustomFilter.fsh
-s424639741.866033
-e424639741.870544
-r1
-xCpResource
-xFilterShowcase/CustomFilter.fsh
-xBuild/Products/Debug-iphoneos/FilterShowcase.app/CustomFilter.fsh
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy Build/Products/Debug-iphoneos/FilterShowcase.app/CustomFilter.fsh108"CpResource FilterShowcase/CustomFilter.fsh Build/Products/Debug-iphoneos/FilterShowcase.app/CustomFilter.fshc1caddfd7c4fb941^6edcdefd7c4fb941^---0#0#1#-19%DVTDocumentLocation2@144"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/CustomFilter.fsh00386086ddffdf42^686"CpResource FilterShowcase/CustomFilter.fsh Build/Products/Debug-iphoneos/FilterShowcase.app/CustomFilter.fsh    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/CustomFilter.fsh /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app36"58AC6539-EC78-4491-9A7C-ACBF0C7C5C7B-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CGenerateDSYMFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app.dSYM /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/FilterShowcase
-s424639741.746913
-e424639741.858122
-r1
-xGenerateDSYMFile
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app.dSYM
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/FilterShowcase
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Generate /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app.dSYM134"GenerateDSYMFile Build/Products/Debug-iphoneos/FilterShowcase.app.dSYM Build/Products/Debug-iphoneos/FilterShowcase.app/FilterShowcasec344bffd7c4fb941^36aedbfd7c4fb941^---0#0#1#-19%DVTDocumentLocation2@132"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app.dSYM00386086ddffdf42^740"GenerateDSYMFile Build/Products/Debug-iphoneos/FilterShowcase.app.dSYM Build/Products/Debug-iphoneos/FilterShowcase.app/FilterShowcase    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/FilterShowcase -o /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app.dSYM36"0305A39B-A071-413A-BDCE-2B525247D889-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CLd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/FilterShowcase normal armv7
-s424639741.562065
-e424639741.737993
-r1
-xLd
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/FilterShowcase
-xnormal
-xarmv7
-d/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/FilterShowcase.LinkFileList
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/crt1.3.1.o
-d/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/main.o
-d/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseAppDelegate.o
-d/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseFilterViewController.o
-d/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/ShowcaseFilterListController.o
-d/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/libGPUImage.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libgcc_s.1.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Link /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/FilterShowcase79"Ld Build/Products/Debug-iphoneos/FilterShowcase.app/FilterShowcase normal armv723f48ffd7c4fb941^70edbcfd7c4fb941^---0#0#1#--1736"Ld Build/Products/Debug-iphoneos/FilterShowcase.app/FilterShowcase normal armv7    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export IPHONEOS_DEPLOYMENT_TARGET=4.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos -F/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos -filelist /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/FilterShowcase.LinkFileList -dead_strip -ObjC -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=4.0 /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/libGPUImage.a -weak_framework CoreImage -framework OpenGLES -framework AVFoundation -framework CoreMedia -weak_framework CoreVideo -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -Xlinker -dependency_info -Xlinker /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/Objects-normal/armv7/FilterShowcase_dependency_info.dat -o /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/FilterShowcase36"5306BC56-B3BF-4040-95A1-535DF849E452-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CProcessInfoPlistFile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Info.plist /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/FilterShowcase-Info.plist
-s424639740.848887
-e424639740.851672
-r1
-xProcessInfoPlistFile
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Info.plist
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/FilterShowcase-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Process /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/FilterShowcase-Info.plist121"ProcessInfoPlistFile Build/Products/Debug-iphoneos/FilterShowcase.app/Info.plist FilterShowcase/FilterShowcase-Info.plistf65dd9fc7c4fb941^8107dafc7c4fb941^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/FilterShowcase-Info.plist0000000000000000^977"ProcessInfoPlistFile Build/Products/Debug-iphoneos/FilterShowcase.app/Info.plist FilterShowcase/FilterShowcase-Info.plist    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/FilterShowcase-Info.plist -genpkginfo /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/ResourceRules.plist -o /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/Info.plist36"F51EA464-4B8C-465D-A81C-D0313CDD26E7-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CProcessPCH /Users/vgusev/Library/Developer/Xcode/DerivedData/FilterShowcase-himdvewbmfuyhycuirjunhytoigg/Index/PrecompiledHeaders/FilterShowcase-Prefix-csprbcnfgshhgbdbscrhmqvuluwv_ast/FilterShowcase-Prefix.pch.pch FilterShowcase/FilterShowcase-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/PrecompiledHeaders/FilterShowcase-Prefix-cfiyrizsdfmdnsczxeekbrlfxdiv/FilterShowcase-Prefix.pch.pch FilterShowcase/FilterShowcase-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s424639740.871419
-e424639741.198115
-r1
-xProcessPCH
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/PrecompiledHeaders/FilterShowcase-Prefix-cfiyrizsdfmdnsczxeekbrlfxdiv/FilterShowcase-Prefix.pch.pch
-xFilterShowcase/FilterShowcase-Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile FilterShowcase/FilterShowcase-Prefix.pch240"ProcessPCH Build/Intermediates/PrecompiledHeaders/FilterShowcase-Prefix-cfiyrizsdfmdnsczxeekbrlfxdiv/FilterShowcase-Prefix.pch.pch FilterShowcase/FilterShowcase-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerfa28dffc7c4fb941^e5b932fd7c4fb941^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch0000000000000000^3668"ProcessPCH Build/Intermediates/PrecompiledHeaders/FilterShowcase-Prefix-cfiyrizsdfmdnsczxeekbrlfxdiv/FilterShowcase-Prefix.pch.pch FilterShowcase/FilterShowcase-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase-generated-files.hmap -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase-own-target-headers.hmap -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase-all-target-headers.hmap -iquote /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase-project-headers.hmap -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/include -I../../../framework/Source -I../../../framework/Source/iOS -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/DerivedSources/armv7 -I/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/DerivedSources -F/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/PrecompiledHeaders/FilterShowcase-Prefix-cfiyrizsdfmdnsczxeekbrlfxdiv/FilterShowcase-Prefix.pch.dia -MMD -MT dependencies -MF /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/PrecompiledHeaders/FilterShowcase-Prefix-cfiyrizsdfmdnsczxeekbrlfxdiv/FilterShowcase-Prefix.pch.d -c /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch -o /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/PrecompiledHeaders/FilterShowcase-Prefix-cfiyrizsdfmdnsczxeekbrlfxdiv/FilterShowcase-Prefix.pch.pch36"0B7524F4-894B-4878-B777-352159909C93-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase.xcent
-s424639746.011557
-e424639746.013886
-r1
-xProcessProductPackaging
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase.xcent
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection242"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase.xcent242"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase.xcent570403027d4fb941^e38e03027d4fb941^---0#0#1#-19%DVTDocumentLocation2@176"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase.xcent00386086ddffdf42^848"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase.xcent    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Intermediates/FilterShowcase.build/Debug-iphoneos/FilterShowcase.build/FilterShowcase.xcent36"6015F276-AD03-4462-A886-291FE6823E6D-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CProcessProductPackaging /Users/vgusev/Library/MobileDevice/Provisioning\ Profiles/8202D712-2F68-43C9-881F-A919BFD9427F.mobileprovision /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/embedded.mobileprovision
-s424639745.998505
-e424639746.000604
-r1
-xProcessProductPackaging
-x/Users/vgusev/Library/MobileDevice/Provisioning Profiles/8202D712-2F68-43C9-881F-A919BFD9427F.mobileprovision
-x/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/embedded.mobileprovision
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection208"ProcessProductPackaging /Users/vgusev/Library/MobileDevice/Provisioning\ Profiles/8202D712-2F68-43C9-881F-A919BFD9427F.mobileprovision Build/Products/Debug-iphoneos/FilterShowcase.app/embedded.mobileprovision208"ProcessProductPackaging /Users/vgusev/Library/MobileDevice/Provisioning\ Profiles/8202D712-2F68-43C9-881F-A919BFD9427F.mobileprovision Build/Products/Debug-iphoneos/FilterShowcase.app/embedded.mobileprovision2eacff017d4fb941^5f2800027d4fb941^---0#0#1#-19%DVTDocumentLocation2@152"file://localhost/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/embedded.mobileprovision00386086ddffdf42^754"ProcessProductPackaging /Users/vgusev/Library/MobileDevice/Provisioning\ Profiles/8202D712-2F68-43C9-881F-A919BFD9427F.mobileprovision Build/Products/Debug-iphoneos/FilterShowcase.app/embedded.mobileprovision    cd /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/vgusev/Library/MobileDevice/Provisioning\ Profiles/8202D712-2F68-43C9-881F-A919BFD9427F.mobileprovision -o /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app/embedded.mobileprovision36"1FCF9B7A-D4BA-499F-84F8-FE6339BA8346-
-b22588ED9-AF65-4AF3-AEE9-95854E6C7D57
-
-CTouch /Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcase/Build/Products/Debug-iphoneos/FilterShowcase.app
-r0
-

@@ -376,6 +376,7 @@
 				BC73FD3C19612C19004A9191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
