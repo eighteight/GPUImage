@@ -35,14 +35,14 @@ NSString *const kGPUImageCrosshatchFragmentShaderString = SHADER_STRING
      }
      if (luminance < 0.50) 
      {
-         if (mod(textureCoordinate.x + textureCoordinate.y - (crossHatchSpacing / 2.0), crossHatchSpacing) <= lineWidth) 
+         if (mod(textureCoordinate.x + textureCoordinate.y - (crossHatchSpacing * 0.5), crossHatchSpacing) <= lineWidth)
          {
              colorToDisplay = vec4(0.0, 0.0, 0.0, 1.0);
          }
      }
      if (luminance < 0.3) 
      {
-         if (mod(textureCoordinate.x - textureCoordinate.y - (crossHatchSpacing / 2.0), crossHatchSpacing) <= lineWidth) 
+         if (mod(textureCoordinate.x - textureCoordinate.y - (crossHatchSpacing * 0.5), crossHatchSpacing) <= lineWidth)
          {
              colorToDisplay = vec4(0.0, 0.0, 0.0, 1.0);
          }
@@ -84,14 +84,14 @@ NSString *const kGPUImageCrosshatchFragmentShaderString = SHADER_STRING
      }
      if (luminance < 0.50)
      {
-         if (mod(textureCoordinate.x + textureCoordinate.y - (crossHatchSpacing / 2.0), crossHatchSpacing) <= lineWidth)
+         if (mod(textureCoordinate.x + textureCoordinate.y - (crossHatchSpacing * 0.5), crossHatchSpacing) <= lineWidth)
          {
              colorToDisplay = vec4(0.0, 0.0, 0.0, 1.0);
          }
      }
      if (luminance < 0.3)
      {
-         if (mod(textureCoordinate.x - textureCoordinate.y - (crossHatchSpacing / 2.0), crossHatchSpacing) <= lineWidth)
+         if (mod(textureCoordinate.x - textureCoordinate.y - (crossHatchSpacing * 0.5), crossHatchSpacing) <= lineWidth)
          {
              colorToDisplay = vec4(0.0, 0.0, 0.0, 1.0);
          }
