@@ -132,6 +132,7 @@
 #import "GPUImageLocalBinaryPatternFilter.h"
 #import "GPUImageLanczosResamplingFilter.h"
 #import "GPUImageAverageColor.h"
+//#import "GPUImageAVCamera.h"
 #import "GPUImageSolidColorGenerator.h"
 #import "GPUImageLuminosity.h"
 #import "GPUImageAverageLuminanceThresholdFilter.h"

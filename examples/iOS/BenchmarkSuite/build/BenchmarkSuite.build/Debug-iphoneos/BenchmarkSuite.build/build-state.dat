@@ -1,0 +1,1434 @@
+TBenchmarkSuite
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Info.plist /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkSuite-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Debug-iphoneos/BenchmarkSuite.app/ResourceRules.plist
+cProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BenchmarkSuite-Prefix-dgslpgvqabyezfbkchaulekedxgd/BenchmarkSuite-Prefix.pch.pch BenchmarkSuite/BenchmarkSuite-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/main.o /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkAppDelegate.o /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkTableViewController.o /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkTableViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/VideoFilteringBenchmarkController.o /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringBenchmarkController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/VideoFilteringDisplayController.o /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringDisplayController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/ImageFilteringBenchmarkController.o /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/ImageFilteringBenchmarkController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/BenchmarkSuite normal armv7
+cGenerateDSYMFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app.dSYM /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/BenchmarkSuite
+cCopyStringsFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/en.lproj/InfoPlist.strings BenchmarkSuite/en.lproj/InfoPlist.strings
+cCompileXIB /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkTableViewController.xib
+cCompileXIB /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringDisplayController.xib
+cCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/41-picture-frame.png BenchmarkSuite/41-picture-frame.png
+cCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/41-picture-frame@2x.png BenchmarkSuite/41-picture-frame@2x.png
+cCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/46-movie-2.png BenchmarkSuite/46-movie-2.png
+cCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/46-movie-2@2x.png BenchmarkSuite/46-movie-2@2x.png
+cCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/86-camera.png BenchmarkSuite/86-camera.png
+cCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/86-camera@2x.png BenchmarkSuite/86-camera@2x.png
+cCpResource /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleImageFilter/SimpleImageFilter/Lambeau.jpg build/Debug-iphoneos/BenchmarkSuite.app/Lambeau.jpg
+cCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Icon-72.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png
+cCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Icon-72@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png
+cCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Icon.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png
+cCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Default-568h@2x.png Default-568h@2x.png
+cCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Icon@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png
+cCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/iTunesArtwork.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png
+cProcessProductPackaging /Users/eight/Library/MobileDevice/Provisioning\ Profiles/DFE1C239-7B17-444D-B348-122984016461.mobileprovision /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/embedded.mobileprovision
+cTouch /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite.xcent
+cCodeSign /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c00000000535078670000000000000132
+t1397782631
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c00000000531E7D7D0000000000000094
+t1394507133
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c00000000531E7D7D0000000000000096
+t1394507133
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c00000000531E7D7D000000000000036B
+t1394507133
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531E7D7D000000000000019E
+t1394507133
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000531E7D7E0000000000632990
+t1394507134
+s6498704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005347240000000000004D7BC0
+t1397171200
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c00000000531E7D7E0000000000433410
+t1394507134
+s4404240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000531E7D7E00000000002CB700
+t1394507134
+s2930432
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000531E7D7E000000000006DCD0
+t1394507134
+s449744
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000531E7D7F0000000000A90C10
+t1394507135
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/GLKit.framework/GLKit
+c00000000531E7D7F00000000000F92E0
+t1394507135
+s1020640
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000531E7D7F00000000000417E0
+t1394507135
+s268256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000531E7D800000000000649DB0
+t1394507136
+s6593968
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000531E7D830000000002759920
+t1394507139
+s41261344
+
+N/Users/eight/Library/MobileDevice/Provisioning Profiles/DFE1C239-7B17-444D-B348-122984016461.mobileprovision
+c0000000053BE121E0000000000001DFB
+t1404965406
+s7675
+
+N/Users/eight/repos/GPUImage-eight/build/Debug-iphoneos/libGPUImage.a
+c0000000053FE4CBB00000000003DB540
+t1409174715
+s4044096
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/41-picture-frame.png
+c00000000539A3F1500000000000000E8
+t1402617621
+s232
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/41-picture-frame@2x.png
+c00000000539A3F15000000000000015A
+t1402617621
+s346
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/46-movie-2.png
+c00000000539A3F150000000000000127
+t1402617621
+s295
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/46-movie-2@2x.png
+c00000000539A3F1500000000000001D9
+t1402617621
+s473
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/86-camera.png
+c00000000539A3F15000000000000015A
+t1402617621
+s346
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/86-camera@2x.png
+c00000000539A3F150000000000000282
+t1402617621
+s642
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkAppDelegate.m
+c00000000539A3F150000000000000E43
+t1402617621
+s3651
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkSuite-Info.plist
+c00000000539A3F15000000000000063B
+t1402617621
+s1595
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkSuite-Prefix.pch
+c00000000539A3F15000000000000014B
+t1402617621
+s331
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkTableViewController.m
+c00000000539A3F15000000000000116F
+t1402617621
+s4463
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkTableViewController.xib
+c00000000539A3F15000000000000251E
+t1402617621
+s9502
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/ImageFilteringBenchmarkController.m
+c00000000539A3F15000000000000189D
+t1402617621
+s6301
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringBenchmarkController.m
+c00000000539A3F15000000000000033B
+t1402617621
+s827
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringDisplayController.m
+c00000000539A3F150000000000002941
+t1402617621
+s10561
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringDisplayController.xib
+c00000000539A3F150000000000001488
+t1402617621
+s5256
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/en.lproj/InfoPlist.strings
+c00000000539A3F15000000000000002D
+t1402617621
+s45
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/main.m
+c00000000539A3F1500000000000000E1
+t1402617621
+s225
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/Default-568h@2x.png
+c00000000539A3F1500000000000048A2
+t1402617621
+s18594
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite.xcent
+t1409174717
+s525
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkAppDelegate.o
+t1409174716
+s86076
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkSuite.LinkFileList
+c0000000053FE4CBB0000000000000413
+t1409174715
+s1043
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkTableViewController.o
+t1409174716
+s65860
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/ImageFilteringBenchmarkController.o
+t1409174716
+s66172
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/VideoFilteringBenchmarkController.o
+t1409174716
+s58408
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/VideoFilteringDisplayController.o
+t1409174716
+s94368
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/main.o
+t1409174716
+s3484
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app
+t1409174717
+s782
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app.dSYM
+t2
+s0
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/41-picture-frame.png
+t1409174717
+s234
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/41-picture-frame@2x.png
+t1409174717
+s463
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/46-movie-2.png
+t1409174717
+s387
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/46-movie-2@2x.png
+t1409174717
+s671
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/86-camera.png
+t1409174717
+s274
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/86-camera@2x.png
+t1409174717
+s533
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/BenchmarkSuite
+t1409174716
+s1262328
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/BenchmarkTableViewController.nib
+t1409174717
+s1878
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Default-568h@2x.png
+t1409174717
+s7014
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Icon-72.png
+t1409174717
+s6950
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Icon-72@2x.png
+t1409174717
+s14872
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Icon.png
+t1409174717
+s5004
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Icon@2x.png
+t1409174717
+s10436
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Info.plist
+t1409174715
+s1400
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Lambeau.jpg
+t1409174717
+s928460
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/PkgInfo
+t1409174715
+s8
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/ResourceRules.plist
+t1409174715
+s150
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/VideoFilteringDisplayController.nib
+t1409174717
+s1332
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/embedded.mobileprovision
+t1409174717
+s7675
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/en.lproj/InfoPlist.strings
+t1409174717
+s42
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/iTunesArtwork.png
+t1409174717
+s69706
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png
+c00000000539A3F1500000000000013B6
+t1402617621
+s5046
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png
+c00000000539A3F1500000000000027F5
+t1402617621
+s10229
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png
+c00000000539A3F150000000000000F23
+t1402617621
+s3875
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png
+c00000000539A3F150000000000001D72
+t1402617621
+s7538
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png
+c00000000539A3F15000000000000B31F
+t1402617621
+s45855
+
+N/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleImageFilter/SimpleImageFilter/Lambeau.jpg
+c00000000539A3F1500000000000E2ACC
+t1402617621
+s928460
+
+N/var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BenchmarkSuite-Prefix-dgslpgvqabyezfbkchaulekedxgd/BenchmarkSuite-Prefix.pch.pch
+t1409174716
+s5309504
+
+CBuild AST from /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkAppDelegate.m
+r0
+
+CBuild AST from /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkTableViewController.m
+r0
+
+CBuild AST from /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/ImageFilteringBenchmarkController.m
+r0
+
+CBuild AST from /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringBenchmarkController.m
+r0
+
+CBuild AST from /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringDisplayController.m
+r0
+
+CBuild AST from /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies925afc3b84aeb941^1bd5fd3b84aeb941^---0#1#1#--18"Check dependencies36"8545694B-63A3-459C-A075-50233276E339-
+
+CCodeSign /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app
+s430867517.826235
+e430867518.030683
+r1
+xCodeSign
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"CodeSign build/Debug-iphoneos/BenchmarkSuite.app48"CodeSign build/Debug-iphoneos/BenchmarkSuite.app7cb5d33d84aeb941^6edb073e84aeb941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/0000000000000000^1099"CodeSign build/Debug-iphoneos/BenchmarkSuite.app    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Vladimir Gusev (5B3DNZYZSG)" and provisioning profile "iOS Team Provisioning Profile: *" (DFE1C239-7B17-444D-B348-122984016461)    /usr/bin/codesign --force --sign E7B1BCE684DF1B510A66C4C18D30BAEEF1ACE5B4 --resource-rules=/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/ResourceRules.plist --entitlements /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite.xcent /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app36"A237D0E8-FF9C-417B-9E00-F56DBAD7981D-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CCompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkAppDelegate.o /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430867516.361904
+e430867516.641770
+r1
+xCompileC
+xbuild/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkAppDelegate.o
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkAppDelegate.m
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkAppDelegate.h
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/ImageFilteringBenchmarkController.h
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkTableViewController.h
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringBenchmarkController.h
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringDisplayController.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GLProgram.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImageContext.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFramebuffer.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFramebufferCache.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOutput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImageView.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVideoCamera.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageStillCamera.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMovie.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImagePicture.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRawDataInput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRawDataOutput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImageMovieWriter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilterPipeline.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTextureOutput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilterGroup.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTextureInput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageUIElement.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBuffer.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoInputFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePixellateFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePixellatePositionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSepiaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorMatrixFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorInvertFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSaturationFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageContrastFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageExposureFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBrightnessFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLevelsFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSharpenFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGammaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSobelEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoPassFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSketchFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageToonFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage3x3TextureSamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSmoothToonFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMultiplyBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDissolveBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageKuwaharaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageKuwaharaRadius3Filter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVignetteFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoPassTextureSamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianBlurPositionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianSelectiveBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOverlayBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDarkenBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLightenBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSwirlFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSourceOverBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorBurnBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorDodgeBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageScreenBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageExclusionBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDifferenceBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSubtractBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHardLightBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSoftLightBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHueBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSaturationBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminosityBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCropFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGrayscaleFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTransformFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageChromaKeyBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHazeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminanceThresholdFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePosterizeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBoxBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAdaptiveThresholdFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageUnsharpMaskFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBulgeDistortionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePinchDistortionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCrosshatchFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCGAColorspaceFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePolarPixellateFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageStretchDistortionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePerlinNoiseFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageJFAVoronoiFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVoronoiConsumerFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMosaicFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTiltShiftFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage3x3ConvolutionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageEmbossFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCannyEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMaskFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramEqualizationFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePrewittEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageXYDerivativeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHarrisCornerDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAlphaBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNormalBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNonMaximumSuppressionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMedianFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBilateralFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCrosshairGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageToneCurveFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNobleCornerDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageShiTomasiFeatureDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageErosionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBErosionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDilationFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBDilationFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOpeningFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBOpeningFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageClosingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBClosingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorPackingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSphereRefractionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMonochromeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOpacityFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHighlightShadowFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFalseColorFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHSBFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHueFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGlassSphereFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLookupFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAmatorkaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMissEtikateFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSoftEleganceFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAddBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDivideBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePolkaDotFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLocalBinaryPatternFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLanczosResamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAverageColor.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSolidColorGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminosity.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAverageLuminanceThresholdFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageWhiteBalanceFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageChromaKeyFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLowPassFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHighPassFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMotionDetector.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHalftoneFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdedNonMaximumSuppressionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHoughTransformLineDetector.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageParallelCoordinateLineTransformFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdSketchFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLineGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLinearBurnBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoInputCrossTextureSamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePoissonBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMotionBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageZoomBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLaplacianFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageiOSBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminanceRangeFilter.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkAppDelegate.m222"CompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkAppDelegate.o BenchmarkSuite/BenchmarkAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler94be5c3c84aeb941^774da43c84aeb941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkAppDelegate.m0000000000000000^3825"CompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkAppDelegate.o BenchmarkSuite/BenchmarkAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/include -I../../../framework -I../../../framework/Resources -I../../../framework/Source -I../../../framework/Source/iOS -I../../../framework/Source/Mac -I../../../framework/Source/iOS/Framework -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/DerivedSources/armv7 -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos -include /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BenchmarkSuite-Prefix-dgslpgvqabyezfbkchaulekedxgd/BenchmarkSuite-Prefix.pch -MMD -MT dependencies -MF /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkAppDelegate.d --serialize-diagnostics /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkAppDelegate.dia -c /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkAppDelegate.m -o /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkAppDelegate.o36"C69957AC-321D-421C-A27D-1E4CC61F700F-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CCompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkTableViewController.o /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkTableViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430867516.362276
+e430867516.445512
+r1
+xCompileC
+xbuild/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkTableViewController.o
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkTableViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkTableViewController.m
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkTableViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkTableViewController.m238"CompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkTableViewController.o BenchmarkSuite/BenchmarkTableViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler23dc5c3c84aeb941^fa0e723c84aeb941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkTableViewController.m0000000000000000^3873"CompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkTableViewController.o BenchmarkSuite/BenchmarkTableViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/include -I../../../framework -I../../../framework/Resources -I../../../framework/Source -I../../../framework/Source/iOS -I../../../framework/Source/Mac -I../../../framework/Source/iOS/Framework -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/DerivedSources/armv7 -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos -include /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BenchmarkSuite-Prefix-dgslpgvqabyezfbkchaulekedxgd/BenchmarkSuite-Prefix.pch -MMD -MT dependencies -MF /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkTableViewController.d --serialize-diagnostics /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkTableViewController.dia -c /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkTableViewController.m -o /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkTableViewController.o36"F2A1F48B-C376-4531-8457-ED25991563BA-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CCompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/ImageFilteringBenchmarkController.o /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/ImageFilteringBenchmarkController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430867516.363448
+e430867516.623272
+r1
+xCompileC
+xbuild/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/ImageFilteringBenchmarkController.o
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/ImageFilteringBenchmarkController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/ImageFilteringBenchmarkController.m
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/ImageFilteringBenchmarkController.h
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkTableViewController.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GLProgram.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImageContext.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFramebuffer.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFramebufferCache.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOutput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImageView.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVideoCamera.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageStillCamera.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMovie.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImagePicture.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRawDataInput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRawDataOutput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImageMovieWriter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilterPipeline.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTextureOutput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilterGroup.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTextureInput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageUIElement.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBuffer.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoInputFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePixellateFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePixellatePositionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSepiaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorMatrixFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorInvertFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSaturationFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageContrastFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageExposureFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBrightnessFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLevelsFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSharpenFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGammaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSobelEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoPassFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSketchFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageToonFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage3x3TextureSamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSmoothToonFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMultiplyBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDissolveBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageKuwaharaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageKuwaharaRadius3Filter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVignetteFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoPassTextureSamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianBlurPositionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianSelectiveBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOverlayBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDarkenBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLightenBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSwirlFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSourceOverBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorBurnBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorDodgeBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageScreenBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageExclusionBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDifferenceBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSubtractBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHardLightBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSoftLightBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHueBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSaturationBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminosityBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCropFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGrayscaleFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTransformFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageChromaKeyBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHazeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminanceThresholdFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePosterizeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBoxBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAdaptiveThresholdFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageUnsharpMaskFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBulgeDistortionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePinchDistortionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCrosshatchFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCGAColorspaceFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePolarPixellateFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageStretchDistortionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePerlinNoiseFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageJFAVoronoiFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVoronoiConsumerFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMosaicFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTiltShiftFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage3x3ConvolutionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageEmbossFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCannyEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMaskFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramEqualizationFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePrewittEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageXYDerivativeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHarrisCornerDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAlphaBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNormalBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNonMaximumSuppressionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMedianFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBilateralFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCrosshairGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageToneCurveFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNobleCornerDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageShiTomasiFeatureDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageErosionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBErosionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDilationFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBDilationFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOpeningFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBOpeningFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageClosingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBClosingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorPackingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSphereRefractionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMonochromeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOpacityFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHighlightShadowFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFalseColorFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHSBFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHueFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGlassSphereFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLookupFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAmatorkaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMissEtikateFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSoftEleganceFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAddBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDivideBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePolkaDotFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLocalBinaryPatternFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLanczosResamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAverageColor.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSolidColorGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminosity.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAverageLuminanceThresholdFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageWhiteBalanceFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageChromaKeyFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLowPassFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHighPassFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMotionDetector.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHalftoneFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdedNonMaximumSuppressionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHoughTransformLineDetector.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageParallelCoordinateLineTransformFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdSketchFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLineGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLinearBurnBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoInputCrossTextureSamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePoissonBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMotionBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageZoomBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLaplacianFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageiOSBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminanceRangeFilter.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/ImageFilteringBenchmarkController.m248"CompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/ImageFilteringBenchmarkController.o BenchmarkSuite/ImageFilteringBenchmarkController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler3c2f5d3c84aeb941^588f9f3c84aeb941^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/ImageFilteringBenchmarkController.m0000000000000000^3903"CompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/ImageFilteringBenchmarkController.o BenchmarkSuite/ImageFilteringBenchmarkController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/include -I../../../framework -I../../../framework/Resources -I../../../framework/Source -I../../../framework/Source/iOS -I../../../framework/Source/Mac -I../../../framework/Source/iOS/Framework -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/DerivedSources/armv7 -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos -include /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BenchmarkSuite-Prefix-dgslpgvqabyezfbkchaulekedxgd/BenchmarkSuite-Prefix.pch -MMD -MT dependencies -MF /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/ImageFilteringBenchmarkController.d --serialize-diagnostics /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/ImageFilteringBenchmarkController.dia -c /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/ImageFilteringBenchmarkController.m -o /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/ImageFilteringBenchmarkController.o36"F95CAFD4-4D89-48D4-819D-BE09EDB13318-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CCompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/VideoFilteringBenchmarkController.o /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringBenchmarkController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430867516.362528
+e430867516.610070
+r1
+xCompileC
+xbuild/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/VideoFilteringBenchmarkController.o
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringBenchmarkController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringBenchmarkController.m
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringBenchmarkController.h
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkTableViewController.h
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringDisplayController.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GLProgram.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImageContext.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFramebuffer.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFramebufferCache.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOutput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImageView.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVideoCamera.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageStillCamera.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMovie.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImagePicture.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRawDataInput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRawDataOutput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImageMovieWriter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilterPipeline.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTextureOutput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilterGroup.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTextureInput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageUIElement.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBuffer.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoInputFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePixellateFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePixellatePositionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSepiaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorMatrixFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorInvertFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSaturationFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageContrastFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageExposureFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBrightnessFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLevelsFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSharpenFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGammaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSobelEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoPassFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSketchFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageToonFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage3x3TextureSamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSmoothToonFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMultiplyBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDissolveBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageKuwaharaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageKuwaharaRadius3Filter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVignetteFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoPassTextureSamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianBlurPositionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianSelectiveBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOverlayBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDarkenBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLightenBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSwirlFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSourceOverBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorBurnBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorDodgeBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageScreenBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageExclusionBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDifferenceBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSubtractBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHardLightBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSoftLightBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHueBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSaturationBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminosityBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCropFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGrayscaleFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTransformFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageChromaKeyBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHazeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminanceThresholdFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePosterizeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBoxBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAdaptiveThresholdFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageUnsharpMaskFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBulgeDistortionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePinchDistortionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCrosshatchFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCGAColorspaceFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePolarPixellateFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageStretchDistortionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePerlinNoiseFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageJFAVoronoiFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVoronoiConsumerFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMosaicFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTiltShiftFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage3x3ConvolutionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageEmbossFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCannyEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMaskFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramEqualizationFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePrewittEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageXYDerivativeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHarrisCornerDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAlphaBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNormalBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNonMaximumSuppressionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMedianFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBilateralFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCrosshairGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageToneCurveFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNobleCornerDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageShiTomasiFeatureDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageErosionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBErosionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDilationFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBDilationFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOpeningFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBOpeningFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageClosingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBClosingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorPackingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSphereRefractionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMonochromeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOpacityFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHighlightShadowFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFalseColorFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHSBFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHueFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGlassSphereFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLookupFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAmatorkaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMissEtikateFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSoftEleganceFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAddBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDivideBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePolkaDotFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLocalBinaryPatternFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLanczosResamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAverageColor.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSolidColorGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminosity.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAverageLuminanceThresholdFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageWhiteBalanceFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageChromaKeyFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLowPassFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHighPassFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMotionDetector.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHalftoneFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdedNonMaximumSuppressionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHoughTransformLineDetector.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageParallelCoordinateLineTransformFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdSketchFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLineGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLinearBurnBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoInputCrossTextureSamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePoissonBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMotionBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageZoomBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLaplacianFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageiOSBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminanceRangeFilter.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringBenchmarkController.m248"CompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/VideoFilteringBenchmarkController.o BenchmarkSuite/VideoFilteringBenchmarkController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerdffa5c3c84aeb941^122e9c3c84aeb941^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringBenchmarkController.m0000000000000000^3903"CompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/VideoFilteringBenchmarkController.o BenchmarkSuite/VideoFilteringBenchmarkController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/include -I../../../framework -I../../../framework/Resources -I../../../framework/Source -I../../../framework/Source/iOS -I../../../framework/Source/Mac -I../../../framework/Source/iOS/Framework -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/DerivedSources/armv7 -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos -include /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BenchmarkSuite-Prefix-dgslpgvqabyezfbkchaulekedxgd/BenchmarkSuite-Prefix.pch -MMD -MT dependencies -MF /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/VideoFilteringBenchmarkController.d --serialize-diagnostics /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/VideoFilteringBenchmarkController.dia -c /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringBenchmarkController.m -o /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/VideoFilteringBenchmarkController.o36"ABFF1B9E-0497-44BB-8F33-0C8D5EC3EDB7-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CCompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/VideoFilteringDisplayController.o /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringDisplayController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430867516.362844
+e430867516.647388
+r1
+xCompileC
+xbuild/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/VideoFilteringDisplayController.o
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringDisplayController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringDisplayController.m
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringDisplayController.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GLProgram.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImageContext.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFramebuffer.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFramebufferCache.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOutput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImageView.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVideoCamera.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageStillCamera.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMovie.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImagePicture.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRawDataInput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRawDataOutput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/iOS/GPUImageMovieWriter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilterPipeline.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTextureOutput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilterGroup.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTextureInput.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageUIElement.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBuffer.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoInputFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePixellateFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePixellatePositionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSepiaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorMatrixFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorInvertFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSaturationFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageContrastFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageExposureFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBrightnessFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLevelsFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSharpenFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGammaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSobelEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoPassFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSketchFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageToonFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage3x3TextureSamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSmoothToonFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMultiplyBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDissolveBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageKuwaharaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageKuwaharaRadius3Filter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVignetteFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoPassTextureSamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianBlurPositionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianSelectiveBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOverlayBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDarkenBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLightenBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSwirlFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSourceOverBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorBurnBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorDodgeBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageScreenBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageExclusionBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDifferenceBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSubtractBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHardLightBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSoftLightBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHueBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSaturationBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminosityBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCropFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGrayscaleFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTransformFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageChromaKeyBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHazeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminanceThresholdFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePosterizeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBoxBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAdaptiveThresholdFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageUnsharpMaskFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBulgeDistortionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePinchDistortionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCrosshatchFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCGAColorspaceFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePolarPixellateFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageStretchDistortionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePerlinNoiseFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageJFAVoronoiFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVoronoiConsumerFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMosaicFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTiltShiftFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage3x3ConvolutionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageEmbossFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCannyEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMaskFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramEqualizationFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePrewittEdgeDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageXYDerivativeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHarrisCornerDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAlphaBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNormalBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNonMaximumSuppressionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMedianFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBilateralFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCrosshairGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageToneCurveFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNobleCornerDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageShiTomasiFeatureDetectionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageErosionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBErosionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDilationFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBDilationFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOpeningFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBOpeningFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageClosingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBClosingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorPackingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSphereRefractionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMonochromeFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOpacityFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHighlightShadowFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFalseColorFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHSBFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHueFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGlassSphereFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLookupFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAmatorkaFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMissEtikateFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSoftEleganceFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAddBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDivideBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePolkaDotFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLocalBinaryPatternFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLanczosResamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAverageColor.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSolidColorGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminosity.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAverageLuminanceThresholdFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageWhiteBalanceFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageChromaKeyFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLowPassFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHighPassFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMotionDetector.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHalftoneFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdedNonMaximumSuppressionFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHoughTransformLineDetector.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageParallelCoordinateLineTransformFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdSketchFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLineGenerator.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLinearBurnBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoInputCrossTextureSamplingFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePoissonBlendFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMotionBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageZoomBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLaplacianFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageiOSBlurFilter.h
+d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminanceRangeFilter.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringDisplayController.m244"CompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/VideoFilteringDisplayController.o BenchmarkSuite/VideoFilteringDisplayController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler77125d3c84aeb941^cfbba53c84aeb941^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringDisplayController.m0000000000000000^3891"CompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/VideoFilteringDisplayController.o BenchmarkSuite/VideoFilteringDisplayController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/include -I../../../framework -I../../../framework/Resources -I../../../framework/Source -I../../../framework/Source/iOS -I../../../framework/Source/Mac -I../../../framework/Source/iOS/Framework -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/DerivedSources/armv7 -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos -include /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BenchmarkSuite-Prefix-dgslpgvqabyezfbkchaulekedxgd/BenchmarkSuite-Prefix.pch -MMD -MT dependencies -MF /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/VideoFilteringDisplayController.d --serialize-diagnostics /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/VideoFilteringDisplayController.dia -c /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringDisplayController.m -o /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/VideoFilteringDisplayController.o36"9B939837-51CF-47B9-8E72-D35B118C1C2C-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CCompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/main.o /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430867516.361598
+e430867516.392742
+r1
+xCompileC
+xbuild/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/main.o
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/main.m
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/main.m190"CompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/main.o BenchmarkSuite/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerf2b05c3c84aeb941^fc8b643c84aeb941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/main.m0000000000000000^3729"CompileC build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/main.o BenchmarkSuite/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/include -I../../../framework -I../../../framework/Resources -I../../../framework/Source -I../../../framework/Source/iOS -I../../../framework/Source/Mac -I../../../framework/Source/iOS/Framework -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/DerivedSources/armv7 -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos -include /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BenchmarkSuite-Prefix-dgslpgvqabyezfbkchaulekedxgd/BenchmarkSuite-Prefix.pch -MMD -MT dependencies -MF /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/main.dia -c /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/main.m -o /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/main.o36"BDB34FCC-7679-4355-A6AB-16C8B24F65EB-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CCompileXIB /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkTableViewController.xib
+s430867517.035004
+e430867517.819465
+r1
+xCompileXIB
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkTableViewController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compiling /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkTableViewController.xib58"CompileXIB BenchmarkSuite/BenchmarkTableViewController.xibef02093d84aeb941^1dc9d13d84aeb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkTableViewController.xib0000000000000000^821"CompileXIB BenchmarkSuite/BenchmarkTableViewController.xib    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/BenchmarkTableViewController.nib /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkTableViewController.xib36"F0CFC639-6F31-44B6-A378-4BC4EBE6E243-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CCompileXIB /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringDisplayController.xib
+s430867517.035200
+e430867517.796254
+r1
+xCompileXIB
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringDisplayController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compiling /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringDisplayController.xib61"CompileXIB BenchmarkSuite/VideoFilteringDisplayController.xiba110093d84aeb941^06d8cb3d84aeb941^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringDisplayController.xib0000000000000000^830"CompileXIB BenchmarkSuite/VideoFilteringDisplayController.xib    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/VideoFilteringDisplayController.nib /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/VideoFilteringDisplayController.xib36"16CF25E9-8BFD-45F4-A9EA-D13B65A35367-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/41-picture-frame.png BenchmarkSuite/41-picture-frame.png
+s430867517.035393
+e430867517.108035
+r1
+xCopyPNGFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/41-picture-frame.png
+xBenchmarkSuite/41-picture-frame.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/41-picture-frame.png BenchmarkSuite/41-picture-frame.png108"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/41-picture-frame.png BenchmarkSuite/41-picture-frame.pngee25093d84aeb941^47aa2f3d84aeb941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/41-picture-frame.png0000000000000000^698"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/41-picture-frame.png BenchmarkSuite/41-picture-frame.png    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/41-picture-frame.png /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/41-picture-frame.png36"4BD1C030-99F8-4FCC-BD2C-0F5FDFB3EF1F-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/41-picture-frame@2x.png BenchmarkSuite/41-picture-frame@2x.png
+s430867517.035644
+e430867517.108655
+r1
+xCopyPNGFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/41-picture-frame@2x.png
+xBenchmarkSuite/41-picture-frame@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/41-picture-frame@2x.png BenchmarkSuite/41-picture-frame@2x.png114"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/41-picture-frame@2x.png BenchmarkSuite/41-picture-frame@2x.png0d36093d84aeb941^8db52f3d84aeb941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/41-picture-frame@2x.png0000000000000000^710"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/41-picture-frame@2x.png BenchmarkSuite/41-picture-frame@2x.png    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/41-picture-frame@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/41-picture-frame@2x.png36"54EF969C-DA21-4D85-A91A-6DC9CC0296BB-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/46-movie-2.png BenchmarkSuite/46-movie-2.png
+s430867517.035860
+e430867517.108271
+r1
+xCopyPNGFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/46-movie-2.png
+xBenchmarkSuite/46-movie-2.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/46-movie-2.png BenchmarkSuite/46-movie-2.png96"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/46-movie-2.png BenchmarkSuite/46-movie-2.png1440093d84aeb941^c0b12f3d84aeb941^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/46-movie-2.png0000000000000000^674"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/46-movie-2.png BenchmarkSuite/46-movie-2.png    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/46-movie-2.png /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/46-movie-2.png36"D29A90A7-8CD8-40DF-A523-64038B506783-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/46-movie-2@2x.png BenchmarkSuite/46-movie-2@2x.png
+s430867517.036151
+e430867517.108173
+r1
+xCopyPNGFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/46-movie-2@2x.png
+xBenchmarkSuite/46-movie-2@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/46-movie-2@2x.png BenchmarkSuite/46-movie-2@2x.png102"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/46-movie-2@2x.png BenchmarkSuite/46-movie-2@2x.png1e51093d84aeb941^c9af2f3d84aeb941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/46-movie-2@2x.png0000000000000000^686"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/46-movie-2@2x.png BenchmarkSuite/46-movie-2@2x.png    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/46-movie-2@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/46-movie-2@2x.png36"3BDBCF68-71C5-4F5C-AECE-426BE9F1A605-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/86-camera.png BenchmarkSuite/86-camera.png
+s430867517.036670
+e430867517.108095
+r1
+xCopyPNGFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/86-camera.png
+xBenchmarkSuite/86-camera.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/86-camera.png BenchmarkSuite/86-camera.png94"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/86-camera.png BenchmarkSuite/86-camera.png6972093d84aeb941^d1ad2f3d84aeb941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/86-camera.png0000000000000000^670"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/86-camera.png BenchmarkSuite/86-camera.png    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/86-camera.png /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/86-camera.png36"F54A9993-F3DC-4D47-8BCB-1FD5D2518536-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/86-camera@2x.png BenchmarkSuite/86-camera@2x.png
+s430867517.038091
+e430867517.108551
+r1
+xCopyPNGFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/86-camera@2x.png
+xBenchmarkSuite/86-camera@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/86-camera@2x.png BenchmarkSuite/86-camera@2x.png100"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/86-camera@2x.png BenchmarkSuite/86-camera@2x.png2dd1093d84aeb941^96b32f3d84aeb941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/86-camera@2x.png0000000000000000^682"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/86-camera@2x.png BenchmarkSuite/86-camera@2x.png    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/86-camera@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/86-camera@2x.png36"8C1C2DC2-744B-44A2-A744-27535D2E6A15-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Default-568h@2x.png Default-568h@2x.png
+s430867517.109534
+e430867517.207903
+r1
+xCopyPNGFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Default-568h@2x.png
+xDefault-568h@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/Default-568h@2x.png Default-568h@2x.png91"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/Default-568h@2x.png Default-568h@2x.png9f1d1c3d84aeb941^c939353d84aeb941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/Default-568h@2x.png0000000000000000^664"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/Default-568h@2x.png Default-568h@2x.png    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/Default-568h@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Default-568h@2x.png36"6E24A3AF-C180-4E76-A2AA-5100E6D6EFAF-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Icon-72.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png
+s430867517.108770
+e430867517.143411
+r1
+xCopyPNGFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Icon-72.png
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/Icon-72.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png134"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/Icon-72.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.pngffec1b3d84aeb941^83bf2f3d84aeb941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png0000000000000000^688"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/Icon-72.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72.png /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Icon-72.png36"1B1C1DE0-C8C0-49FD-804B-1A5C928B9DA5-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Icon-72@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png
+s430867517.109070
+e430867517.148717
+r1
+xCopyPNGFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Icon-72@2x.png
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/Icon-72@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png140"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/Icon-72@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.pngf8fd1b3d84aeb941^adc12f3d84aeb941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png0000000000000000^700"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/Icon-72@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon-72@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Icon-72@2x.png36"1BFBB898-337E-4E02-BBEC-9F3C0901B2AF-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Icon.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png
+s430867517.109294
+e430867517.143161
+r1
+xCopyPNGFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Icon.png
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/Icon.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png128"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/Icon.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png8c121c3d84aeb941^6abd2f3d84aeb941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png0000000000000000^676"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/Icon.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon.png /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Icon.png36"8F1CD65B-76F9-4822-9CBC-03C40916B714-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Icon@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png
+s430867517.109716
+e430867517.150209
+r1
+xCopyPNGFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Icon@2x.png
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/Icon@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png134"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/Icon@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png40331c3d84aeb941^a4c32f3d84aeb941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png0000000000000000^688"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/Icon@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/Icon@2x.png /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Icon@2x.png36"F37F883C-ED8E-4974-A94F-68E0BA1B5C66-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CCopyPNGFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/iTunesArtwork.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png
+s430867517.117600
+e430867517.221176
+r1
+xCopyPNGFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/iTunesArtwork.png
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection146"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/iTunesArtwork.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png146"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/iTunesArtwork.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png7b2f1e3d84aeb941^0aa0383d84aeb941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png0000000000000000^712"CopyPNGFile build/Debug-iphoneos/BenchmarkSuite.app/iTunesArtwork.png /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/eight/repos/GPUImage-eight/examples/iOS/SharedIcons/iTunesArtwork.png /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/iTunesArtwork.png36"DAB5754B-CB4A-41F5-B9E8-D0AEFF030735-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CCopyStringsFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/en.lproj/InfoPlist.strings BenchmarkSuite/en.lproj/InfoPlist.strings
+s430867517.034753
+e430867517.037697
+r1
+xCopyStringsFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/en.lproj/InfoPlist.strings
+xBenchmarkSuite/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy BenchmarkSuite/en.lproj/InfoPlist.strings124"CopyStringsFile build/Debug-iphoneos/BenchmarkSuite.app/en.lproj/InfoPlist.strings BenchmarkSuite/en.lproj/InfoPlist.strings8bfa083d84aeb941^5da7093d84aeb941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/en.lproj/InfoPlist.strings0000000000000000^628"CopyStringsFile build/Debug-iphoneos/BenchmarkSuite.app/en.lproj/InfoPlist.strings BenchmarkSuite/en.lproj/InfoPlist.strings    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/en.lproj -- BenchmarkSuite/en.lproj/InfoPlist.strings36"D893027A-9E18-4D9B-B60F-41DC2E37BB89-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Debug-iphoneos/BenchmarkSuite.app/ResourceRules.plist
+s430867515.994270
+e430867515.995066
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/BenchmarkSuite.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphoneos/BenchmarkSuite.app/ResourceRules.plist192"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Debug-iphoneos/BenchmarkSuite.app/ResourceRules.plist5c93fe3b84aeb941^e4bdfe3b84aeb941^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/ResourceRules.plist00343ce8deffdf42^786"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/Debug-iphoneos/BenchmarkSuite.app/ResourceRules.plist    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app36"12277802-FEAF-4272-A98E-FD8635F30B4F-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CCpResource /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleImageFilter/SimpleImageFilter/Lambeau.jpg build/Debug-iphoneos/BenchmarkSuite.app/Lambeau.jpg
+s430867517.108389
+e430867517.116414
+r1
+xCpResource
+x/Users/eight/repos/GPUImage-eight/examples/iOS/SimpleImageFilter/SimpleImageFilter/Lambeau.jpg
+xbuild/Debug-iphoneos/BenchmarkSuite.app/Lambeau.jpg
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphoneos/BenchmarkSuite.app/Lambeau.jpg157"CpResource /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleImageFilter/SimpleImageFilter/Lambeau.jpg build/Debug-iphoneos/BenchmarkSuite.app/Lambeau.jpg5ad81b3d84aeb941^aaba2f3d84aeb941^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Lambeau.jpg00343ce8deffdf42^724"CpResource /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleImageFilter/SimpleImageFilter/Lambeau.jpg build/Debug-iphoneos/BenchmarkSuite.app/Lambeau.jpg    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleImageFilter/SimpleImageFilter/Lambeau.jpg /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app36"9F198D64-8605-408C-9D1F-FF2016DF8E17-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CGenerateDSYMFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app.dSYM /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/BenchmarkSuite
+s430867516.921983
+e430867517.034347
+r1
+xGenerateDSYMFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app.dSYM
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/BenchmarkSuite
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Generate /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app.dSYM116"GenerateDSYMFile build/Debug-iphoneos/BenchmarkSuite.app.dSYM build/Debug-iphoneos/BenchmarkSuite.app/BenchmarkSuite8f19ec3c84aeb941^f3cb083d84aeb941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app.dSYM00343ce8deffdf42^701"GenerateDSYMFile build/Debug-iphoneos/BenchmarkSuite.app.dSYM build/Debug-iphoneos/BenchmarkSuite.app/BenchmarkSuite    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/BenchmarkSuite -o /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app.dSYM36"412012AC-5FDC-46E8-8596-8313ABB1D259-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CLd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/BenchmarkSuite normal armv7
+s430867516.649237
+e430867516.921157
+r1
+xLd
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/BenchmarkSuite
+xnormal
+xarmv7
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkSuite.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/crt1.3.1.o
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/main.o
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkAppDelegate.o
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkTableViewController.o
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/VideoFilteringBenchmarkController.o
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/VideoFilteringDisplayController.o
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/ImageFilteringBenchmarkController.o
+d/Users/eight/repos/GPUImage-eight/build/Debug-iphoneos/libGPUImage.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/GLKit.framework/GLKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Link /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/BenchmarkSuite70"Ld build/Debug-iphoneos/BenchmarkSuite.app/BenchmarkSuite normal armv78448a63c84aeb941^0fd2eb3c84aeb941^---0#0#1#--1635"Ld build/Debug-iphoneos/BenchmarkSuite.app/BenchmarkSuite normal armv7    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos -F/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos -filelist /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkSuite.LinkFileList -dead_strip -ObjC -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=5.0 /Users/eight/repos/GPUImage-eight/build/Debug-iphoneos/libGPUImage.a -framework GLKit -framework CoreImage -framework AVFoundation -framework OpenGLES -framework CoreMedia -framework CoreVideo -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -Xlinker -dependency_info -Xlinker /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/Objects-normal/armv7/BenchmarkSuite_dependency_info.dat -o /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/BenchmarkSuite36"D9658A26-8488-4423-B552-7EF2467F5F90-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CProcessInfoPlistFile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Info.plist /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkSuite-Info.plist
+s430867515.992333
+e430867515.993956
+r1
+xProcessInfoPlistFile
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Info.plist
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkSuite-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Process /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkSuite-Info.plist112"ProcessInfoPlistFile build/Debug-iphoneos/BenchmarkSuite.app/Info.plist BenchmarkSuite/BenchmarkSuite-Info.plistdb19fe3b84aeb941^5c74fe3b84aeb941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkSuite-Info.plist0000000000000000^936"ProcessInfoPlistFile build/Debug-iphoneos/BenchmarkSuite.app/Info.plist BenchmarkSuite/BenchmarkSuite-Info.plist    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkSuite-Info.plist -genpkginfo /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/ResourceRules.plist -o /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/Info.plist36"66B74409-C1E6-43B2-9CDB-EB06285CA740-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CProcessPCH /Users/eight/Library/Developer/Xcode/DerivedData/BenchmarkSuite-garnusxvvkoyihdlskfrkziahnke/Index/PrecompiledHeaders/BenchmarkSuite-Prefix-dshqfwfhxvqqdkblbxwdvqzvpors_ast/BenchmarkSuite-Prefix.pch.pch BenchmarkSuite/BenchmarkSuite-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BenchmarkSuite-Prefix-dgslpgvqabyezfbkchaulekedxgd/BenchmarkSuite-Prefix.pch.pch BenchmarkSuite/BenchmarkSuite-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430867515.995557
+e430867516.360760
+r1
+xProcessPCH
+x/var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BenchmarkSuite-Prefix-dgslpgvqabyezfbkchaulekedxgd/BenchmarkSuite-Prefix.pch.pch
+xBenchmarkSuite/BenchmarkSuite-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkSuite-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile BenchmarkSuite/BenchmarkSuite-Prefix.pch319"ProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BenchmarkSuite-Prefix-dgslpgvqabyezfbkchaulekedxgd/BenchmarkSuite-Prefix.pch.pch BenchmarkSuite/BenchmarkSuite-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerddedfe3b84aeb941^185b5c3c84aeb941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkSuite-Prefix.pch0000000000000000^3814"ProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BenchmarkSuite-Prefix-dgslpgvqabyezfbkchaulekedxgd/BenchmarkSuite-Prefix.pch.pch BenchmarkSuite/BenchmarkSuite-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/include -I../../../framework -I../../../framework/Resources -I../../../framework/Source -I../../../framework/Source/iOS -I../../../framework/Source/Mac -I../../../framework/Source/iOS/Framework -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/DerivedSources/armv7 -I/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos --serialize-diagnostics /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BenchmarkSuite-Prefix-dgslpgvqabyezfbkchaulekedxgd/BenchmarkSuite-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BenchmarkSuite-Prefix-dgslpgvqabyezfbkchaulekedxgd/BenchmarkSuite-Prefix.pch.d -c /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/BenchmarkSuite/BenchmarkSuite-Prefix.pch -o /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/BenchmarkSuite-Prefix-dgslpgvqabyezfbkchaulekedxgd/BenchmarkSuite-Prefix.pch.pch36"6E1AC2C4-C392-4C50-B9B0-749C78929D1F-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite.xcent
+s430867517.823853
+e430867517.825916
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection228"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite.xcent228"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite.xcentd4f3d23d84aeb941^2670d33d84aeb941^---0#0#1#-19%DVTDocumentLocation2@152"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite.xcent00343ce8deffdf42^818"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite.xcent    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/BenchmarkSuite.build/Debug-iphoneos/BenchmarkSuite.build/BenchmarkSuite.xcent36"62662871-5E8C-433E-BE6A-9ACBA1465060-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CProcessProductPackaging /Users/eight/Library/MobileDevice/Provisioning\ Profiles/DFE1C239-7B17-444D-B348-122984016461.mobileprovision /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/embedded.mobileprovision
+s430867517.819836
+e430867517.822716
+r1
+xProcessProductPackaging
+x/Users/eight/Library/MobileDevice/Provisioning Profiles/DFE1C239-7B17-444D-B348-122984016461.mobileprovision
+x/Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection198"ProcessProductPackaging /Users/eight/Library/MobileDevice/Provisioning\ Profiles/DFE1C239-7B17-444D-B348-122984016461.mobileprovision build/Debug-iphoneos/BenchmarkSuite.app/embedded.mobileprovision198"ProcessProductPackaging /Users/eight/Library/MobileDevice/Provisioning\ Profiles/DFE1C239-7B17-444D-B348-122984016461.mobileprovision build/Debug-iphoneos/BenchmarkSuite.app/embedded.mobileprovision52efd13d84aeb941^909ed23d84aeb941^---0#0#1#-19%DVTDocumentLocation2@133"file:///Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/embedded.mobileprovision00343ce8deffdf42^732"ProcessProductPackaging /Users/eight/Library/MobileDevice/Provisioning\ Profiles/DFE1C239-7B17-444D-B348-122984016461.mobileprovision build/Debug-iphoneos/BenchmarkSuite.app/embedded.mobileprovision    cd /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/eight/Library/MobileDevice/Provisioning\ Profiles/DFE1C239-7B17-444D-B348-122984016461.mobileprovision -o /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app/embedded.mobileprovision36"986885C0-5ACD-4DDD-AAB5-16DA0440B47B-
+b8ED87E90-DEE4-495F-AF37-DC750D32C7D9
+
+CTouch /Users/eight/repos/GPUImage-eight/examples/iOS/BenchmarkSuite/build/Debug-iphoneos/BenchmarkSuite.app
+r0
+

@@ -13,6 +13,7 @@
 		A87E5E13177648F3007FD5B1 /* GPUImageRawDataOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = A87E5E11177648F3007FD5B1 /* GPUImageRawDataOutput.m */; };
 		A87E5E1617764B16007FD5B1 /* GPUImageRawDataInput.h in Headers */ = {isa = PBXBuildFile; fileRef = A87E5E1417764B16007FD5B1 /* GPUImageRawDataInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A87E5E1717764B16007FD5B1 /* GPUImageRawDataInput.m in Sources */ = {isa = PBXBuildFile; fileRef = A87E5E1517764B16007FD5B1 /* GPUImageRawDataInput.m */; };
+		AF1580FE19C238E200ED6524 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1580FD19C238E200ED6524 /* CoreMedia.framework */; };
 		BC56957A174683620081491B /* GPUImageCrosshairGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = BC569576174683620081491B /* GPUImageCrosshairGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC56957B174683620081491B /* GPUImageCrosshairGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC569577174683620081491B /* GPUImageCrosshairGenerator.m */; };
 		BC56957C174683620081491B /* GPUImageLineGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = BC569578174683620081491B /* GPUImageLineGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -194,7 +195,6 @@
 		BCF867581725AF9300912E34 /* GPUImagePicture.h in Headers */ = {isa = PBXBuildFile; fileRef = BCF867541725AF9300912E34 /* GPUImagePicture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCF867591725AF9300912E34 /* GPUImagePicture.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF867551725AF9300912E34 /* GPUImagePicture.m */; };
 		BCF8675B1725BBE300912E34 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF8675A1725BBE300912E34 /* AVFoundation.framework */; };
-		BCF8675D1725BBE900912E34 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF8675C1725BBE900912E34 /* CoreMedia.framework */; };
 		BCF8679D1727585D00912E34 /* GPUImageAVCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = BCF8679B1727585D00912E34 /* GPUImageAVCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCF8679E1727585D00912E34 /* GPUImageAVCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF8679C1727585D00912E34 /* GPUImageAVCamera.m */; };
 		BCF867AD172778D500912E34 /* GPUImageContrastFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = BCF867A3172778D500912E34 /* GPUImageContrastFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -326,6 +326,7 @@
 		A87E5E11177648F3007FD5B1 /* GPUImageRawDataOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPUImageRawDataOutput.m; path = Source/GPUImageRawDataOutput.m; sourceTree = SOURCE_ROOT; };
 		A87E5E1417764B16007FD5B1 /* GPUImageRawDataInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPUImageRawDataInput.h; path = Source/GPUImageRawDataInput.h; sourceTree = SOURCE_ROOT; };
 		A87E5E1517764B16007FD5B1 /* GPUImageRawDataInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPUImageRawDataInput.m; path = Source/GPUImageRawDataInput.m; sourceTree = SOURCE_ROOT; };
+		AF1580FD19C238E200ED6524 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		BC569576174683620081491B /* GPUImageCrosshairGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPUImageCrosshairGenerator.h; path = Source/GPUImageCrosshairGenerator.h; sourceTree = SOURCE_ROOT; };
 		BC569577174683620081491B /* GPUImageCrosshairGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPUImageCrosshairGenerator.m; path = Source/GPUImageCrosshairGenerator.m; sourceTree = SOURCE_ROOT; };
 		BC569578174683620081491B /* GPUImageLineGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPUImageLineGenerator.h; path = Source/GPUImageLineGenerator.h; sourceTree = SOURCE_ROOT; };
@@ -513,7 +514,6 @@
 		BCF867541725AF9300912E34 /* GPUImagePicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPUImagePicture.h; path = Source/Mac/GPUImagePicture.h; sourceTree = SOURCE_ROOT; };
 		BCF867551725AF9300912E34 /* GPUImagePicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPUImagePicture.m; path = Source/Mac/GPUImagePicture.m; sourceTree = SOURCE_ROOT; };
 		BCF8675A1725BBE300912E34 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		BCF8675C1725BBE900912E34 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		BCF8679B1727585D00912E34 /* GPUImageAVCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPUImageAVCamera.h; path = Source/Mac/GPUImageAVCamera.h; sourceTree = SOURCE_ROOT; };
 		BCF8679C1727585D00912E34 /* GPUImageAVCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GPUImageAVCamera.m; path = Source/Mac/GPUImageAVCamera.m; sourceTree = SOURCE_ROOT; };
 		BCF867A3172778D500912E34 /* GPUImageContrastFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GPUImageContrastFilter.h; path = Source/GPUImageContrastFilter.h; sourceTree = SOURCE_ROOT; };
@@ -643,11 +643,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCF8675D1725BBE900912E34 /* CoreMedia.framework in Frameworks */,
 				BCF8675B1725BBE300912E34 /* AVFoundation.framework in Frameworks */,
 				BCA3F3621723A8FA00E28AEC /* OpenGL.framework in Frameworks */,
 				BCA3F3631723A8FA00E28AEC /* QuartzCore.framework in Frameworks */,
 				BCA3F32017239B6500E28AEC /* Cocoa.framework in Frameworks */,
+				AF1580FE19C238E200ED6524 /* CoreMedia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -674,10 +674,10 @@
 		BCA3F31E17239B6500E28AEC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AF1580FD19C238E200ED6524 /* CoreMedia.framework */,
 				BCA3F31F17239B6500E28AEC /* Cocoa.framework */,
 				BCA3F3601723A8FA00E28AEC /* OpenGL.framework */,
 				BCA3F3611723A8FA00E28AEC /* QuartzCore.framework */,
-				BCF8675C1725BBE900912E34 /* CoreMedia.framework */,
 				BCF8675A1725BBE300912E34 /* AVFoundation.framework */,
 				BCA3F32117239B6500E28AEC /* Other Frameworks */,
 			);

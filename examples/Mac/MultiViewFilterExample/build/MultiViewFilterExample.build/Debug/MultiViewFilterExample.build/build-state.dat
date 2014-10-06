@@ -1,0 +1,191 @@
+TMultiViewFilterExample
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/Debug/MultiViewFilterExample.app/Contents/Info.plist /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/MultiViewFilterExample-Info.plist
+cProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MultiViewFilterExample-Prefix-dejeznfjrlrtwrbuvzjfeazsglub/MultiViewFilterExample-Prefix.pch.pch MultiViewFilterExample/MultiViewFilterExample-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/main.o /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/SLSAppDelegate.o /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/SLSMultiViewWindowController.o /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSMultiViewWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000531E7DA8000000000000044C
+t1394507176
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531E7DA800000000000001DE
+t1394507176
+s478
+
+N/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/MultiViewFilterExample-Info.plist
+c00000000539A3F150000000000000464
+t1402617621
+s1124
+
+N/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/MultiViewFilterExample-Prefix.pch
+c00000000539A3F1500000000000000AF
+t1402617621
+s175
+
+N/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSAppDelegate.m
+c00000000539A3F15000000000000013B
+t1402617621
+s315
+
+N/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSMultiViewWindowController.m
+c00000000539A3F1500000000000005B2
+t1402617621
+s1458
+
+N/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/main.m
+c00000000539A3F150000000000000077
+t1402617621
+s119
+
+N/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/Debug/MultiViewFilterExample.app/Contents/Info.plist
+t2
+s0
+
+N/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/Debug/MultiViewFilterExample.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/SLSAppDelegate.o
+t2
+s0
+
+N/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/SLSMultiViewWindowController.o
+t2
+s0
+
+N/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MultiViewFilterExample-Prefix-dejeznfjrlrtwrbuvzjfeazsglub/MultiViewFilterExample-Prefix.pch.pch
+t1409174447
+s13736240
+
+CBuild AST from /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSAppDelegate.m
+r0
+
+CBuild AST from /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSMultiViewWindowController.m
+r0
+
+CBuild AST from /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies94def32e83aeb941^9f1ffe2e83aeb941^---0#1#1#--18"Check dependencies36"887CAF1B-6D95-4BE7-8BC5-6175037199FE-
+
+CCompileC build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/SLSAppDelegate.o /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430867247.669673
+e430867247.701052
+r0
+xCompileC
+xbuild/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/SLSAppDelegate.o
+x/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSAppDelegate.m:1:
+oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSAppDelegate.h:2:
+o/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSMultiViewWindowController.h:2:9: fatal error: 'GPUImage/GPUImage.h' file not found
+o#import <GPUImage/GPUImage.h>
+o        ^
+o1 error generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSAppDelegate.m227"CompileC build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/SLSAppDelegate.o MultiViewFilterExample/SLSAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler3883ab2f83aeb941^1478b32f83aeb941^-508"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSAppDelegate.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSAppDelegate.h:2:/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSMultiViewWindowController.h:2:9: fatal error: 'GPUImage/GPUImage.h' file not found#import <GPUImage/GPUImage.h>        ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@36"'GPUImage/GPUImage.h' file not found-430867247#18446744073709551615#0#2(2@134"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSAppDelegate.m:1:-430867247#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@116"file:///Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSAppDelegate.m0000000000000000^0#8#0#8#8#0#21"Apple LLVM 5.0 Notice--2@134"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSAppDelegate.h:2:-430867247#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@116"file:///Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSAppDelegate.h0000000000000000^1#8#1#8#32#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@130"file:///Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSMultiViewWindowController.h0000000000000000^1#8#1#8#32#0#29"Lexical or Preprocessor Issue--0#0#1#-19%DVTDocumentLocation4@116"file:///Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSAppDelegate.m0000000000000000^3748"CompileC build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/SLSAppDelegate.o MultiViewFilterExample/SLSAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/MultiViewFilterExample-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/MultiViewFilterExample-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/MultiViewFilterExample-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/MultiViewFilterExample-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/DerivedSources/x86_64 -I/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/Debug -include /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MultiViewFilterExample-Prefix-dejeznfjrlrtwrbuvzjfeazsglub/MultiViewFilterExample-Prefix.pch -MMD -MT dependencies -MF /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/SLSAppDelegate.d --serialize-diagnostics /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/SLSAppDelegate.dia -c /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSAppDelegate.m -o /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/SLSAppDelegate.o36"8B913EEC-4E07-4F66-8F70-D7FA220EB96B-
+b5472DA9B-FE7D-4716-AE9D-190D8322321E
+
+CCompileC build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/SLSMultiViewWindowController.o /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSMultiViewWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430867247.669925
+e430867247.802461
+r0
+xCompileC
+xbuild/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/SLSMultiViewWindowController.o
+x/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSMultiViewWindowController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSMultiViewWindowController.m:1:
+o/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSMultiViewWindowController.h:2:9: fatal error: 'GPUImage/GPUImage.h' file not found
+o#import <GPUImage/GPUImage.h>
+o        ^
+o1 error generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compile /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSMultiViewWindowController.m255"CompileC build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/SLSMultiViewWindowController.o MultiViewFilterExample/SLSMultiViewWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler1c95ab2f83aeb941^ad6ecd2f83aeb941^-387"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSMultiViewWindowController.m:1:/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSMultiViewWindowController.h:2:9: fatal error: 'GPUImage/GPUImage.h' file not found#import <GPUImage/GPUImage.h>        ^1 error generated.-0#0#1#-19%DVTDocumentLocation2@130"file:///Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSMultiViewWindowController.m0000000000000000^3832"CompileC build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/SLSMultiViewWindowController.o MultiViewFilterExample/SLSMultiViewWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/MultiViewFilterExample-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/MultiViewFilterExample-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/MultiViewFilterExample-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/MultiViewFilterExample-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/DerivedSources/x86_64 -I/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/Debug -include /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MultiViewFilterExample-Prefix-dejeznfjrlrtwrbuvzjfeazsglub/MultiViewFilterExample-Prefix.pch -MMD -MT dependencies -MF /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/SLSMultiViewWindowController.d --serialize-diagnostics /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/SLSMultiViewWindowController.dia -c /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSMultiViewWindowController.m -o /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/SLSMultiViewWindowController.o36"16401535-A8AC-46BC-9399-D88304E72ACB-
+b5472DA9B-FE7D-4716-AE9D-190D8322321E
+
+CCompileC build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/main.o /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430867247.669427
+e430867247.689030
+r1
+xCompileC
+xbuild/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/main.o
+x/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/main.m207"CompileC build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/main.o MultiViewFilterExample/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerac70ab2f83aeb941^5664b02f83aeb941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/main.m0000000000000000^3688"CompileC build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/main.o MultiViewFilterExample/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/MultiViewFilterExample-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/MultiViewFilterExample-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/MultiViewFilterExample-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/MultiViewFilterExample-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/DerivedSources/x86_64 -I/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/Debug -include /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MultiViewFilterExample-Prefix-dejeznfjrlrtwrbuvzjfeazsglub/MultiViewFilterExample-Prefix.pch -MMD -MT dependencies -MF /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/main.dia -c /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/main.m -o /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/Objects-normal/x86_64/main.o36"D1E2AB4B-282C-41D7-9703-B2E84E69C9CF-
+b5472DA9B-FE7D-4716-AE9D-190D8322321E
+
+CCompileXIB /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/SLSMultiViewWindowController.xib
+r0
+
+CCompileXIB /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/en.lproj/MainMenu.xib
+r0
+
+CCopyStringsFile /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/Debug/MultiViewFilterExample.app/Contents/Resources/en.lproj/InfoPlist.strings MultiViewFilterExample/en.lproj/InfoPlist.strings
+r0
+
+CCpResource MultiViewFilterExample/Shader1.fsh build/Debug/MultiViewFilterExample.app/Contents/Resources/Shader1.fsh
+r0
+
+CCpResource MultiViewFilterExample/Shader2.fsh build/Debug/MultiViewFilterExample.app/Contents/Resources/Shader2.fsh
+r0
+
+CCpResource MultiViewFilterExample/en.lproj/Credits.rtf build/Debug/MultiViewFilterExample.app/Contents/Resources/en.lproj/Credits.rtf
+r0
+
+CLd /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/Debug/MultiViewFilterExample.app/Contents/MacOS/MultiViewFilterExample normal x86_64
+r0
+
+CPBXCp /Users/eight/repos/GPUImage-eight/framework/build/Debug/GPUImage.framework build/Debug/MultiViewFilterExample.app/Contents/Frameworks/GPUImage.framework
+r0
+
+CProcessInfoPlistFile /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/Debug/MultiViewFilterExample.app/Contents/Info.plist /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/MultiViewFilterExample-Info.plist
+s430867246.993748
+e430867246.995268
+r1
+xProcessInfoPlistFile
+x/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/Debug/MultiViewFilterExample.app/Contents/Info.plist
+x/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/MultiViewFilterExample-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Process /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/MultiViewFilterExample-Info.plist136"ProcessInfoPlistFile build/Debug/MultiViewFilterExample.app/Contents/Info.plist MultiViewFilterExample/MultiViewFilterExample-Info.plista46ffe2e83aeb941^3ee7fe2e83aeb941^---0#0#1#-19%DVTDocumentLocation2@133"file:///Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/MultiViewFilterExample-Info.plist0000000000000000^678"ProcessInfoPlistFile build/Debug/MultiViewFilterExample.app/Contents/Info.plist MultiViewFilterExample/MultiViewFilterExample-Info.plist    cd /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample    builtin-infoPlistUtility /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/MultiViewFilterExample-Info.plist -genpkginfo /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/Debug/MultiViewFilterExample.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/Debug/MultiViewFilterExample.app/Contents/Info.plist36"A90868F8-5C40-46E2-8526-0E1F037DBBDC-
+b5472DA9B-FE7D-4716-AE9D-190D8322321E
+
+CProcessPCH /Users/eight/Library/Developer/Xcode/DerivedData/MultiViewFilterExample-fvwytfikrquingdkosxzisupyfaf/Index/PrecompiledHeaders/MultiViewFilterExample-Prefix-gtjdblramtlxrzbabxyftgbdnbor_ast/MultiViewFilterExample-Prefix.pch.pch MultiViewFilterExample/MultiViewFilterExample-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MultiViewFilterExample-Prefix-dejeznfjrlrtwrbuvzjfeazsglub/MultiViewFilterExample-Prefix.pch.pch MultiViewFilterExample/MultiViewFilterExample-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430867246.995831
+e430867247.668644
+r1
+xProcessPCH
+x/var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MultiViewFilterExample-Prefix-dejeznfjrlrtwrbuvzjfeazsglub/MultiViewFilterExample-Prefix.pch.pch
+xMultiViewFilterExample/MultiViewFilterExample-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/MultiViewFilterExample-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Precompile MultiViewFilterExample/MultiViewFilterExample-Prefix.pch352"ProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MultiViewFilterExample-Prefix-dejeznfjrlrtwrbuvzjfeazsglub/MultiViewFilterExample-Prefix.pch.pch MultiViewFilterExample/MultiViewFilterExample-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc5fefe2e83aeb941^c72cab2f83aeb941^---0#0#1#-19%DVTDocumentLocation2@133"file:///Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/MultiViewFilterExample-Prefix.pch0000000000000000^3781"ProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MultiViewFilterExample-Prefix-dejeznfjrlrtwrbuvzjfeazsglub/MultiViewFilterExample-Prefix.pch.pch MultiViewFilterExample/MultiViewFilterExample-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/MultiViewFilterExample-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/MultiViewFilterExample-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/MultiViewFilterExample-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/MultiViewFilterExample-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/DerivedSources/x86_64 -I/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/MultiViewFilterExample.build/Debug/MultiViewFilterExample.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/Debug --serialize-diagnostics /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MultiViewFilterExample-Prefix-dejeznfjrlrtwrbuvzjfeazsglub/MultiViewFilterExample-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MultiViewFilterExample-Prefix-dejeznfjrlrtwrbuvzjfeazsglub/MultiViewFilterExample-Prefix.pch.d -c /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/MultiViewFilterExample/MultiViewFilterExample-Prefix.pch -o /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MultiViewFilterExample-Prefix-dejeznfjrlrtwrbuvzjfeazsglub/MultiViewFilterExample-Prefix.pch.pch36"5C4660F1-F3CB-4A0F-A4F4-2D92D4B91C4F-
+b5472DA9B-FE7D-4716-AE9D-190D8322321E
+
+CTouch /Users/eight/repos/GPUImage-eight/examples/Mac/MultiViewFilterExample/build/Debug/MultiViewFilterExample.app
+r0
+

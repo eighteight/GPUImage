@@ -1,5 +1,5 @@
 #import <Cocoa/Cocoa.h>
-#import <GPUImage/GPUImage.h>
+#import "GPUImage.h"
 
 typedef enum {
     GPUIMAGE_SATURATION,

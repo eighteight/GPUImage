@@ -1,0 +1,9 @@
+TPlaygroundExample
+v6
+r1
+cCheck dependencies
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies34bfe61760aeb941^38f4e61760aeb941^-166"warning: no rule to process file '/Users/eight/repos/GPUImage-eight/examples/Mac/PlaygroundExample/PlaygroundExample/main.swift' of type text for architecture x86_641(21%IDEActivityLogMessage2@165"Warning: no rule to process file '/Users/eight/repos/GPUImage-eight/examples/Mac/PlaygroundExample/PlaygroundExample/main.swift' of type text for architecture x86_64-430858263#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#1#--18"Check dependencies36"EEA63265-9559-4BB5-929D-04CEC3EF9001-
+
