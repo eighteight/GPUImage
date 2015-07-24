@@ -65,13 +65,6 @@
 			remoteGlobalIDString = BCF1A33314DDB1EC00852800;
 			remoteInfo = GPUImage;
 		};
-		E695B8A1194F7CF3003CD97A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC982B2714F049950001FF6F /* GPUImage.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BCE209E51943F20C002FEED8;
-			remoteInfo = GPUImageFramework;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -220,12 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				BCF866C41725894100912E34 /* libGPUImage.a */,
-<<<<<<< HEAD
-				BCF866C61725894100912E34 /* GPUImageTests.octest */,
-				E695B8A2194F7CF3003CD97A /* GPUImage.framework */,
-=======
 				BC7E93DC19EB2334006D23C3 /* GPUImage.framework */,
->>>>>>> upstream/master
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -262,7 +250,7 @@
 				ORGANIZATIONNAME = "Cell Phone";
 				TargetAttributes = {
 					BC982B0114F046AC0001FF6F = {
-						DevelopmentTeam = AK7YRJMN3M;
+						DevelopmentTeam = J2U2U9GBML;
 					};
 				};
 			};
@@ -304,23 +292,6 @@
 			remoteRef = BCF866C31725894100912E34 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-<<<<<<< HEAD
-		BCF866C61725894100912E34 /* GPUImageTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = GPUImageTests.octest;
-			remoteRef = BCF866C51725894100912E34 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E695B8A2194F7CF3003CD97A /* GPUImage.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = GPUImage.framework;
-			remoteRef = E695B8A1194F7CF3003CD97A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-=======
->>>>>>> upstream/master
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -468,8 +439,8 @@
 		BC982B1B14F046AC0001FF6F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vladimir Gusev (5B3DNZYZSG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vladimir Gusev (5B3DNZYZSG)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FilterShowcase/FilterShowcase-Prefix.pch";
 				INFOPLIST_FILE = "FilterShowcase/FilterShowcase-Info.plist";
@@ -482,8 +453,8 @@
 		BC982B1C14F046AC0001FF6F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vladimir Gusev (5B3DNZYZSG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vladimir Gusev (5B3DNZYZSG)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FilterShowcase/FilterShowcase-Prefix.pch";
 				INFOPLIST_FILE = "FilterShowcase/FilterShowcase-Info.plist";

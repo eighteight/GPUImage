@@ -1,0 +1,8 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "4f8db2f555cad9866eba16dc167adf60"
+inputs: 
+- "/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcaseSwift/FilterShowcaseSwift/FilterOperations.swift"
+- "/Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcaseSwift/FilterShowcaseSwift/main.swift"
+- "/Users/vgusev/repos/GPUImage-eight/examples/iOS/FilterShowcaseSwift/FilterShowcaseSwift/FilterOperationTypes.swift"
+- "/Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcaseSwift/FilterShowcaseSwift/FilterShowcaseWindowController.swift"
+- "/Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcaseSwift/FilterShowcaseSwift/AppDelegate.swift"

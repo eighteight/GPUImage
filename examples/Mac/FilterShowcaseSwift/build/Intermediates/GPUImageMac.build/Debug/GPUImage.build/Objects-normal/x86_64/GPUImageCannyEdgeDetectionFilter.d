@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageCannyEdgeDetectionFilter.m \
+  /Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageCannyEdgeDetectionFilter.h \
+  /Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageFilterGroup.h \
+  /Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageOutput.h \
+  /Users/vgusev/repos/GPUImage-eight/framework/Source/Mac/GPUImageContext.h \
+  /Users/vgusev/repos/GPUImage-eight/framework/Source/GLProgram.h \
+  /Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageFramebuffer.h \
+  /Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageFramebufferCache.h \
+  /Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageFilter.h \
+  /Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageGrayscaleFilter.h \
+  /Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageDirectionalSobelEdgeDetectionFilter.h \
+  /Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImage3x3TextureSamplingFilter.h \
+  /Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageDirectionalNonMaximumSuppressionFilter.h \
+  /Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageWeakPixelInclusionFilter.h \
+  /Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageSingleComponentGaussianBlurFilter.h \
+  /Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageGaussianBlurFilter.h \
+  /Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageTwoPassTextureSamplingFilter.h \
+  /Users/vgusev/repos/GPUImage-eight/framework/Source/GPUImageTwoPassFilter.h

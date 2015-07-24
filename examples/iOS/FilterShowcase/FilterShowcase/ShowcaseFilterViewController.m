@@ -1320,7 +1320,7 @@
             [videoCamera addTarget:filter];
         }
         
-        videoCamera.runBenchmark = YES;
+        videoCamera.runBenchmark = NO;
         GPUImageView *filterView = (GPUImageView *)self.view;
         
         if (needsSecondImage)
