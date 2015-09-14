@@ -42,7 +42,7 @@ NSString *const kGPUImageCropFragmentShaderString =  SHADER_STRING
 @implementation GPUImageCropFilter
 
 @synthesize cropRegion = _cropRegion;
-
+@synthesize originallySuppliedInputSize = originallySuppliedInputSize;
 #pragma mark -
 #pragma mark Initialization and teardown
 
