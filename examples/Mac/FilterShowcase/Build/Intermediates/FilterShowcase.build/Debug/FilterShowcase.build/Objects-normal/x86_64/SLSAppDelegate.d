@@ -1,7 +1,7 @@
 dependencies: \
   /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m \
   /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h \
-  /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h \
+  /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h \
   /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Products/Debug/GPUImage.framework/Headers/GPUImage.h \
   /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Products/Debug/GPUImage.framework/Headers/GLProgram.h \
   /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Products/Debug/GPUImage.framework/Headers/GPUImageContext.h \
@@ -149,5 +149,8 @@ dependencies: \
   /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Products/Debug/GPUImage.framework/Headers/GPUImageLocalBinaryPatternFilter.h \
   /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Products/Debug/GPUImage.framework/Headers/GPUImageMosaicFilter.h \
   /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Products/Debug/GPUImage.framework/Headers/GPUImagePerlinNoiseFilter.h \
+  /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Products/Debug/GPUImage.framework/Headers/GPUImageWeakPixelInclusionFilter.h \
+  /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Products/Debug/GPUImage.framework/Headers/GPUImageNonMaximumSuppressionFilter.h \
+  /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Products/Debug/GPUImage.framework/Headers/GPUImageSourceOverBlendFilter.h \
   /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Products/Debug/GPUImage.framework/Headers/GPUImageView.h \
   /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Products/Debug/GPUImage.framework/Headers/GPUImageMovieWriter.h

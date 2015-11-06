@@ -63,6 +63,7 @@
 /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Intermediates/GPUImageMac.build/Debug/GPUImage.build/Objects-normal/x86_64/GPUImageTwoInputCrossTextureSamplingFilter.o
 /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Intermediates/GPUImageMac.build/Debug/GPUImage.build/Objects-normal/x86_64/GPUImageChromaKeyBlendFilter.o
 /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Intermediates/GPUImageMac.build/Debug/GPUImage.build/Objects-normal/x86_64/GPUImageDissolveBlendFilter.o
+/Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Intermediates/GPUImageMac.build/Debug/GPUImage.build/Objects-normal/x86_64/GPUImageHistogramEqualizationFilter.o
 /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Intermediates/GPUImageMac.build/Debug/GPUImage.build/Objects-normal/x86_64/GPUImageSourceOverBlendFilter.o
 /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Intermediates/GPUImageMac.build/Debug/GPUImage.build/Objects-normal/x86_64/GPUImageMaskFilter.o
 /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Intermediates/GPUImageMac.build/Debug/GPUImage.build/Objects-normal/x86_64/GPUImageOpacityFilter.o
@@ -101,7 +102,7 @@
 /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Intermediates/GPUImageMac.build/Debug/GPUImage.build/Objects-normal/x86_64/GPUImageThresholdEdgeDetectionFilter.o
 /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Intermediates/GPUImageMac.build/Debug/GPUImage.build/Objects-normal/x86_64/GPUImageXYDerivativeFilter.o
 /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Intermediates/GPUImageMac.build/Debug/GPUImage.build/Objects-normal/x86_64/GPUImageDirectionalNonMaximumSuppressionFilter.o
-/Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Intermediates/GPUImageMac.build/Debug/GPUImage.build/Objects-normal/x86_64/GPUimageDirectionalSobelEdgeDetectionFilter.o
+/Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Intermediates/GPUImageMac.build/Debug/GPUImage.build/Objects-normal/x86_64/GPUImageDirectionalSobelEdgeDetectionFilter.o
 /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Intermediates/GPUImageMac.build/Debug/GPUImage.build/Objects-normal/x86_64/GPUImageWeakPixelInclusionFilter.o
 /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Intermediates/GPUImageMac.build/Debug/GPUImage.build/Objects-normal/x86_64/GPUImageHarrisCornerDetectionFilter.o
 /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Intermediates/GPUImageMac.build/Debug/GPUImage.build/Objects-normal/x86_64/GPUImageNobleCornerDetectionFilter.o

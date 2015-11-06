@@ -148,5 +148,8 @@ dependencies: \
   /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Products/Debug/GPUImage.framework/Headers/GPUImageLocalBinaryPatternFilter.h \
   /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Products/Debug/GPUImage.framework/Headers/GPUImageMosaicFilter.h \
   /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Products/Debug/GPUImage.framework/Headers/GPUImagePerlinNoiseFilter.h \
+  /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Products/Debug/GPUImage.framework/Headers/GPUImageWeakPixelInclusionFilter.h \
+  /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Products/Debug/GPUImage.framework/Headers/GPUImageNonMaximumSuppressionFilter.h \
+  /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Products/Debug/GPUImage.framework/Headers/GPUImageSourceOverBlendFilter.h \
   /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Products/Debug/GPUImage.framework/Headers/GPUImageView.h \
   /Users/vgusev/repos/GPUImage-eight/examples/Mac/FilterShowcase/Build/Products/Debug/GPUImage.framework/Headers/GPUImageMovieWriter.h
