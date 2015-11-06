@@ -1,6 +1,7 @@
 # Exclude the build directory
 build/*
 examples/FilterShowcase/build*
+examples/Mac/FilterShowcase/Build
 examples/Mac/FilterShowcase/Build/*
 examples/Mac/LitlyMac/Build/*
 examples/Mac/MultiViewFilterExample/Build/*
