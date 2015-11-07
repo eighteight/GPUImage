@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/eight/repos/GPUImage-eight/framework/Source/GPUimageDirectionalSobelEdgeDetectionFilter.m \
-  /Users/eight/repos/GPUImage-eight/framework/Source/GPUimageDirectionalSobelEdgeDetectionFilter.h \
+  /Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDirectionalSobelEdgeDetectionFilter.m \
+  /Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDirectionalSobelEdgeDetectionFilter.h \
   /Users/eight/repos/GPUImage-eight/framework/Source/GPUImage3x3TextureSamplingFilter.h \
   /Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilter.h \
   /Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOutput.h \

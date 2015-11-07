@@ -1,209 +1,0 @@
-TFilterShowcase
-v6
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/FilterShowcase.app/Contents/Info.plist /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Info.plist
-cProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-eesomabqxflhuneyvvclyiuuavoh/FilterShowcase-Prefix.pch.pch FilterShowcase/FilterShowcase-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/main.o /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSAppDelegate.o /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSFilterShowcaseWindowController.o /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
-c00000000531E7DA8000000000000044C
-t1394507176
-s1100
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000531E7DA800000000000001DE
-t1394507176
-s478
-
-N/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Info.plist
-c00000000539A3F150000000000000464
-t1402617621
-s1124
-
-N/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch
-c00000000539A3F15000000000000009F
-t1402617621
-s159
-
-N/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m
-c00000000539A3F15000000000000016F
-t1402617621
-s367
-
-N/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/main.m
-c00000000539A3F150000000000000077
-t1402617621
-s119
-
-N/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m
-c00000000539A3F15000000000000F703
-t1402617621
-s63235
-
-N/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/FilterShowcase.app/Contents/Info.plist
-t2
-s0
-
-N/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/FilterShowcase.app/Contents/PkgInfo
-t2
-s0
-
-N/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSAppDelegate.o
-t2
-s0
-
-N/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSFilterShowcaseWindowController.o
-t2
-s0
-
-N/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/main.o
-t2
-s0
-
-N/var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-eesomabqxflhuneyvvclyiuuavoh/FilterShowcase-Prefix.pch.pch
-t1409176218
-s13736012
-
-CBuild AST from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m
-r0
-
-CBuild AST from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/main.m
-r0
-
-CBuild AST from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies01e0f4198aaeb941^04cbf5198aaeb941^---0#1#1#--18"Check dependencies36"5CFA1C06-3EFC-473D-BFFE-62B22064B407-
-
-CCompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSAppDelegate.o /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s430869018.619794
-e430869018.650738
-r0
-xCompileC
-xbuild/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSAppDelegate.o
-x/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:
-o/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:9: fatal error: 'GPUImage/GPUImage.h' file not found
-o#import <GPUImage/GPUImage.h>
-o        ^
-o1 error generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m203"CompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSAppDelegate.o FilterShowcase/SLSAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerd3bd9e1a8aaeb941^6495a61a8aaeb941^-468"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:9: fatal error: 'GPUImage/GPUImage.h' file not found#import <GPUImage/GPUImage.h>        ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@36"'GPUImage/GPUImage.h' file not found-430869018#18446744073709551615#0#2(2@118"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:-430869018#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@100"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m0000000000000000^0#8#0#8#8#0#21"Apple LLVM 5.0 Notice--2@118"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:-430869018#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@100"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h0000000000000000^1#8#1#8#32#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@104"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h0000000000000000^1#8#1#8#32#0#29"Lexical or Preprocessor Issue--0#0#1#-19%DVTDocumentLocation4@100"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m0000000000000000^3606"CompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSAppDelegate.o FilterShowcase/SLSAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I../../../framework -I../../../framework/Resources -I../../../framework/Source -I../../../framework/Source/iOS -I../../../framework/Source/Mac -I../../../framework/Source/iOS/Framework -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/DerivedSources/x86_64 -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug -include /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-eesomabqxflhuneyvvclyiuuavoh/FilterShowcase-Prefix.pch -MMD -MT dependencies -MF /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSAppDelegate.d --serialize-diagnostics /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSAppDelegate.dia -c /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m -o /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSAppDelegate.o36"59272BFC-E5B1-45E9-8D65-FF2201B41616-
-b8BC619A0-597F-411E-A7E3-717002ED9D93
-
-CCompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSFilterShowcaseWindowController.o /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s430869018.620002
-e430869018.752185
-r0
-xCompileC
-xbuild/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSFilterShowcaseWindowController.o
-x/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:
-o/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h:2:9: fatal error: 'GPUImage/GPUImage.h' file not found
-o#import <GPUImage/GPUImage.h>
-o        ^
-o1 error generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m226"CompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSFilterShowcaseWindowController.o SLSFilterShowcaseWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerfcc79e1a8aaeb941^588ec01a8aaeb941^-335"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h:2:9: fatal error: 'GPUImage/GPUImage.h' file not found#import <GPUImage/GPUImage.h>        ^1 error generated.-0#0#1#-19%DVTDocumentLocation2@104"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m0000000000000000^3690"CompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSFilterShowcaseWindowController.o SLSFilterShowcaseWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I../../../framework -I../../../framework/Resources -I../../../framework/Source -I../../../framework/Source/iOS -I../../../framework/Source/Mac -I../../../framework/Source/iOS/Framework -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/DerivedSources/x86_64 -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug -include /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-eesomabqxflhuneyvvclyiuuavoh/FilterShowcase-Prefix.pch -MMD -MT dependencies -MF /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSFilterShowcaseWindowController.d --serialize-diagnostics /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSFilterShowcaseWindowController.dia -c /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m -o /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSFilterShowcaseWindowController.o36"494C739D-691A-4EC6-AEF2-5AD71AE0F76F-
-b8BC619A0-597F-411E-A7E3-717002ED9D93
-
-CCompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/main.o /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s430869018.619628
-e430869018.637676
-r1
-xCompileC
-xbuild/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/main.o
-x/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/main.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/main.m183"CompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/main.o FilterShowcase/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerafb29e1a8aaeb941^853fa31a8aaeb941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/main.m0000000000000000^3546"CompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/main.o FilterShowcase/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I../../../framework -I../../../framework/Resources -I../../../framework/Source -I../../../framework/Source/iOS -I../../../framework/Source/Mac -I../../../framework/Source/iOS/Framework -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/DerivedSources/x86_64 -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug -include /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-eesomabqxflhuneyvvclyiuuavoh/FilterShowcase-Prefix.pch -MMD -MT dependencies -MF /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/main.dia -c /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/main.m -o /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/main.o36"302B5A67-15E7-417B-80D5-EA2EEF7687DA-
-b8BC619A0-597F-411E-A7E3-717002ED9D93
-
-CCompileXIB /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/en.lproj/MainMenu.xib
-r0
-
-CCompileXIB /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.xib
-r0
-
-CCopyStringsFile /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/FilterShowcase.app/Contents/Resources/en.lproj/InfoPlist.strings FilterShowcase/en.lproj/InfoPlist.strings
-r0
-
-CCpResource /Users/eight/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/mask.png build/Debug/FilterShowcase.app/Contents/Resources/mask.png
-r0
-
-CCpResource /Users/eight/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/squares.png build/Debug/FilterShowcase.app/Contents/Resources/squares.png
-r0
-
-CCpResource /Users/eight/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/voroni_points2.png build/Debug/FilterShowcase.app/Contents/Resources/voroni_points2.png
-r0
-
-CCpResource /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleImageFilter/SimpleImageFilter/Lambeau.jpg build/Debug/FilterShowcase.app/Contents/Resources/Lambeau.jpg
-r0
-
-CCpResource /Users/eight/repos/GPUImage-eight/framework/Resources/lookup_amatorka.png build/Debug/FilterShowcase.app/Contents/Resources/lookup_amatorka.png
-r0
-
-CCpResource /Users/eight/repos/GPUImage-eight/framework/Resources/lookup_miss_etikate.png build/Debug/FilterShowcase.app/Contents/Resources/lookup_miss_etikate.png
-r0
-
-CCpResource /Users/eight/repos/GPUImage-eight/framework/Resources/lookup_soft_elegance_1.png build/Debug/FilterShowcase.app/Contents/Resources/lookup_soft_elegance_1.png
-r0
-
-CCpResource /Users/eight/repos/GPUImage-eight/framework/Resources/lookup_soft_elegance_2.png build/Debug/FilterShowcase.app/Contents/Resources/lookup_soft_elegance_2.png
-r0
-
-CCpResource FilterShowcase/en.lproj/Credits.rtf build/Debug/FilterShowcase.app/Contents/Resources/en.lproj/Credits.rtf
-r0
-
-CLd /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/FilterShowcase.app/Contents/MacOS/FilterShowcase normal x86_64
-r0
-
-CPBXCp /Users/eight/repos/GPUImage-eight/framework/build/Debug/GPUImage.framework build/Debug/FilterShowcase.app/Contents/Frameworks/GPUImage.framework
-r0
-
-CProcessInfoPlistFile /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/FilterShowcase.app/Contents/Info.plist /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Info.plist
-s430869017.960958
-e430869017.962204
-r1
-xProcessInfoPlistFile
-x/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/FilterShowcase.app/Contents/Info.plist
-x/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Process /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Info.plist112"ProcessInfoPlistFile build/Debug/FilterShowcase.app/Contents/Info.plist FilterShowcase/FilterShowcase-Info.plist300ef6198aaeb941^b953f6198aaeb941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Info.plist0000000000000000^590"ProcessInfoPlistFile build/Debug/FilterShowcase.app/Contents/Info.plist FilterShowcase/FilterShowcase-Info.plist    cd /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase    builtin-infoPlistUtility /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Info.plist -genpkginfo /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/FilterShowcase.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/FilterShowcase.app/Contents/Info.plist36"06D09FD6-1361-43B0-A79B-33CF6C29CD1C-
-b8BC619A0-597F-411E-A7E3-717002ED9D93
-
-CProcessPCH /Users/eight/Library/Developer/Xcode/DerivedData/FilterShowcase-aoranzuamkbteufhjoimchccglty/Index/PrecompiledHeaders/FilterShowcase-Prefix-aaqipzmzcaskzgfvpefusvuljmfm_ast/FilterShowcase-Prefix.pch.pch FilterShowcase/FilterShowcase-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-eesomabqxflhuneyvvclyiuuavoh/FilterShowcase-Prefix.pch.pch FilterShowcase/FilterShowcase-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s430869017.962779
-e430869018.618748
-r1
-xProcessPCH
-x/var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-eesomabqxflhuneyvvclyiuuavoh/FilterShowcase-Prefix.pch.pch
-xFilterShowcase/FilterShowcase-Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile FilterShowcase/FilterShowcase-Prefix.pch320"ProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-eesomabqxflhuneyvvclyiuuavoh/FilterShowcase-Prefix.pch.pch FilterShowcase/FilterShowcase-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler3199f6198aaeb941^59699e1a8aaeb941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch0000000000000000^3663"ProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-eesomabqxflhuneyvvclyiuuavoh/FilterShowcase-Prefix.pch.pch FilterShowcase/FilterShowcase-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I../../../framework -I../../../framework/Resources -I../../../framework/Source -I../../../framework/Source/iOS -I../../../framework/Source/Mac -I../../../framework/Source/iOS/Framework -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/DerivedSources/x86_64 -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug --serialize-diagnostics /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-eesomabqxflhuneyvvclyiuuavoh/FilterShowcase-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-eesomabqxflhuneyvvclyiuuavoh/FilterShowcase-Prefix.pch.d -c /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch -o /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-eesomabqxflhuneyvvclyiuuavoh/FilterShowcase-Prefix.pch.pch36"9A479CFF-72C9-480D-B459-2C6CB525E2F2-
-b8BC619A0-597F-411E-A7E3-717002ED9D93
-
-CTouch /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/FilterShowcase.app
-r0
-

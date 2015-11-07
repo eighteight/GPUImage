@@ -1,1555 +1,0 @@
-TFilterShowcase
-v6
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/FilterShowcase.app/Contents/Info.plist /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Info.plist
-cProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-cmnmymvuompwfucqrskuyreeanby/FilterShowcase-Prefix.pch.pch FilterShowcase/FilterShowcase-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/main.o /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSAppDelegate.o /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSFilterShowcaseWindowController.o /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
-c00000000531E7DA8000000000000044C
-t1394507176
-s1100
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000531E7DA800000000000001DE
-t1394507176
-s478
-
-N/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Info.plist
-c00000000539A3F150000000000000464
-t1402617621
-s1124
-
-N/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch
-c00000000539A3F15000000000000009F
-t1402617621
-s159
-
-N/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h
-c00000000539A3F1500000000000000C7
-t1402617621
-s199
-
-N/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m
-c00000000539A3F15000000000000016F
-t1402617621
-s367
-
-N/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/main.m
-c00000000539A3F150000000000000077
-t1402617621
-s119
-
-N/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h
-c0000000054120BA60000000000000D65
-t1410468774
-s3429
-
-N/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m
-c00000000539A3F15000000000000F703
-t1402617621
-s63235
-
-N/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/FilterShowcase.app/Contents/Info.plist
-t1409176217
-s1456
-
-N/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/FilterShowcase.app/Contents/PkgInfo
-t1409176217
-s8
-
-N/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSAppDelegate.o
-t2
-s0
-
-N/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSFilterShowcaseWindowController.o
-t2
-s0
-
-N/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/main.o
-t1410470219
-s2776
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GLProgram.h
-c00000000539A3F150000000000000592
-t1402617621
-s1426
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage.h
-c0000000054120AD900000000000016EE
-t1410468569
-s5870
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage3x3ConvolutionFilter.h
-c00000000539A3F15000000000000028D
-t1402617621
-s653
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage3x3TextureSamplingFilter.h
-c00000000539A3F150000000000000251
-t1402617621
-s593
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAdaptiveThresholdFilter.h
-c00000000539A3F150000000000000102
-t1402617621
-s258
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAddBlendFilter.h
-c00000000539A3F150000000000000065
-t1402617621
-s101
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAlphaBlendFilter.h
-c00000000539A3F15000000000000010A
-t1402617621
-s266
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAmatorkaFilter.h
-c00000000539A3F1500000000000001AD
-t1402617621
-s429
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAverageColor.h
-c00000000539A3F150000000000000267
-t1402617621
-s615
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAverageLuminanceThresholdFilter.h
-c00000000539A3F15000000000000012D
-t1402617621
-s301
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBilateralFilter.h
-c00000000539A3F150000000000000174
-t1402617621
-s372
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBoxBlurFilter.h
-c00000000539A3F1500000000000000A0
-t1402617621
-s160
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBrightnessFilter.h
-c00000000539A3F1500000000000000F2
-t1402617621
-s242
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBuffer.h
-c00000000539A3F1500000000000000B3
-t1402617621
-s179
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBulgeDistortionFilter.h
-c00000000539A3F150000000000000258
-t1402617621
-s600
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCGAColorspaceFilter.h
-c00000000539A3F15000000000000005A
-t1402617621
-s90
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCannyEdgeDetectionFilter.h
-c00000000539A3F150000000000000AAA
-t1402617621
-s2730
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageChromaKeyBlendFilter.h
-c0000000053DC6DE3000000000000043E
-t1406954979
-s1086
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageChromaKeyFilter.h
-c0000000053DC6DE300000000000003DB
-t1406954979
-s987
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageClosingFilter.h
-c00000000539A3F150000000000000222
-t1402617621
-s546
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorBlendFilter.h
-c00000000539A3F150000000000000067
-t1402617621
-s103
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorBurnBlendFilter.h
-c00000000539A3F1500000000000000A0
-t1402617621
-s160
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorDodgeBlendFilter.h
-c00000000539A3F1500000000000000A2
-t1402617621
-s162
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorInvertFilter.h
-c00000000539A3F15000000000000005C
-t1402617621
-s92
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorMatrixFilter.h
-c00000000539A3F1500000000000001EB
-t1402617621
-s491
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorPackingFilter.h
-c00000000539A3F1500000000000000B8
-t1402617621
-s184
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageContrastFilter.h
-c00000000539A3F150000000000000127
-t1402617621
-s295
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCropFilter.h
-c00000000539A3F1500000000000001AD
-t1402617621
-s429
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCrosshairGenerator.h
-c00000000539A3F1500000000000002DE
-t1402617621
-s734
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCrosshatchFilter.h
-c00000000539A3F1500000000000001A8
-t1402617621
-s424
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDarkenBlendFilter.h
-c00000000539A3F15000000000000006C
-t1402617621
-s108
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDifferenceBlendFilter.h
-c00000000539A3F150000000000000070
-t1402617621
-s112
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDilationFilter.h
-c00000000539A3F15000000000000034D
-t1402617621
-s845
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDissolveBlendFilter.h
-c00000000539A3F15000000000000011E
-t1402617621
-s286
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDivideBlendFilter.h
-c00000000539A3F150000000000000068
-t1402617621
-s104
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageEmbossFilter.h
-c00000000539A3F1500000000000000F5
-t1402617621
-s245
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageErosionFilter.h
-c00000000539A3F150000000000000230
-t1402617621
-s560
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageExclusionBlendFilter.h
-c00000000539A3F15000000000000006F
-t1402617621
-s111
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageExposureFilter.h
-c00000000539A3F1500000000000000EC
-t1402617621
-s236
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFalseColorFilter.h
-c00000000539A3F150000000000000278
-t1402617621
-s632
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilter.h
-c00000000539A3F1500000000000015B2
-t1402617621
-s5554
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilterGroup.h
-c00000000539A3F150000000000000271
-t1402617621
-s625
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilterPipeline.h
-c00000000539A3F1500000000000004E5
-t1402617621
-s1253
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFramebuffer.h
-c00000000539A3F150000000000000581
-t1402617621
-s1409
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFramebufferCache.h
-c00000000539A3F1500000000000002CE
-t1402617621
-s718
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGammaFilter.h
-c00000000539A3F1500000000000000DD
-t1402617621
-s221
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianBlurFilter.h
-c00000000539A3F1500000000000006E2
-t1402617621
-s1762
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianBlurPositionFilter.h
-c00000000539A3F15000000000000025F
-t1402617621
-s607
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianSelectiveBlurFilter.h
-c00000000539A3F150000000000000493
-t1402617621
-s1171
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGlassSphereFilter.h
-c00000000539A3F150000000000000078
-t1402617621
-s120
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGrayscaleFilter.h
-c00000000539A3F15000000000000012D
-t1402617621
-s301
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHSBFilter.h
-c00000000539A3F150000000000000376
-t1402617621
-s886
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHalftoneFilter.h
-c00000000539A3F150000000000000067
-t1402617621
-s103
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHardLightBlendFilter.h
-c00000000539A3F15000000000000006F
-t1402617621
-s111
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHarrisCornerDetectionFilter.h
-c00000000539A3F15000000000000094A
-t1402617621
-s2378
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHazeFilter.h
-c00000000539A3F150000000000000276
-t1402617621
-s630
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHighPassFilter.h
-c00000000539A3F1500000000000001FB
-t1402617621
-s507
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHighlightShadowFilter.h
-c00000000539A3F150000000000000170
-t1402617621
-s368
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramEqualizationFilter.h
-c0000000053FE27EA00000000000002C3
-t1409165290
-s707
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramFilter.h
-c0000000053FE27EA000000000000032A
-t1409165290
-s810
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramGenerator.h
-c00000000539A3F15000000000000007F
-t1402617621
-s127
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHoughTransformLineDetector.h
-c00000000539A3F150000000000000BF1
-t1402617621
-s3057
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHueBlendFilter.h
-c00000000539A3F150000000000000065
-t1402617621
-s101
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHueFilter.h
-c00000000539A3F1500000000000000A4
-t1402617621
-s164
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageJFAVoronoiFilter.h
-c00000000539A3F150000000000000138
-t1402617621
-s312
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageKuwaharaFilter.h
-c0000000053DC6DE30000000000000298
-t1406954979
-s664
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageKuwaharaRadius3Filter.h
-c00000000539A3F150000000000000084
-t1402617621
-s132
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLanczosResamplingFilter.h
-c00000000539A3F1500000000000000C5
-t1402617621
-s197
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLaplacianFilter.h
-c00000000539A3F150000000000000072
-t1402617621
-s114
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLevelsFilter.h
-c00000000539A3F150000000000000686
-t1402617621
-s1670
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLightenBlendFilter.h
-c00000000539A3F1500000000000000CA
-t1402617621
-s202
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLineGenerator.h
-c00000000539A3F1500000000000002A2
-t1402617621
-s674
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLinearBurnBlendFilter.h
-c00000000539A3F15000000000000006C
-t1402617621
-s108
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLocalBinaryPatternFilter.h
-c00000000539A3F150000000000000083
-t1402617621
-s131
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLookupFilter.h
-c00000000539A3F150000000000000527
-t1402617621
-s1319
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLowPassFilter.h
-c00000000539A3F1500000000000001D1
-t1402617621
-s465
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminanceRangeFilter.h
-c00000000539A3F150000000000000112
-t1402617621
-s274
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminanceThresholdFilter.h
-c00000000539A3F150000000000000198
-t1402617621
-s408
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminosity.h
-c00000000539A3F150000000000000281
-t1402617621
-s641
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminosityBlendFilter.h
-c00000000539A3F15000000000000006C
-t1402617621
-s108
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMaskFilter.h
-c00000000539A3F150000000000000061
-t1402617621
-s97
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMedianFilter.h
-c00000000539A3F150000000000000077
-t1402617621
-s119
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMissEtikateFilter.h
-c00000000539A3F1500000000000001BF
-t1402617621
-s447
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMonochromeFilter.h
-c00000000539A3F150000000000000157
-t1402617621
-s343
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMosaicFilter.h
-c0000000053DC6DE300000000000003CD
-t1406954979
-s973
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMotionBlurFilter.h
-c00000000539A3F150000000000000162
-t1402617621
-s354
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMotionDetector.h
-c00000000539A3F150000000000000300
-t1402617621
-s768
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMovie.h
-c00000000539A3F1500000000000008EA
-t1402617621
-s2282
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMultiplyBlendFilter.h
-c00000000539A3F15000000000000006E
-t1402617621
-s110
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNobleCornerDetectionFilter.h
-c00000000539A3F150000000000000164
-t1402617621
-s356
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNonMaximumSuppressionFilter.h
-c00000000539A3F150000000000000086
-t1402617621
-s134
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNormalBlendFilter.h
-c00000000539A3F150000000000000093
-t1402617621
-s147
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOpacityFilter.h
-c00000000539A3F1500000000000000E6
-t1402617621
-s230
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOpeningFilter.h
-c00000000539A3F150000000000000224
-t1402617621
-s548
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOutput.h
-c00000000539A3F1500000000000012F7
-t1402617621
-s4855
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOverlayBlendFilter.h
-c00000000539A3F150000000000000069
-t1402617621
-s105
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageParallelCoordinateLineTransformFilter.h
-c00000000539A3F150000000000000336
-t1402617621
-s822
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePerlinNoiseFilter.h
-c00000000539A3F15000000000000013D
-t1402617621
-s317
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePinchDistortionFilter.h
-c00000000539A3F150000000000000267
-t1402617621
-s615
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePixellateFilter.h
-c00000000539A3F150000000000000176
-t1402617621
-s374
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePixellatePositionFilter.h
-c00000000539A3F15000000000000028A
-t1402617621
-s650
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePoissonBlendFilter.h
-c00000000539A3F15000000000000026D
-t1402617621
-s621
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePolarPixellateFilter.h
-c00000000539A3F1500000000000001A4
-t1402617621
-s420
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePolkaDotFilter.h
-c00000000539A3F1500000000000000BD
-t1402617621
-s189
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePosterizeFilter.h
-c00000000539A3F1500000000000001AC
-t1402617621
-s428
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePrewittEdgeDetectionFilter.h
-c00000000539A3F150000000000000085
-t1402617621
-s133
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBClosingFilter.h
-c00000000539A3F1500000000000001DE
-t1402617621
-s478
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBDilationFilter.h
-c00000000539A3F150000000000000229
-t1402617621
-s553
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBErosionFilter.h
-c00000000539A3F150000000000000224
-t1402617621
-s548
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBFilter.h
-c00000000539A3F15000000000000019C
-t1402617621
-s412
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBOpeningFilter.h
-c00000000539A3F1500000000000001DF
-t1402617621
-s479
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRawDataInput.h
-c00000000539A3F1500000000000005D3
-t1402617621
-s1491
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRawDataOutput.h
-c00000000539A3F150000000000000465
-t1402617621
-s1125
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSaturationBlendFilter.h
-c00000000539A3F15000000000000006C
-t1402617621
-s108
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSaturationFilter.h
-c00000000539A3F150000000000000146
-t1402617621
-s326
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageScreenBlendFilter.h
-c00000000539A3F15000000000000006C
-t1402617621
-s108
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSepiaFilter.h
-c00000000539A3F150000000000000085
-t1402617621
-s133
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSharpenFilter.h
-c00000000539A3F150000000000000129
-t1402617621
-s297
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageShiTomasiFeatureDetectionFilter.h
-c00000000539A3F1500000000000001F5
-t1402617621
-s501
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSketchFilter.h
-c00000000539A3F1500000000000000F3
-t1402617621
-s243
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSmoothToonFilter.h
-c00000000539A3F15000000000000047B
-t1402617621
-s1147
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSobelEdgeDetectionFilter.h
-c00000000539A3F1500000000000002A8
-t1402617621
-s680
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSoftEleganceFilter.h
-c00000000539A3F15000000000000020F
-t1402617621
-s527
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSoftLightBlendFilter.h
-c00000000539A3F15000000000000006F
-t1402617621
-s111
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSolidColorGenerator.h
-c0000000053DC6DE300000000000002BF
-t1406954979
-s703
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSourceOverBlendFilter.h
-c00000000539A3F15000000000000006C
-t1402617621
-s108
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSphereRefractionFilter.h
-c00000000539A3F150000000000000235
-t1402617621
-s565
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageStillCamera.h
-c00000000539A3F150000000000000786
-t1402617621
-s1926
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageStretchDistortionFilter.h
-c00000000539A3F150000000000000133
-t1402617621
-s307
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSubtractBlendFilter.h
-c00000000539A3F15000000000000006A
-t1402617621
-s106
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSwirlFilter.h
-c00000000539A3F150000000000000240
-t1402617621
-s576
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTextureInput.h
-c00000000539A3F150000000000000125
-t1402617621
-s293
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTextureOutput.h
-c00000000539A3F150000000000000225
-t1402617621
-s549
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdEdgeDetectionFilter.h
-c00000000539A3F15000000000000015B
-t1402617621
-s347
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdSketchFilter.h
-c00000000539A3F150000000000000088
-t1402617621
-s136
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdedNonMaximumSuppressionFilter.h
-c00000000539A3F1500000000000001AE
-t1402617621
-s430
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTiltShiftFilter.h
-c00000000539A3F15000000000000039F
-t1402617621
-s927
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageToneCurveFilter.h
-c00000000539A3F150000000000000496
-t1402617621
-s1174
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageToonFilter.h
-c00000000539A3F150000000000000284
-t1402617621
-s644
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTransformFilter.h
-c00000000539A3F150000000000000321
-t1402617621
-s801
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoInputCrossTextureSamplingFilter.h
-c00000000539A3F150000000000000220
-t1402617621
-s544
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoInputFilter.h
-c00000000539A3F150000000000000274
-t1402617621
-s628
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoPassFilter.h
-c00000000539A3F1500000000000003CE
-t1402617621
-s974
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoPassTextureSamplingFilter.h
-c00000000539A3F15000000000000029F
-t1402617621
-s671
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageUIElement.h
-c00000000539A3F150000000000000154
-t1402617621
-s340
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageUnsharpMaskFilter.h
-c00000000539A3F1500000000000001DF
-t1402617621
-s479
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVideoCamera.h
-c0000000054120A120000000000001424
-t1410468370
-s5156
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVignetteFilter.h
-c00000000539A3F15000000000000031F
-t1402617621
-s799
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVoronoiConsumerFilter.h
-c00000000539A3F1500000000000000BF
-t1402617621
-s191
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageWhiteBalanceFilter.h
-c0000000053DC6DE3000000000000020D
-t1406954979
-s525
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageXYDerivativeFilter.h
-c00000000539A3F15000000000000007D
-t1402617621
-s125
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageZoomBlurFilter.h
-c00000000539A3F150000000000000156
-t1402617621
-s342
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageiOSBlurFilter.h
-c00000000539A3F15000000000000042A
-t1402617621
-s1066
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/MAC/GPUImageAVCamera.h
-c00000000539A3F150000000000000F9A
-t1402617621
-s3994
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/MAC/GPUImageContext.h
-c00000000539A3F150000000000000958
-t1402617621
-s2392
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/MAC/GPUImageMovieWriter.h
-c00000000539A3F1500000000000007D7
-t1402617621
-s2007
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/MAC/GPUImagePicture.h
-c00000000539A3F150000000000000353
-t1402617621
-s851
-
-N/Users/eight/repos/GPUImage-eight/framework/Source/MAC/GPUImageView.h
-c00000000539A3F150000000000000620
-t1402617621
-s1568
-
-N/var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-bclkfdtqnmmyjkcvwycpdlvqlssu/FilterShowcase-Prefix.pch.pch
-t1409176238
-s13734708
-
-N/var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-cmnmymvuompwfucqrskuyreeanby/FilterShowcase-Prefix.pch.pch
-t1410470218
-s13735828
-
-N/var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-eesomabqxflhuneyvvclyiuuavoh/FilterShowcase-Prefix.pch.pch
-t1410467031
-s13736012
-
-CBuild AST from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m
-r0
-
-CBuild AST from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/main.m
-r0
-
-CBuild AST from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesace18ef848c2b941^2d0899f848c2b941^---0#1#1#--18"Check dependencies36"0417CA33-50D4-4B91-8F97-2E63AEF35A34-
-
-CCompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSAppDelegate.o /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s432163064.601189
-e432163064.802629
-r0
-xCompileC
-xbuild/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSAppDelegate.o
-x/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m
-d/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h
-d/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GLProgram.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/MAC/GPUImageContext.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFramebuffer.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFramebufferCache.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOutput.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/MAC/GPUImageView.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVideoCamera.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageStillCamera.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMovie.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/MAC/GPUImagePicture.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRawDataInput.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRawDataOutput.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/MAC/GPUImageMovieWriter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilterPipeline.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTextureOutput.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilterGroup.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTextureInput.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageUIElement.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBuffer.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoInputFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePixellateFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePixellatePositionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSepiaFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorMatrixFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorInvertFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSaturationFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageContrastFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageExposureFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBrightnessFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLevelsFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSharpenFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGammaFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSobelEdgeDetectionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoPassFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSketchFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageToonFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage3x3TextureSamplingFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSmoothToonFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMultiplyBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDissolveBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageKuwaharaFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageKuwaharaRadius3Filter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVignetteFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianBlurFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoPassTextureSamplingFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianBlurPositionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianSelectiveBlurFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOverlayBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDarkenBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLightenBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSwirlFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSourceOverBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorBurnBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorDodgeBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageScreenBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageExclusionBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDifferenceBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSubtractBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHardLightBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSoftLightBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHueBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSaturationBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminosityBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCropFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGrayscaleFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTransformFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageChromaKeyBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHazeFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminanceThresholdFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePosterizeFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBoxBlurFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAdaptiveThresholdFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageUnsharpMaskFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBulgeDistortionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePinchDistortionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCrosshatchFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCGAColorspaceFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePolarPixellateFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageStretchDistortionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePerlinNoiseFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageJFAVoronoiFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVoronoiConsumerFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMosaicFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTiltShiftFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage3x3ConvolutionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageEmbossFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCannyEdgeDetectionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdEdgeDetectionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMaskFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramGenerator.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramEqualizationFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePrewittEdgeDetectionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageXYDerivativeFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHarrisCornerDetectionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAlphaBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNormalBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNonMaximumSuppressionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMedianFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBilateralFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCrosshairGenerator.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageToneCurveFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNobleCornerDetectionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageShiTomasiFeatureDetectionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageErosionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBErosionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDilationFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBDilationFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOpeningFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBOpeningFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageClosingFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBClosingFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorPackingFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSphereRefractionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMonochromeFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOpacityFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHighlightShadowFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFalseColorFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHSBFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHueFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGlassSphereFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLookupFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAmatorkaFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMissEtikateFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSoftEleganceFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAddBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDivideBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePolkaDotFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLocalBinaryPatternFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLanczosResamplingFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAverageColor.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/MAC/GPUImageAVCamera.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSolidColorGenerator.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminosity.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAverageLuminanceThresholdFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageWhiteBalanceFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageChromaKeyFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLowPassFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHighPassFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMotionDetector.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHalftoneFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdedNonMaximumSuppressionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHoughTransformLineDetector.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageParallelCoordinateLineTransformFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdSketchFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLineGenerator.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLinearBurnBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoInputCrossTextureSamplingFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePoissonBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMotionBlurFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageZoomBlurFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLaplacianFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageiOSBlurFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminanceRangeFilter.h
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:
-oIn file included from ../../../framework/Source/GPUImage.h:7:
-o../../../framework/Source/GPUImageVideoCamera.h:72:33: error: unknown type name 'UIInterfaceOrientation'; did you mean 'UIImageOrientation'?
-o@property(readwrite, nonatomic) UIInterfaceOrientation outputImageOrientation;
-o                                ^~~~~~~~~~~~~~~~~~~~~~
-o                                UIImageOrientation
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:
-oIn file included from ../../../framework/Source/GPUImage.h:5:
-o../../../framework/Source/GPUImageOutput.h:8:28: note: 'UIImageOrientation' declared here
-otypedef NS_ENUM(NSInteger, UIImageOrientation) {
-o                           ^
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch:6:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:8:
-o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:251:46: note: expanded from macro 'NS_ENUM'
-o#define NS_ENUM(_type, _name) CF_ENUM(_type, _name)
-o                                             ^
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch:6:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:38:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h:9:
-o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAvailability.h:163:50: note: expanded from macro 'CF_ENUM'
-o#define CF_ENUM(_type, _name) enum _name : _type _name; enum _name : _type
-o                                                 ^
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:
-oIn file included from ../../../framework/Source/GPUImage.h:8:
-o../../../framework/Source/GPUImageStillCamera.h:17:132: error: unknown type name 'UIImage'; did you mean 'CIImage'?
-o- (void)capturePhotoAsImageProcessedUpToFilter:(GPUImageOutput<GPUImageInput> *)finalFilterInChain withCompletionHandler:(void (^)(UIImage *processedImage, NSError *error))block;
-o                                                                                                                                   ^~~~~~~
-o                                                                                                                                   CIImage
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:
-oIn file included from ../../../framework/Source/GPUImage.h:4:
-oIn file included from ../../../framework/Source/MAC/GPUImageContext.h:2:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h:9:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CoreImage.h:1:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/../Frameworks/CoreImage.framework/Headers/CoreImage.h:24:
-o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Frameworks/CoreImage.framework/Headers/CIDetector.h:10:8: note: 'CIImage' declared here
-o@class CIImage;
-o       ^
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:
-oIn file included from ../../../framework/Source/GPUImage.h:8:
-o../../../framework/Source/GPUImageStillCamera.h:18:180: error: unknown type name 'UIImage'; did you mean 'CIImage'?
-o- (void)capturePhotoAsImageProcessedUpToFilter:(GPUImageOutput<GPUImageInput> *)finalFilterInChain withOrientation:(UIImageOrientation)orientation withCompletionHandler:(void (^)(UIImage *processedImage, NSError *error))block;
-o                                                                                                                                                                                   ^~~~~~~
-o                                                                                                                                                                                   CIImage
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:
-oIn file included from ../../../framework/Source/GPUImage.h:4:
-oIn file included from ../../../framework/Source/MAC/GPUImageContext.h:2:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h:9:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CoreImage.h:1:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/../Frameworks/CoreImage.framework/Headers/CoreImage.h:24:
-o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Frameworks/CoreImage.framework/Headers/CIDetector.h:10:8: note: 'CIImage' declared here
-o@class CIImage;
-o       ^
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:
-oIn file included from ../../../framework/Source/GPUImage.h:14:
-o../../../framework/Source/GPUImageFilterPipeline.h:26:4: error: expected a type
-o- (UIImage *) currentFilteredFrame;
-o   ^
-o../../../framework/Source/GPUImageFilterPipeline.h:27:4: error: expected a type
-o- (UIImage *) currentFilteredFrameWithOrientation:(UIImageOrientation)imageOrientation;
-o   ^
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:
-oIn file included from ../../../framework/Source/GPUImage.h:18:
-o../../../framework/Source/GPUImageUIElement.h:6:21: error: expected a type
-o- (id)initWithView:(UIView *)inputView;
-o                    ^
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:
-oIn file included from ../../../framework/Source/GPUImage.h:135:
-o../../../framework/Source/MAC/GPUImageAVCamera.h:8:11: warning: duplicate protocol definition of 'GPUImageVideoCameraDelegate' is ignored
-o@protocol GPUImageVideoCameraDelegate <NSObject>
-o          ^
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:
-oIn file included from ../../../framework/Source/GPUImage.h:7:
-o../../../framework/Source/GPUImageVideoCamera.h:16:11: note: previous definition is here
-o@protocol GPUImageVideoCameraDelegate <NSObject>
-o          ^
-o1 warning and 6 errors generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m203"CompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSAppDelegate.o FilterShowcase/SLSAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler37fd99f848c2b941^ea5ccdf848c2b941^-11205"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:In file included from ../../../framework/Source/GPUImage.h:7:../../../framework/Source/GPUImageVideoCamera.h:72:33: error: unknown type name 'UIInterfaceOrientation'; did you mean 'UIImageOrientation'?@property(readwrite, nonatomic) UIInterfaceOrientation outputImageOrientation;                                ^~~~~~~~~~~~~~~~~~~~~~                                UIImageOrientationIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:In file included from ../../../framework/Source/GPUImage.h:5:../../../framework/Source/GPUImageOutput.h:8:28: note: 'UIImageOrientation' declared heretypedef NS_ENUM(NSInteger, UIImageOrientation) {                           ^In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch:6:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:8:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:251:46: note: expanded from macro 'NS_ENUM'#define NS_ENUM(_type, _name) CF_ENUM(_type, _name)                                             ^In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch:6:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:38:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAvailability.h:163:50: note: expanded from macro 'CF_ENUM'#define CF_ENUM(_type, _name) enum _name : _type _name; enum _name : _type                                                 ^In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:In file included from ../../../framework/Source/GPUImage.h:8:../../../framework/Source/GPUImageStillCamera.h:17:132: error: unknown type name 'UIImage'; did you mean 'CIImage'?- (void)capturePhotoAsImageProcessedUpToFilter:(GPUImageOutput<GPUImageInput> *)finalFilterInChain withCompletionHandler:(void (^)(UIImage *processedImage, NSError *error))block;                                                                                                                                   ^~~~~~~                                                                                                                                   CIImageIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:In file included from ../../../framework/Source/GPUImage.h:4:In file included from ../../../framework/Source/MAC/GPUImageContext.h:2:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h:9:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CoreImage.h:1:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/../Frameworks/CoreImage.framework/Headers/CoreImage.h:24:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Frameworks/CoreImage.framework/Headers/CIDetector.h:10:8: note: 'CIImage' declared here@class CIImage;       ^In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:In file included from ../../../framework/Source/GPUImage.h:8:../../../framework/Source/GPUImageStillCamera.h:18:180: error: unknown type name 'UIImage'; did you mean 'CIImage'?- (void)capturePhotoAsImageProcessedUpToFilter:(GPUImageOutput<GPUImageInput> *)finalFilterInChain withOrientation:(UIImageOrientation)orientation withCompletionHandler:(void (^)(UIImage *processedImage, NSError *error))block;                                                                                                                                                                                   ^~~~~~~                                                                                                                                                                                   CIImageIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:In file included from ../../../framework/Source/GPUImage.h:4:In file included from ../../../framework/Source/MAC/GPUImageContext.h:2:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h:9:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CoreImage.h:1:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/../Frameworks/CoreImage.framework/Headers/CoreImage.h:24:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Frameworks/CoreImage.framework/Headers/CIDetector.h:10:8: note: 'CIImage' declared here@class CIImage;       ^In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:In file included from ../../../framework/Source/GPUImage.h:14:../../../framework/Source/GPUImageFilterPipeline.h:26:4: error: expected a type- (UIImage *) currentFilteredFrame;   ^../../../framework/Source/GPUImageFilterPipeline.h:27:4: error: expected a type- (UIImage *) currentFilteredFrameWithOrientation:(UIImageOrientation)imageOrientation;   ^In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:In file included from ../../../framework/Source/GPUImage.h:18:../../../framework/Source/GPUImageUIElement.h:6:21: error: expected a type- (id)initWithView:(UIView *)inputView;                    ^In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:In file included from ../../../framework/Source/GPUImage.h:135:../../../framework/Source/MAC/GPUImageAVCamera.h:8:11: warning: duplicate protocol definition of 'GPUImageVideoCameraDelegate' is ignored@protocol GPUImageVideoCameraDelegate <NSObject>          ^In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:In file included from ../../../framework/Source/GPUImage.h:7:../../../framework/Source/GPUImageVideoCamera.h:16:11: note: previous definition is here@protocol GPUImageVideoCameraDelegate <NSObject>          ^1 warning and 6 errors generated.7(36%IDEClangDiagnosticActivityLogMessage2@78"Unknown type name 'UIInterfaceOrientation'; did you mean 'UIImageOrientation'?-432163064#18446744073709551615#0#5(2@118"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@100"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m0000000000000000^0#8#0#8#8#0#21"Apple LLVM 5.0 Notice--2@118"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@100"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h0000000000000000^1#8#1#8#32#0#21"Apple LLVM 5.0 Notice--2@140"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@104"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h0000000000000000^1#8#1#8#32#0#21"Apple LLVM 5.0 Notice--2@61"In file included from ../../../framework/Source/GPUImage.h:7:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@68"file:///Users/eight/repos/GPUImage-eight/framework/Source/GPUImage.h0000000000000000^6#8#6#8#127#0#21"Apple LLVM 5.0 Notice--2@34"'UIImageOrientation' declared here-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@74"file:///Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOutput.h0000000000000000^7#27#7#27#208#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVideoCamera.h0000000000000000^71#32#71#32#2665#0#14"Semantic Issue1(3@79"file:///Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVideoCamera.h0000000000000000^71#32#71#54#2665#22#-2@52"Unknown type name 'UIImage'; did you mean 'CIImage'?-432163064#18446744073709551615#0#5(2@118"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@100"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m0000000000000000^0#8#0#8#8#0#21"Apple LLVM 5.0 Notice--2@118"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@100"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h0000000000000000^1#8#1#8#32#0#21"Apple LLVM 5.0 Notice--2@140"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@104"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h0000000000000000^1#8#1#8#32#0#21"Apple LLVM 5.0 Notice--2@61"In file included from ../../../framework/Source/GPUImage.h:8:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@68"file:///Users/eight/repos/GPUImage-eight/framework/Source/GPUImage.h0000000000000000^7#8#7#8#159#0#21"Apple LLVM 5.0 Notice--2@23"'CIImage' declared here-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@204"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Frameworks/CoreImage.framework/Headers/CIDetector.h0000000000000000^9#7#9#7#159#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/eight/repos/GPUImage-eight/framework/Source/GPUImageStillCamera.h0000000000000000^16#131#16#131#849#0#14"Semantic Issue1(3@79"file:///Users/eight/repos/GPUImage-eight/framework/Source/GPUImageStillCamera.h0000000000000000^16#131#16#138#849#7#-2@52"Unknown type name 'UIImage'; did you mean 'CIImage'?-432163064#18446744073709551615#0#5(2@118"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@100"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m0000000000000000^0#8#0#8#8#0#21"Apple LLVM 5.0 Notice--2@118"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@100"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h0000000000000000^1#8#1#8#32#0#21"Apple LLVM 5.0 Notice--2@140"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@104"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h0000000000000000^1#8#1#8#32#0#21"Apple LLVM 5.0 Notice--2@61"In file included from ../../../framework/Source/GPUImage.h:8:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@68"file:///Users/eight/repos/GPUImage-eight/framework/Source/GPUImage.h0000000000000000^7#8#7#8#159#0#21"Apple LLVM 5.0 Notice--2@23"'CIImage' declared here-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@204"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Frameworks/CoreImage.framework/Headers/CIDetector.h0000000000000000^9#7#9#7#159#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/eight/repos/GPUImage-eight/framework/Source/GPUImageStillCamera.h0000000000000000^17#179#17#179#1076#0#14"Semantic Issue1(3@79"file:///Users/eight/repos/GPUImage-eight/framework/Source/GPUImageStillCamera.h0000000000000000^17#179#17#186#1076#7#-2@15"Expected a type-432163064#18446744073709551615#0#4(2@118"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@100"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m0000000000000000^0#8#0#8#8#0#21"Apple LLVM 5.0 Notice--2@118"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@100"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h0000000000000000^1#8#1#8#32#0#21"Apple LLVM 5.0 Notice--2@140"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@104"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h0000000000000000^1#8#1#8#32#0#21"Apple LLVM 5.0 Notice--2@62"In file included from ../../../framework/Source/GPUImage.h:14:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@68"file:///Users/eight/repos/GPUImage-eight/framework/Source/GPUImage.h0000000000000000^13#8#13#8#344#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@82"file:///Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilterPipeline.h0000000000000000^25#3#25#3#1075#0#11"Parse Issue--2@15"Expected a type-432163064#18446744073709551615#0#4(2@118"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@100"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m0000000000000000^0#8#0#8#8#0#21"Apple LLVM 5.0 Notice--2@118"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@100"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h0000000000000000^1#8#1#8#32#0#21"Apple LLVM 5.0 Notice--2@140"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@104"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h0000000000000000^1#8#1#8#32#0#21"Apple LLVM 5.0 Notice--2@62"In file included from ../../../framework/Source/GPUImage.h:14:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@68"file:///Users/eight/repos/GPUImage-eight/framework/Source/GPUImage.h0000000000000000^13#8#13#8#344#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@82"file:///Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilterPipeline.h0000000000000000^26#3#26#3#1111#0#11"Parse Issue--2@15"Expected a type-432163064#18446744073709551615#0#4(2@118"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@100"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m0000000000000000^0#8#0#8#8#0#21"Apple LLVM 5.0 Notice--2@118"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@100"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h0000000000000000^1#8#1#8#32#0#21"Apple LLVM 5.0 Notice--2@140"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@104"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h0000000000000000^1#8#1#8#32#0#21"Apple LLVM 5.0 Notice--2@62"In file included from ../../../framework/Source/GPUImage.h:18:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@68"file:///Users/eight/repos/GPUImage-eight/framework/Source/GPUImage.h0000000000000000^17#8#17#8#478#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@77"file:///Users/eight/repos/GPUImage-eight/framework/Source/GPUImageUIElement.h0000000000000000^5#20#5#20#126#0#11"Parse Issue--2@73"Duplicate protocol definition of 'GPUImageVideoCameraDelegate' is ignored-432163064#18446744073709551615#0#5(2@118"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m:1:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@100"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m0000000000000000^0#8#0#8#8#0#21"Apple LLVM 5.0 Notice--2@118"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h:2:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@100"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.h0000000000000000^1#8#1#8#32#0#21"Apple LLVM 5.0 Notice--2@140"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/../SLSFilterShowcaseWindowController.h:2:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@104"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h0000000000000000^1#8#1#8#32#0#21"Apple LLVM 5.0 Notice--2@63"In file included from ../../../framework/Source/GPUImage.h:135:-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@68"file:///Users/eight/repos/GPUImage-eight/framework/Source/GPUImage.h0000000000000000^134#8#134#8#4862#0#21"Apple LLVM 5.0 Notice--2@27"Previous definition is here-432163064#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVideoCamera.h0000000000000000^15#10#15#10#598#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@80"file:///Users/eight/repos/GPUImage-eight/framework/Source/Mac/GPUImageAVCamera.h0000000000000000^7#10#7#10#210#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@100"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m0000000000000000^3480"CompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSAppDelegate.o FilterShowcase/SLSAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I../../../framework/Source -I../../../framework/Source/MAC -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/DerivedSources/x86_64 -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug -include /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-cmnmymvuompwfucqrskuyreeanby/FilterShowcase-Prefix.pch -MMD -MT dependencies -MF /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSAppDelegate.d --serialize-diagnostics /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSAppDelegate.dia -c /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/SLSAppDelegate.m -o /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSAppDelegate.o36"BBB25B37-6645-4B43-A2AA-9DC7E914D135-
-bCBC46F7A-A152-4521-86FB-C8DE81831872
-
-CCompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSFilterShowcaseWindowController.o /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s432163064.601390
-e432163064.902631
-r0
-xCompileC
-xbuild/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSFilterShowcaseWindowController.o
-x/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m
-d/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GLProgram.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/MAC/GPUImageContext.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFramebuffer.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFramebufferCache.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOutput.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/MAC/GPUImageView.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVideoCamera.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageStillCamera.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMovie.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/MAC/GPUImagePicture.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRawDataInput.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRawDataOutput.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/MAC/GPUImageMovieWriter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilterPipeline.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTextureOutput.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilterGroup.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTextureInput.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageUIElement.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBuffer.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoInputFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePixellateFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePixellatePositionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSepiaFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorMatrixFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorInvertFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSaturationFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageContrastFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageExposureFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBrightnessFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLevelsFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSharpenFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGammaFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSobelEdgeDetectionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoPassFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSketchFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageToonFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage3x3TextureSamplingFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSmoothToonFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMultiplyBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDissolveBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageKuwaharaFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageKuwaharaRadius3Filter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVignetteFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianBlurFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoPassTextureSamplingFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianBlurPositionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGaussianSelectiveBlurFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOverlayBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDarkenBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLightenBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSwirlFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSourceOverBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorBurnBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorDodgeBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageScreenBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageExclusionBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDifferenceBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSubtractBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHardLightBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSoftLightBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHueBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSaturationBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminosityBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCropFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGrayscaleFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTransformFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageChromaKeyBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHazeFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminanceThresholdFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePosterizeFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBoxBlurFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAdaptiveThresholdFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageUnsharpMaskFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBulgeDistortionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePinchDistortionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCrosshatchFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCGAColorspaceFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePolarPixellateFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageStretchDistortionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePerlinNoiseFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageJFAVoronoiFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageVoronoiConsumerFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMosaicFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTiltShiftFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImage3x3ConvolutionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageEmbossFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCannyEdgeDetectionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdEdgeDetectionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMaskFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramGenerator.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHistogramEqualizationFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePrewittEdgeDetectionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageXYDerivativeFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHarrisCornerDetectionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAlphaBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNormalBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNonMaximumSuppressionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMedianFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageBilateralFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageCrosshairGenerator.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageToneCurveFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageNobleCornerDetectionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageShiTomasiFeatureDetectionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageErosionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBErosionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDilationFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBDilationFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOpeningFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBOpeningFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageClosingFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageRGBClosingFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageColorPackingFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSphereRefractionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMonochromeFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageOpacityFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHighlightShadowFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageFalseColorFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHSBFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHueFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageGlassSphereFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLookupFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAmatorkaFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMissEtikateFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSoftEleganceFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAddBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageDivideBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePolkaDotFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLocalBinaryPatternFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLanczosResamplingFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAverageColor.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/MAC/GPUImageAVCamera.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageSolidColorGenerator.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminosity.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageAverageLuminanceThresholdFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageWhiteBalanceFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageChromaKeyFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLowPassFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHighPassFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMotionDetector.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHalftoneFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdedNonMaximumSuppressionFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageHoughTransformLineDetector.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageParallelCoordinateLineTransformFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageThresholdSketchFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLineGenerator.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLinearBurnBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageTwoInputCrossTextureSamplingFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImagePoissonBlendFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageMotionBlurFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageZoomBlurFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLaplacianFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageiOSBlurFilter.h
-d/Users/eight/repos/GPUImage-eight/framework/Source/GPUImageLuminanceRangeFilter.h
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h:2:
-oIn file included from ../../../framework/Source/GPUImage.h:7:
-o../../../framework/Source/GPUImageVideoCamera.h:72:33: error: unknown type name 'UIInterfaceOrientation'; did you mean 'UIImageOrientation'?
-o@property(readwrite, nonatomic) UIInterfaceOrientation outputImageOrientation;
-o                                ^~~~~~~~~~~~~~~~~~~~~~
-o                                UIImageOrientation
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h:2:
-oIn file included from ../../../framework/Source/GPUImage.h:5:
-o../../../framework/Source/GPUImageOutput.h:8:28: note: 'UIImageOrientation' declared here
-otypedef NS_ENUM(NSInteger, UIImageOrientation) {
-o                           ^
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch:6:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:8:
-o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:251:46: note: expanded from macro 'NS_ENUM'
-o#define NS_ENUM(_type, _name) CF_ENUM(_type, _name)
-o                                             ^
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch:6:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:38:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h:9:
-o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAvailability.h:163:50: note: expanded from macro 'CF_ENUM'
-o#define CF_ENUM(_type, _name) enum _name : _type _name; enum _name : _type
-o                                                 ^
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h:2:
-oIn file included from ../../../framework/Source/GPUImage.h:8:
-o../../../framework/Source/GPUImageStillCamera.h:17:132: error: unknown type name 'UIImage'; did you mean 'CIImage'?
-o- (void)capturePhotoAsImageProcessedUpToFilter:(GPUImageOutput<GPUImageInput> *)finalFilterInChain withCompletionHandler:(void (^)(UIImage *processedImage, NSError *error))block;
-o                                                                                                                                   ^~~~~~~
-o                                                                                                                                   CIImage
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h:2:
-oIn file included from ../../../framework/Source/GPUImage.h:4:
-oIn file included from ../../../framework/Source/MAC/GPUImageContext.h:2:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h:9:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CoreImage.h:1:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/../Frameworks/CoreImage.framework/Headers/CoreImage.h:24:
-o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Frameworks/CoreImage.framework/Headers/CIDetector.h:10:8: note: 'CIImage' declared here
-o@class CIImage;
-o       ^
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h:2:
-oIn file included from ../../../framework/Source/GPUImage.h:8:
-o../../../framework/Source/GPUImageStillCamera.h:18:180: error: unknown type name 'UIImage'; did you mean 'CIImage'?
-o- (void)capturePhotoAsImageProcessedUpToFilter:(GPUImageOutput<GPUImageInput> *)finalFilterInChain withOrientation:(UIImageOrientation)orientation withCompletionHandler:(void (^)(UIImage *processedImage, NSError *error))block;
-o                                                                                                                                                                                   ^~~~~~~
-o                                                                                                                                                                                   CIImage
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h:2:
-oIn file included from ../../../framework/Source/GPUImage.h:4:
-oIn file included from ../../../framework/Source/MAC/GPUImageContext.h:2:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h:9:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CoreImage.h:1:
-oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/../Frameworks/CoreImage.framework/Headers/CoreImage.h:24:
-o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Frameworks/CoreImage.framework/Headers/CIDetector.h:10:8: note: 'CIImage' declared here
-o@class CIImage;
-o       ^
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h:2:
-oIn file included from ../../../framework/Source/GPUImage.h:14:
-o../../../framework/Source/GPUImageFilterPipeline.h:26:4: error: expected a type
-o- (UIImage *) currentFilteredFrame;
-o   ^
-o../../../framework/Source/GPUImageFilterPipeline.h:27:4: error: expected a type
-o- (UIImage *) currentFilteredFrameWithOrientation:(UIImageOrientation)imageOrientation;
-o   ^
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h:2:
-oIn file included from ../../../framework/Source/GPUImage.h:18:
-o../../../framework/Source/GPUImageUIElement.h:6:21: error: expected a type
-o- (id)initWithView:(UIView *)inputView;
-o                    ^
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h:2:
-oIn file included from ../../../framework/Source/GPUImage.h:135:
-o../../../framework/Source/MAC/GPUImageAVCamera.h:8:11: warning: duplicate protocol definition of 'GPUImageVideoCameraDelegate' is ignored
-o@protocol GPUImageVideoCameraDelegate <NSObject>
-o          ^
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:
-oIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h:2:
-oIn file included from ../../../framework/Source/GPUImage.h:7:
-o../../../framework/Source/GPUImageVideoCamera.h:16:11: note: previous definition is here
-o@protocol GPUImageVideoCameraDelegate <NSObject>
-o          ^
-o1 warning and 6 errors generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m226"CompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSFilterShowcaseWindowController.o SLSFilterShowcaseWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilercc099af848c2b941^4913e7f848c2b941^-9883"In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h:2:In file included from ../../../framework/Source/GPUImage.h:7:../../../framework/Source/GPUImageVideoCamera.h:72:33: error: unknown type name 'UIInterfaceOrientation'; did you mean 'UIImageOrientation'?@property(readwrite, nonatomic) UIInterfaceOrientation outputImageOrientation;                                ^~~~~~~~~~~~~~~~~~~~~~                                UIImageOrientationIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h:2:In file included from ../../../framework/Source/GPUImage.h:5:../../../framework/Source/GPUImageOutput.h:8:28: note: 'UIImageOrientation' declared heretypedef NS_ENUM(NSInteger, UIImageOrientation) {                           ^In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch:6:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:8:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:251:46: note: expanded from macro 'NS_ENUM'#define NS_ENUM(_type, _name) CF_ENUM(_type, _name)                                             ^In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch:6:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:12:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h:6:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h:38:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAvailability.h:163:50: note: expanded from macro 'CF_ENUM'#define CF_ENUM(_type, _name) enum _name : _type _name; enum _name : _type                                                 ^In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h:2:In file included from ../../../framework/Source/GPUImage.h:8:../../../framework/Source/GPUImageStillCamera.h:17:132: error: unknown type name 'UIImage'; did you mean 'CIImage'?- (void)capturePhotoAsImageProcessedUpToFilter:(GPUImageOutput<GPUImageInput> *)finalFilterInChain withCompletionHandler:(void (^)(UIImage *processedImage, NSError *error))block;                                                                                                                                   ^~~~~~~                                                                                                                                   CIImageIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h:2:In file included from ../../../framework/Source/GPUImage.h:4:In file included from ../../../framework/Source/MAC/GPUImageContext.h:2:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h:9:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CoreImage.h:1:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/../Frameworks/CoreImage.framework/Headers/CoreImage.h:24:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Frameworks/CoreImage.framework/Headers/CIDetector.h:10:8: note: 'CIImage' declared here@class CIImage;       ^In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h:2:In file included from ../../../framework/Source/GPUImage.h:8:../../../framework/Source/GPUImageStillCamera.h:18:180: error: unknown type name 'UIImage'; did you mean 'CIImage'?- (void)capturePhotoAsImageProcessedUpToFilter:(GPUImageOutput<GPUImageInput> *)finalFilterInChain withOrientation:(UIImageOrientation)orientation withCompletionHandler:(void (^)(UIImage *processedImage, NSError *error))block;                                                                                                                                                                                   ^~~~~~~                                                                                                                                                                                   CIImageIn file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h:2:In file included from ../../../framework/Source/GPUImage.h:4:In file included from ../../../framework/Source/MAC/GPUImageContext.h:2:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h:9:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CoreImage.h:1:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/../Frameworks/CoreImage.framework/Headers/CoreImage.h:24:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Frameworks/CoreImage.framework/Headers/CIDetector.h:10:8: note: 'CIImage' declared here@class CIImage;       ^In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h:2:In file included from ../../../framework/Source/GPUImage.h:14:../../../framework/Source/GPUImageFilterPipeline.h:26:4: error: expected a type- (UIImage *) currentFilteredFrame;   ^../../../framework/Source/GPUImageFilterPipeline.h:27:4: error: expected a type- (UIImage *) currentFilteredFrameWithOrientation:(UIImageOrientation)imageOrientation;   ^In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h:2:In file included from ../../../framework/Source/GPUImage.h:18:../../../framework/Source/GPUImageUIElement.h:6:21: error: expected a type- (id)initWithView:(UIView *)inputView;                    ^In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h:2:In file included from ../../../framework/Source/GPUImage.h:135:../../../framework/Source/MAC/GPUImageAVCamera.h:8:11: warning: duplicate protocol definition of 'GPUImageVideoCameraDelegate' is ignored@protocol GPUImageVideoCameraDelegate <NSObject>          ^In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m:1:In file included from /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.h:2:In file included from ../../../framework/Source/GPUImage.h:7:../../../framework/Source/GPUImageVideoCamera.h:16:11: note: previous definition is here@protocol GPUImageVideoCameraDelegate <NSObject>          ^1 warning and 6 errors generated.-0#0#1#-19%DVTDocumentLocation2@104"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m0000000000000000^3564"CompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSFilterShowcaseWindowController.o SLSFilterShowcaseWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I../../../framework/Source -I../../../framework/Source/MAC -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/DerivedSources/x86_64 -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug -include /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-cmnmymvuompwfucqrskuyreeanby/FilterShowcase-Prefix.pch -MMD -MT dependencies -MF /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSFilterShowcaseWindowController.d --serialize-diagnostics /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSFilterShowcaseWindowController.dia -c /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.m -o /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/SLSFilterShowcaseWindowController.o36"F6DE095E-4673-42CF-8004-DEF0DF05C777-
-bCBC46F7A-A152-4521-86FB-C8DE81831872
-
-CCompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/main.o /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s432163018.955780
-e432163019.021292
-r1
-xCompileC
-xbuild/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/main.o
-x/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/main.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/main.m183"CompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/main.o FilterShowcase/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilera0c3f4ca48c2b941^0c7405cb48c2b941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/main.m0000000000000000^3420"CompileC build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/main.o FilterShowcase/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I../../../framework/Source -I../../../framework/Source/MAC -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/DerivedSources/x86_64 -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug -include /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-cmnmymvuompwfucqrskuyreeanby/FilterShowcase-Prefix.pch -MMD -MT dependencies -MF /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/main.dia -c /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/main.m -o /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/Objects-normal/x86_64/main.o36"6F39DF4C-1114-4E20-A1E8-D0765E5EA1E8-
-bE84A63E8-291F-4616-B275-90464D5EDA70
-
-CCompileXIB /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/en.lproj/MainMenu.xib
-r0
-
-CCompileXIB /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/SLSFilterShowcaseWindowController.xib
-r0
-
-CCopyStringsFile /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/FilterShowcase.app/Contents/Resources/en.lproj/InfoPlist.strings FilterShowcase/en.lproj/InfoPlist.strings
-r0
-
-CCpResource /Users/eight/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/mask.png build/Debug/FilterShowcase.app/Contents/Resources/mask.png
-r0
-
-CCpResource /Users/eight/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/squares.png build/Debug/FilterShowcase.app/Contents/Resources/squares.png
-r0
-
-CCpResource /Users/eight/repos/GPUImage-eight/examples/iOS/FilterShowcase/FilterShowcase/voroni_points2.png build/Debug/FilterShowcase.app/Contents/Resources/voroni_points2.png
-r0
-
-CCpResource /Users/eight/repos/GPUImage-eight/examples/iOS/SimpleImageFilter/SimpleImageFilter/Lambeau.jpg build/Debug/FilterShowcase.app/Contents/Resources/Lambeau.jpg
-r0
-
-CCpResource /Users/eight/repos/GPUImage-eight/framework/Resources/lookup_amatorka.png build/Debug/FilterShowcase.app/Contents/Resources/lookup_amatorka.png
-r0
-
-CCpResource /Users/eight/repos/GPUImage-eight/framework/Resources/lookup_miss_etikate.png build/Debug/FilterShowcase.app/Contents/Resources/lookup_miss_etikate.png
-r0
-
-CCpResource /Users/eight/repos/GPUImage-eight/framework/Resources/lookup_soft_elegance_1.png build/Debug/FilterShowcase.app/Contents/Resources/lookup_soft_elegance_1.png
-r0
-
-CCpResource /Users/eight/repos/GPUImage-eight/framework/Resources/lookup_soft_elegance_2.png build/Debug/FilterShowcase.app/Contents/Resources/lookup_soft_elegance_2.png
-r0
-
-CCpResource FilterShowcase/en.lproj/Credits.rtf build/Debug/FilterShowcase.app/Contents/Resources/en.lproj/Credits.rtf
-r0
-
-CLd /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/FilterShowcase.app/Contents/MacOS/FilterShowcase normal x86_64
-r0
-
-CPBXCp /Users/eight/repos/GPUImage-eight/framework/build/Debug/GPUImage.framework build/Debug/FilterShowcase.app/Contents/Frameworks/GPUImage.framework
-r0
-
-CProcessInfoPlistFile /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/FilterShowcase.app/Contents/Info.plist /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Info.plist
-s430869017.960958
-e430869017.962204
-r1
-xProcessInfoPlistFile
-x/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/FilterShowcase.app/Contents/Info.plist
-x/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Process /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Info.plist112"ProcessInfoPlistFile build/Debug/FilterShowcase.app/Contents/Info.plist FilterShowcase/FilterShowcase-Info.plist300ef6198aaeb941^b953f6198aaeb941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Info.plist0000000000000000^590"ProcessInfoPlistFile build/Debug/FilterShowcase.app/Contents/Info.plist FilterShowcase/FilterShowcase-Info.plist    cd /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase    builtin-infoPlistUtility /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Info.plist -genpkginfo /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/FilterShowcase.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/FilterShowcase.app/Contents/Info.plist36"06D09FD6-1361-43B0-A79B-33CF6C29CD1C-
-b8BC619A0-597F-411E-A7E3-717002ED9D93
-
-CProcessPCH /Users/eight/Library/Developer/Xcode/DerivedData/FilterShowcase-aoranzuamkbteufhjoimchccglty/Index/PrecompiledHeaders/FilterShowcase-Prefix-aaqipzmzcaskzgfvpefusvuljmfm_ast/FilterShowcase-Prefix.pch.pch FilterShowcase/FilterShowcase-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/eight/Library/Developer/Xcode/DerivedData/FilterShowcase-aoranzuamkbteufhjoimchccglty/Index/PrecompiledHeaders/FilterShowcase-Prefix-dftojoasbkthagdocyrjiyrjbuwk_ast/FilterShowcase-Prefix.pch.pch FilterShowcase/FilterShowcase-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/eight/Library/Developer/Xcode/DerivedData/FilterShowcase-aoranzuamkbteufhjoimchccglty/Index/PrecompiledHeaders/FilterShowcase-Prefix-esqldwpiomxxfxddnqyfumjenmsf_ast/FilterShowcase-Prefix.pch.pch FilterShowcase/FilterShowcase-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-bclkfdtqnmmyjkcvwycpdlvqlssu/FilterShowcase-Prefix.pch.pch FilterShowcase/FilterShowcase-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s430869037.673077
-e430869038.348930
-r1
-xProcessPCH
-x/var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-bclkfdtqnmmyjkcvwycpdlvqlssu/FilterShowcase-Prefix.pch.pch
-xFilterShowcase/FilterShowcase-Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile FilterShowcase/FilterShowcase-Prefix.pch320"ProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-bclkfdtqnmmyjkcvwycpdlvqlssu/FilterShowcase-Prefix.pch.pch FilterShowcase/FilterShowcase-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerd05fac2d8aaeb941^1956592e8aaeb941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch0000000000000000^3167"ProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-bclkfdtqnmmyjkcvwycpdlvqlssu/FilterShowcase-Prefix.pch.pch FilterShowcase/FilterShowcase-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I../../../framework -I../../../framework/Resources -I../../../framework/Source -I../../../framework/Source/iOS -I../../../framework/Source/Mac -I../../../framework/Source/iOS/Framework -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/DerivedSources/x86_64 -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug --serialize-diagnostics /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-bclkfdtqnmmyjkcvwycpdlvqlssu/FilterShowcase-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-bclkfdtqnmmyjkcvwycpdlvqlssu/FilterShowcase-Prefix.pch.d -c /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch -o /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-bclkfdtqnmmyjkcvwycpdlvqlssu/FilterShowcase-Prefix.pch.pch36"C26AEF54-D7AC-44D1-B4D8-AF54642E0AB4-
-b9AAC67FF-3FFB-4D8D-95D9-DB7A4A71D429
-
-CProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-cmnmymvuompwfucqrskuyreeanby/FilterShowcase-Prefix.pch.pch FilterShowcase/FilterShowcase-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s432163018.168018
-e432163018.955016
-r1
-xProcessPCH
-x/var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-cmnmymvuompwfucqrskuyreeanby/FilterShowcase-Prefix.pch.pch
-xFilterShowcase/FilterShowcase-Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile FilterShowcase/FilterShowcase-Prefix.pch320"ProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-cmnmymvuompwfucqrskuyreeanby/FilterShowcase-Prefix.pch.pch FilterShowcase/FilterShowcase-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler23142bca48c2b941^7c7ef4ca48c2b941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch0000000000000000^3537"ProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-cmnmymvuompwfucqrskuyreeanby/FilterShowcase-Prefix.pch.pch FilterShowcase/FilterShowcase-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I../../../framework/Source -I../../../framework/Source/MAC -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/DerivedSources/x86_64 -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug --serialize-diagnostics /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-cmnmymvuompwfucqrskuyreeanby/FilterShowcase-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-cmnmymvuompwfucqrskuyreeanby/FilterShowcase-Prefix.pch.d -c /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch -o /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-cmnmymvuompwfucqrskuyreeanby/FilterShowcase-Prefix.pch.pch36"A8B2A3D7-9619-49A3-893F-76CB326B9179-
-bE84A63E8-291F-4616-B275-90464D5EDA70
-
-CProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-eesomabqxflhuneyvvclyiuuavoh/FilterShowcase-Prefix.pch.pch FilterShowcase/FilterShowcase-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s432159830.526105
-e432159831.238822
-r1
-xProcessPCH
-x/var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-eesomabqxflhuneyvvclyiuuavoh/FilterShowcase-Prefix.pch.pch
-xFilterShowcase/FilterShowcase-Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile FilterShowcase/FilterShowcase-Prefix.pch320"ProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-eesomabqxflhuneyvvclyiuuavoh/FilterShowcase-Prefix.pch.pch FilterShowcase/FilterShowcase-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler2fc086563cc2b941^a83a4c573cc2b941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch0000000000000000^3663"ProcessPCH /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-eesomabqxflhuneyvvclyiuuavoh/FilterShowcase-Prefix.pch.pch FilterShowcase/FilterShowcase-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-generated-files.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-own-target-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-all-target-headers.hmap -iquote /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/FilterShowcase-project-headers.hmap -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I../../../framework -I../../../framework/Resources -I../../../framework/Source -I../../../framework/Source/iOS -I../../../framework/Source/Mac -I../../../framework/Source/iOS/Framework -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/DerivedSources/x86_64 -I/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/FilterShowcase.build/Debug/FilterShowcase.build/DerivedSources -F/Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug --serialize-diagnostics /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-eesomabqxflhuneyvvclyiuuavoh/FilterShowcase-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-eesomabqxflhuneyvvclyiuuavoh/FilterShowcase-Prefix.pch.d -c /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/FilterShowcase/FilterShowcase-Prefix.pch -o /var/folders/9c/8h_mmsx11_38451l65tpnpqr0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/FilterShowcase-Prefix-eesomabqxflhuneyvvclyiuuavoh/FilterShowcase-Prefix.pch.pch36"B024F348-36AD-4BEA-9033-79439EE1B910-
-bA92DAC11-F536-4B39-AF46-805A36E0DAD6
-
-CTouch /Users/eight/repos/GPUImage-eight/examples/Mac/FilterShowcase/build/Debug/FilterShowcase.app
-r0
-
