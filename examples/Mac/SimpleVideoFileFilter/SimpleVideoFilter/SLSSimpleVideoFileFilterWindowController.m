@@ -1,5 +1,5 @@
 #import "SLSSimpleVideoFileFilterWindowController.h"
-#import <GPUImage/GPUImage.h>
+#import "GPUImage.h"
 
 @interface SLSSimpleVideoFileFilterWindowController ()
 {

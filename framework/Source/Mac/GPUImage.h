@@ -1,7 +1,7 @@
 #import <Cocoa/Cocoa.h>
 
 // Base classes
-#import <GPUImage/GLProgram.h>
+#import "GLProgram.h"
 #import <GPUImage/GPUImageContext.h>
 
 // Sources

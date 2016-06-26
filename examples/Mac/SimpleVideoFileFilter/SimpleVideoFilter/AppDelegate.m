@@ -1,5 +1,5 @@
 #import "AppDelegate.h"
-#import <GPUImage/GPUImage.h>
+//#import <GPUImage/GPUImage.h>
 
 @interface AppDelegate ()
 

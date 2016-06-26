@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		575AD8C91BEA6FC60088E866 /* sample_iPod.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 575AD8C81BEA6FC60088E866 /* sample_iPod.m4v */; settings = {ASSET_TAGS = (); }; };
+		575AD8C91BEA6FC60088E866 /* sample_iPod.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 575AD8C81BEA6FC60088E866 /* sample_iPod.m4v */; };
 		79C26E221A5EDD1C0054857C /* SLSSimpleVideoFileFilterWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C26E211A5EDD1C0054857C /* SLSSimpleVideoFileFilterWindowController.m */; };
 		79C26E2E1A5F02B70054857C /* SLSSimpleVideoFileFilterWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79C26E2D1A5F02B70054857C /* SLSSimpleVideoFileFilterWindowController.xib */; };
 		79E8A5FB1A5ED6A700E6A226 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E8A5FA1A5ED6A700E6A226 /* AppDelegate.m */; };
@@ -15,6 +15,13 @@
 		79E8A5FF1A5ED6A700E6A226 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E8A5FE1A5ED6A700E6A226 /* Images.xcassets */; };
 		79E8A6021A5ED6A700E6A226 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E8A6001A5ED6A700E6A226 /* MainMenu.xib */; };
 		79E8A60E1A5ED6A700E6A226 /* SimpleVideoFilterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E8A60D1A5ED6A700E6A226 /* SimpleVideoFilterTests.m */; };
+		AF08C7D61D1A34C2009E7F89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF08C7C71D1A34C2009E7F89 /* InfoPlist.strings */; };
+		AF08C7D71D1A34C2009E7F89 /* GPUImageAVCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = AF08C7CB1D1A34C2009E7F89 /* GPUImageAVCamera.m */; };
+		AF08C7D81D1A34C2009E7F89 /* GPUImageContext.m in Sources */ = {isa = PBXBuildFile; fileRef = AF08C7CD1D1A34C2009E7F89 /* GPUImageContext.m */; };
+		AF08C7D91D1A34C2009E7F89 /* GPUImageMac-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF08C7CE1D1A34C2009E7F89 /* GPUImageMac-Info.plist */; };
+		AF08C7DA1D1A34C2009E7F89 /* GPUImageMovieWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = AF08C7D11D1A34C2009E7F89 /* GPUImageMovieWriter.m */; };
+		AF08C7DB1D1A34C2009E7F89 /* GPUImagePicture.m in Sources */ = {isa = PBXBuildFile; fileRef = AF08C7D31D1A34C2009E7F89 /* GPUImagePicture.m */; };
+		AF08C7DC1D1A34C2009E7F89 /* GPUImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF08C7D51D1A34C2009E7F89 /* GPUImageView.m */; };
 		BCF8E9E51A75DE67005AE243 /* GPUImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCF8E9E21A75DE3F005AE243 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -70,6 +77,20 @@
 		79E8A6071A5ED6A700E6A226 /* SimpleVideoFileFilter.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleVideoFileFilter.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E8A60C1A5ED6A700E6A226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79E8A60D1A5ED6A700E6A226 /* SimpleVideoFilterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleVideoFilterTests.m; sourceTree = "<group>"; };
+		AF08C7C81D1A34C2009E7F89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF08C7C91D1A34C2009E7F89 /* GPUImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImage.h; sourceTree = "<group>"; };
+		AF08C7CA1D1A34C2009E7F89 /* GPUImageAVCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageAVCamera.h; sourceTree = "<group>"; };
+		AF08C7CB1D1A34C2009E7F89 /* GPUImageAVCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageAVCamera.m; sourceTree = "<group>"; };
+		AF08C7CC1D1A34C2009E7F89 /* GPUImageContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageContext.h; sourceTree = "<group>"; };
+		AF08C7CD1D1A34C2009E7F89 /* GPUImageContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageContext.m; sourceTree = "<group>"; };
+		AF08C7CE1D1A34C2009E7F89 /* GPUImageMac-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GPUImageMac-Info.plist"; sourceTree = "<group>"; };
+		AF08C7CF1D1A34C2009E7F89 /* GPUImageMac-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GPUImageMac-Prefix.pch"; sourceTree = "<group>"; };
+		AF08C7D01D1A34C2009E7F89 /* GPUImageMovieWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageMovieWriter.h; sourceTree = "<group>"; };
+		AF08C7D11D1A34C2009E7F89 /* GPUImageMovieWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageMovieWriter.m; sourceTree = "<group>"; };
+		AF08C7D21D1A34C2009E7F89 /* GPUImagePicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImagePicture.h; sourceTree = "<group>"; };
+		AF08C7D31D1A34C2009E7F89 /* GPUImagePicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImagePicture.m; sourceTree = "<group>"; };
+		AF08C7D41D1A34C2009E7F89 /* GPUImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageView.h; sourceTree = "<group>"; };
+		AF08C7D51D1A34C2009E7F89 /* GPUImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageView.m; sourceTree = "<group>"; };
 		BCF8E9DD1A75DE3F005AE243 /* GPUImageMac.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImageMac.xcodeproj; path = ../../../../framework/GPUImageMac.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +115,7 @@
 		79E8A5EB1A5ED6A700E6A226 = {
 			isa = PBXGroup;
 			children = (
+				AF08C7C61D1A34C2009E7F89 /* Mac */,
 				79E8A5F61A5ED6A700E6A226 /* SimpleVideoFileFilter */,
 				79E8A61D1A5ED97400E6A226 /* Frameworks */,
 				79E8A60A1A5ED6A700E6A226 /* SimpleVideoFilterTests */,
@@ -160,6 +182,28 @@
 			);
 			name = Frameworks;
 			path = SimpleVideoFilterTests;
+			sourceTree = "<group>";
+		};
+		AF08C7C61D1A34C2009E7F89 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				AF08C7C71D1A34C2009E7F89 /* InfoPlist.strings */,
+				AF08C7C91D1A34C2009E7F89 /* GPUImage.h */,
+				AF08C7CA1D1A34C2009E7F89 /* GPUImageAVCamera.h */,
+				AF08C7CB1D1A34C2009E7F89 /* GPUImageAVCamera.m */,
+				AF08C7CC1D1A34C2009E7F89 /* GPUImageContext.h */,
+				AF08C7CD1D1A34C2009E7F89 /* GPUImageContext.m */,
+				AF08C7CE1D1A34C2009E7F89 /* GPUImageMac-Info.plist */,
+				AF08C7CF1D1A34C2009E7F89 /* GPUImageMac-Prefix.pch */,
+				AF08C7D01D1A34C2009E7F89 /* GPUImageMovieWriter.h */,
+				AF08C7D11D1A34C2009E7F89 /* GPUImageMovieWriter.m */,
+				AF08C7D21D1A34C2009E7F89 /* GPUImagePicture.h */,
+				AF08C7D31D1A34C2009E7F89 /* GPUImagePicture.m */,
+				AF08C7D41D1A34C2009E7F89 /* GPUImageView.h */,
+				AF08C7D51D1A34C2009E7F89 /* GPUImageView.m */,
+			);
+			name = Mac;
+			path = ../../../framework/Source/Mac;
 			sourceTree = "<group>";
 		};
 		BCF8E9DE1A75DE3F005AE243 /* Products */ = {
@@ -272,6 +316,8 @@
 				575AD8C91BEA6FC60088E866 /* sample_iPod.m4v in Resources */,
 				79C26E2E1A5F02B70054857C /* SLSSimpleVideoFileFilterWindowController.xib in Resources */,
 				79E8A6021A5ED6A700E6A226 /* MainMenu.xib in Resources */,
+				AF08C7D61D1A34C2009E7F89 /* InfoPlist.strings in Resources */,
+				AF08C7D91D1A34C2009E7F89 /* GPUImageMac-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +335,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF08C7DA1D1A34C2009E7F89 /* GPUImageMovieWriter.m in Sources */,
+				AF08C7D71D1A34C2009E7F89 /* GPUImageAVCamera.m in Sources */,
 				79E8A5FD1A5ED6A700E6A226 /* main.m in Sources */,
+				AF08C7DC1D1A34C2009E7F89 /* GPUImageView.m in Sources */,
+				AF08C7DB1D1A34C2009E7F89 /* GPUImagePicture.m in Sources */,
+				AF08C7D81D1A34C2009E7F89 /* GPUImageContext.m in Sources */,
 				79E8A5FB1A5ED6A700E6A226 /* AppDelegate.m in Sources */,
 				79C26E221A5EDD1C0054857C /* SLSSimpleVideoFileFilterWindowController.m in Sources */,
 			);
@@ -325,6 +376,14 @@
 				79E8A6011A5ED6A700E6A226 /* Base */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		AF08C7C71D1A34C2009E7F89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF08C7C81D1A34C2009E7F89 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
