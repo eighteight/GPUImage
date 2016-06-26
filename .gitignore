@@ -7,6 +7,7 @@ examples/Mac/FilterShowcase/Build/*
 examples/Mac/LitlyMac/Build/*
 examples/Mac/MultiViewFilterExample/Build/*
 examples/Mac/PlaygroundExample/Build/*
+examples/Mac/SimpleVideoFileFilter/build/*
 framework/Build/*
 Build/*
  
