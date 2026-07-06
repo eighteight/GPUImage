@@ -204,6 +204,16 @@
 
 - (AVAssetReader*)createAssetReader
 {
+    // AVAssetReader THROWS (rather than returning an error) for a nil asset,
+    // and tracksWithMediaType[0] below throws for an asset with no video
+    // track - e.g. when the movie was initialized with a nil/invalid URL.
+    // Fail soft: processAsset tolerates a nil reader.
+    if (!self.asset || [[self.asset tracksWithMediaType:AVMediaTypeVideo] count] == 0)
+    {
+        NSLog(@"GPUImageMovie: no readable video asset (url: %@), skipping playback", self.url);
+        return nil;
+    }
+
     NSError *error = nil;
     AVAssetReader *assetReader = [AVAssetReader assetReaderWithAsset:self.asset error:&error];
 
@@ -247,6 +257,10 @@
 - (void)processAsset
 {
     reader = [self createAssetReader];
+    if (!reader)
+    {
+        return; // no readable asset; createAssetReader already logged
+    }
 
     AVAssetReaderOutput *readerVideoTrackOutput = nil;
     AVAssetReaderOutput *readerAudioTrackOutput = nil;
