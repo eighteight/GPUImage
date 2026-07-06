@@ -133,8 +133,10 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     
-    // The frame buffer needs to be trashed and re-created when the view size changes.
-    if (!CGSizeEqualToSize(self.bounds.size, boundsSizeAtFrameBufferEpoch) &&
+    // The frame buffer needs to be trashed and re-created when the view size
+    // changes, or when an earlier creation attempt failed because the layer
+    // had no drawable yet (displayFramebuffer == 0).
+    if ((!CGSizeEqualToSize(self.bounds.size, boundsSizeAtFrameBufferEpoch) || !displayFramebuffer) &&
         !CGSizeEqualToSize(self.bounds.size, CGSizeZero)) {
         runSynchronouslyOnVideoProcessingQueue(^{
             [self destroyDisplayFramebuffer];
@@ -174,19 +176,33 @@
     
     if ( (backingWidth == 0) || (backingHeight == 0) )
     {
+        // The CAEAGLLayer has no drawable yet - this happens when the first
+        // camera frames arrive before the view is attached to a window (the
+        // capture session now starts asynchronously, so it can win that race
+        // at app launch). Tear down and let newFrameReadyAtTime: retry once
+        // the layer is ready instead of leaving a half-built framebuffer.
         [self destroyDisplayFramebuffer];
         return;
     }
-    
+
     _sizeInPixels.width = (CGFloat)backingWidth;
     _sizeInPixels.height = (CGFloat)backingHeight;
 
 //    NSLog(@"Backing width: %d, height: %d", backingWidth, backingHeight);
 
     glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, GL_RENDERBUFFER, displayRenderbuffer);
-	
-    __unused GLuint framebufferCreationStatus = glCheckFramebufferStatus(GL_FRAMEBUFFER);
-    NSAssert(framebufferCreationStatus == GL_FRAMEBUFFER_COMPLETE, @"Failure with display framebuffer generation for display of size: %f, %f", self.bounds.size.width, self.bounds.size.height);
+
+    GLuint framebufferCreationStatus = glCheckFramebufferStatus(GL_FRAMEBUFFER);
+    if (framebufferCreationStatus != GL_FRAMEBUFFER_COMPLETE)
+    {
+        // Don't assert-crash and don't keep an incomplete framebuffer bound -
+        // drawing into it produces "failed to make complete framebuffer
+        // object" driver errors and a permanently black view.
+        NSLog(@"GPUImageView: display framebuffer incomplete (0x%x) for size %.0fx%.0f, will retry",
+              framebufferCreationStatus, self.bounds.size.width, self.bounds.size.height);
+        [self destroyDisplayFramebuffer];
+        return;
+    }
     boundsSizeAtFrameBufferEpoch = self.bounds.size;
 
     [self recalculateViewGeometry];
@@ -215,14 +231,27 @@
     {
         [self createDisplayFramebuffer];
     }
-    
+
+    if (!displayFramebuffer)
+    {
+        // Creation failed (drawable not ready); leave state untouched so the
+        // caller can skip this frame rather than render into framebuffer 0.
+        return;
+    }
+
     glBindFramebuffer(GL_FRAMEBUFFER, displayFramebuffer);
-    
+
     glViewport(0, 0, (GLint)_sizeInPixels.width, (GLint)_sizeInPixels.height);
 }
 
 - (void)presentFramebuffer;
 {
+    static BOOL loggedFirstPresent = NO;
+    if (!loggedFirstPresent)
+    {
+        loggedFirstPresent = YES;
+        NSLog(@"GPUImageView: first present, backing %.0fx%.0f", _sizeInPixels.width, _sizeInPixels.height);
+    }
     glBindRenderbuffer(GL_RENDERBUFFER, displayRenderbuffer);
     [[GPUImageContext sharedImageProcessingContext] presentBufferForDisplay];
 }
@@ -373,7 +402,20 @@
     runSynchronouslyOnVideoProcessingQueue(^{
         [GPUImageContext setActiveShaderProgram:self->displayProgram];
         [self setDisplayFramebuffer];
-        
+        if (!self->displayFramebuffer)
+        {
+            // Drawable not ready (view not in a window yet). Drop this frame
+            // instead of drawing into framebuffer 0, release the input so the
+            // framebuffer cache doesn't starve, and nudge a layout pass so
+            // createDisplayFramebuffer is retried once the layer is attached.
+            [self->inputFramebufferForDisplay unlock];
+            self->inputFramebufferForDisplay = nil;
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [self setNeedsLayout];
+            });
+            return;
+        }
+
         glClearColor(self->backgroundColorRed, self->backgroundColorGreen, self->backgroundColorBlue, self->backgroundColorAlpha);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         
