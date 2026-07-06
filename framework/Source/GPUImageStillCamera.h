@@ -3,7 +3,7 @@
 void stillImageDataReleaseCallback(void *releaseRefCon, const void *baseAddress);
 void GPUImageCreateResizedSampleBuffer(CVPixelBufferRef cameraFrame, CGSize finalSize, CMSampleBufferRef *sampleBuffer);
 
-@interface GPUImageStillCamera : GPUImageVideoCamera
+@interface GPUImageStillCamera : GPUImageVideoCamera <AVCapturePhotoCaptureDelegate>
 
 /** The JPEG compression quality to use when capturing a photo as a JPEG.
  */

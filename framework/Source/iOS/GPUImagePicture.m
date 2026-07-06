@@ -176,7 +176,9 @@
         
         CGColorSpaceRef genericRGBColorspace = CGColorSpaceCreateDeviceRGB();
         
-        CGContextRef imageContext = CGBitmapContextCreate(imageData, (size_t)pixelSizeToUseForTexture.width, (size_t)pixelSizeToUseForTexture.height, 8, (size_t)pixelSizeToUseForTexture.width * 4, genericRGBColorspace,  kCGBitmapByteOrder32Little | kCGImageAlphaPremultipliedFirst);
+        CGBitmapInfo info =(CGBitmapInfo) kCGImageAlphaPremultipliedFirst | kCGBitmapByteOrder32Little;
+        
+        CGContextRef imageContext = CGBitmapContextCreate(imageData, (size_t)pixelSizeToUseForTexture.width, (size_t)pixelSizeToUseForTexture.height, 8, (size_t)pixelSizeToUseForTexture.width * 4, genericRGBColorspace,  info);
         //        CGContextSetBlendMode(imageContext, kCGBlendModeCopy); // From Technical Q&A QA1708: http://developer.apple.com/library/ios/#qa/qa1708/_index.html
         CGContextDrawImage(imageContext, CGRectMake(0.0, 0.0, pixelSizeToUseForTexture.width, pixelSizeToUseForTexture.height), newImageSource);
         CGContextRelease(imageContext);
@@ -249,10 +251,10 @@
     runSynchronouslyOnVideoProcessingQueue(^{
         [GPUImageContext useImageProcessingContext];
         
-        outputFramebuffer = [[GPUImageContext sharedFramebufferCache] fetchFramebufferForSize:pixelSizeToUseForTexture onlyTexture:YES];
-        [outputFramebuffer disableReferenceCounting];
+        self->outputFramebuffer = [[GPUImageContext sharedFramebufferCache] fetchFramebufferForSize:pixelSizeToUseForTexture onlyTexture:YES];
+        [self->outputFramebuffer disableReferenceCounting];
 
-        glBindTexture(GL_TEXTURE_2D, [outputFramebuffer texture]);
+        glBindTexture(GL_TEXTURE_2D, [self->outputFramebuffer texture]);
         if (self.shouldSmoothlyScaleOutput)
         {
             glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
@@ -322,18 +324,18 @@
     }
     
     runAsynchronouslyOnVideoProcessingQueue(^{        
-        for (id<GPUImageInput> currentTarget in targets)
+        for (id<GPUImageInput> currentTarget in self->targets)
         {
-            NSInteger indexOfObject = [targets indexOfObject:currentTarget];
-            NSInteger textureIndexOfTarget = [[targetTextureIndices objectAtIndex:indexOfObject] integerValue];
+            NSInteger indexOfObject = [self->targets indexOfObject:currentTarget];
+            NSInteger textureIndexOfTarget = [[self->targetTextureIndices objectAtIndex:indexOfObject] integerValue];
             
             [currentTarget setCurrentlyReceivingMonochromeInput:NO];
-            [currentTarget setInputSize:pixelSizeOfImage atIndex:textureIndexOfTarget];
-            [currentTarget setInputFramebuffer:outputFramebuffer atIndex:textureIndexOfTarget];
+            [currentTarget setInputSize:self->pixelSizeOfImage atIndex:textureIndexOfTarget];
+            [currentTarget setInputFramebuffer:self->outputFramebuffer atIndex:textureIndexOfTarget];
             [currentTarget newFrameReadyAtTime:kCMTimeIndefinite atIndex:textureIndexOfTarget];
         }
         
-        dispatch_semaphore_signal(imageUpdateSemaphore);
+        dispatch_semaphore_signal(self->imageUpdateSemaphore);
         
         if (completion != nil) {
             completion();

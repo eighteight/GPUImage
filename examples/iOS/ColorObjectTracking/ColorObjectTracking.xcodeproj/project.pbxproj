@@ -213,12 +213,18 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Cell Phone";
+				TargetAttributes = {
+					BC245DD914DDC959009FE7EB = {
+						DevelopmentTeam = AK7YRJMN3M;
+					};
+				};
 			};
 			buildConfigurationList = BC245DD414DDC959009FE7EB /* Build configuration list for PBXProject "ColorObjectTracking" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = BC245DCF14DDC959009FE7EB;
@@ -377,10 +383,12 @@
 		BC245DF314DDC959009FE7EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = AK7YRJMN3M;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorObjectTracking/ColorObjectTracking-Prefix.pch";
 				GCC_THUMB_SUPPORT = "";
 				INFOPLIST_FILE = "ColorObjectTracking/ColorObjectTracking-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -389,10 +397,12 @@
 		BC245DF414DDC959009FE7EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = AK7YRJMN3M;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorObjectTracking/ColorObjectTracking-Prefix.pch";
 				GCC_THUMB_SUPPORT = "";
 				INFOPLIST_FILE = "ColorObjectTracking/ColorObjectTracking-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

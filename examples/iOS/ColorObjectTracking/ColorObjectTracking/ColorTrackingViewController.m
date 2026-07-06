@@ -278,6 +278,8 @@
 
     [thresholdFilter setFloat:thresholdSensitivity forUniformName:@"threshold"];
     [positionFilter setFloat:thresholdSensitivity forUniformName:@"threshold"];
+    NSLog(@"Sens %f", thresholdSensitivity);
+    NSLog(@"Color %f %f %f", thresholdColor.one, thresholdColor.two, thresholdColor.three);
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event 

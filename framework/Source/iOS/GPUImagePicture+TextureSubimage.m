@@ -61,8 +61,10 @@
         imageData = (GLubyte *) calloc(1, (int)subimageRect.size.width * (int)subimageRect.size.height * 4);
         
         CGColorSpaceRef genericRGBColorspace = CGColorSpaceCreateDeviceRGB();
+
+        CGBitmapInfo info =kCGBitmapByteOrderDefault | (CGBitmapInfo)kCGImageAlphaPremultipliedLast;
         
-        CGContextRef imageContext = CGBitmapContextCreate(imageData, (size_t)subimageRect.size.width, (size_t)subimageRect.size.height, 8, (size_t)subimageRect.size.width * 4, genericRGBColorspace,  kCGBitmapByteOrderDefault | kCGImageAlphaPremultipliedLast);
+        CGContextRef imageContext = CGBitmapContextCreate(imageData, (size_t)subimageRect.size.width, (size_t)subimageRect.size.height, 8, (size_t)subimageRect.size.width * 4, genericRGBColorspace,  info);
         
         CGContextDrawImage(imageContext, CGRectMake(0.0, 0.0, subimageRect.size.width, subimageRect.size.height), subimageSource);
         CGContextRelease(imageContext);
@@ -77,9 +79,9 @@
     
     runSynchronouslyOnVideoProcessingQueue(^{
         [GPUImageContext useImageProcessingContext];
-        [outputFramebuffer disableReferenceCounting];
+        [self->outputFramebuffer disableReferenceCounting];
         
-        glBindTexture(GL_TEXTURE_2D, [outputFramebuffer texture]);
+        glBindTexture(GL_TEXTURE_2D, [self->outputFramebuffer texture]);
         
         // no need to use self.outputTextureOptions here since pictures need this texture formats and type
         glTexSubImage2D(GL_TEXTURE_2D, 0, subRect.origin.x, subRect.origin.y, (GLint)subRect.size.width, subRect.size.height, GL_RGBA, GL_UNSIGNED_BYTE, imageData);

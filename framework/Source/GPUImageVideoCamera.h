@@ -152,7 +152,9 @@ void setColorConversion709( GLfloat conversionMatrix[9] );
 
 - (void)resetBenchmarkAverage;
 
+- (CGSize) frameSize;
 + (BOOL)isBackFacingCameraPresent;
 + (BOOL)isFrontFacingCameraPresent;
+
 
 @end
