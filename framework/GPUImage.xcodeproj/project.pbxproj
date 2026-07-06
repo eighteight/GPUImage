@@ -156,6 +156,8 @@
 		BC7CC69C1562C4BB00468085 /* GPUImageCrosshairGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7CC69A1562C4BA00468085 /* GPUImageCrosshairGenerator.h */; };
 		BC7CC69D1562C4BB00468085 /* GPUImageCrosshairGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7CC69B1562C4BA00468085 /* GPUImageCrosshairGenerator.m */; };
 		BC7D95D51523EE67000DF037 /* GPUImageStillCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7D95D31523EE67000DF037 /* GPUImageStillCamera.h */; };
+		800AD7AA939246329ED2618D /* GPUImageStillCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7D95D41523EE67000DF037 /* GPUImageStillCamera.m */; settings = {COMPILER_FLAGS = "-Wno-deprecated-declarations -Wno-enum-enum-conversion"; }; };
+		A8A02EBC8F224B7C8940C951 /* GPUImageStillCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7D95D41523EE67000DF037 /* GPUImageStillCamera.m */; settings = {COMPILER_FLAGS = "-Wno-deprecated-declarations -Wno-enum-enum-conversion"; }; };
 		BC8A583C1813060F00E6B507 /* GPUImageiOSBlurFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8A583A1813060F00E6B507 /* GPUImageiOSBlurFilter.h */; };
 		BC8A583D1813060F00E6B507 /* GPUImageiOSBlurFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8A583B1813060F00E6B507 /* GPUImageiOSBlurFilter.m */; };
 		BC8A584B18131E4B00E6B507 /* GPUImageLuminanceRangeFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8A584918131E4B00E6B507 /* GPUImageLuminanceRangeFilter.h */; };
@@ -2031,6 +2033,7 @@
 				BCD81F3019440604007133DB /* GPUImageFramebufferCache.m in Sources */,
 				BCD81F3119440604007133DB /* GPUImageOutput.m in Sources */,
 				BCD81F3219440604007133DB /* GPUImageVideoCamera.m in Sources */,
+				A8A02EBC8F224B7C8940C951 /* GPUImageStillCamera.m in Sources */,
 				BCD81F3419440604007133DB /* GPUImagePicture.m in Sources */,
 				BCD81F3519440604007133DB /* GPUImageMovie.m in Sources */,
 				BCD81F3619440604007133DB /* GPUImageMovieComposition.m in Sources */,
@@ -2202,6 +2205,7 @@
 				BC245DCB14DDBED7009FE7EB /* GPUImageFilter.m in Sources */,
 				BCB5E75D14E2086300701302 /* GPUImageView.m in Sources */,
 				BCB5E76614E208D700701302 /* GPUImageVideoCamera.m in Sources */,
+				800AD7AA939246329ED2618D /* GPUImageStillCamera.m in Sources */,
 				BCB5E76D14E20AD700701302 /* GPUImageContext.m in Sources */,
 				BCB5E78014E22E4300701302 /* GPUImageOutput.m in Sources */,
 				BCB5E79514E3275200701302 /* GLProgram.m in Sources */,
