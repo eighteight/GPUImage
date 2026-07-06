@@ -34,3 +34,6 @@ documentation/*
 
 examples/iOS/FilterShowcase/Build
 examples/iOS/FilterShowcaseSwift/build
+
+# Xcode build output (SYMROOT=build in the legacy project)
+build/
