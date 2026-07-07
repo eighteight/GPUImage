@@ -18,6 +18,12 @@
     CMTime previousFrameTime, processingFrameTime;
     CFAbsoluteTime previousActualFrameTime;
     BOOL keepLooping;
+    // Set by cancelProcessing (any thread), honored by the asset-reading
+    // loop, which is the ONLY place allowed to call -cancelReading:
+    // AVAssetReader's cancelReading is not safe to call concurrently with
+    // copyNextSampleBuffer, and doing so from a filter-switch teardown
+    // crashed in MediaToolbox (SIGSEGV) while a repeating movie was playing.
+    volatile BOOL isCancelled;
 
     GLuint luminanceTexture, chrominanceTexture;
 
@@ -167,6 +173,7 @@
 
 - (void)startProcessing
 {
+    isCancelled = NO;
     if( self.playerItem ) {
         [self processPlayerItem];
         return;
@@ -176,7 +183,7 @@
       [self processAsset];
       return;
     }
-    
+
     if (_shouldRepeat) keepLooping = YES;
     
     previousFrameTime = kCMTimeZero;
@@ -305,7 +312,7 @@
     }
     else
     {
-        while (reader.status == AVAssetReaderStatusReading && (!_shouldRepeat || keepLooping))
+        while (reader.status == AVAssetReaderStatusReading && (!_shouldRepeat || keepLooping) && !isCancelled)
         {
                 [weakSelf readNextVideoFrameFromOutput:readerVideoTrackOutput];
 
@@ -316,15 +323,25 @@
 
         }
 
+        if (isCancelled) {
+            // Cancel from the reading thread, never concurrently with
+            // copyNextSampleBuffer (see isCancelled declaration).
+            [reader cancelReading];
+            reader = nil;
+            return;
+        }
+
         if (reader.status == AVAssetReaderStatusCompleted) {
-                
+
             [reader cancelReading];
 
             if (keepLooping) {
                 reader = nil;
                 loopCount++;
                 dispatch_async(dispatch_get_main_queue(), ^{
-                    [self startProcessing];
+                    if (!self->isCancelled) {
+                        [self startProcessing];
+                    }
                 });
             } else {
                 [weakSelf endProcessing];
@@ -840,9 +857,10 @@ static CVReturn renderCallback(CVDisplayLinkRef displayLink,
 
 - (void)cancelProcessing
 {
-    if (reader) {
-        [reader cancelReading];
-    }
+    // Signal the reading loop instead of cancelling the reader from this
+    // thread; the loop cancels it itself between reads (thread-safety of
+    // -cancelReading vs -copyNextSampleBuffer).
+    isCancelled = YES;
     [self endProcessing];
 }
 
